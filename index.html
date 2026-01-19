@@ -720,8 +720,18 @@
             'pim_catalog_simpleselect': 'Сімплселект'
         };
         const EMBEDDED_FAMILY_DATA = [
-            { code: 'smartphones', 'label-uk_UA': 'Смартфони', attributes: 'brand,smartphones_operating_system,smartphones_ram_amount' },
-            { code: 'portable_powerplants', 'label-uk_UA': 'Портативні електростанції', attributes: 'brand,portable_capacity,power_output' }
+            {
+                code: 'smartphones',
+                'label-uk_UA': 'Смартфони',
+                attributes: 'brand,smartphones_operating_system,smartphones_ram_amount',
+                'requirements-marketplace': 'brand,smartphones_operating_system'
+            },
+            {
+                code: 'portable_powerplants',
+                'label-uk_UA': 'Портативні електростанції',
+                attributes: 'brand,portable_capacity,power_output',
+                'requirements-marketplace': 'brand'
+            }
         ];
         const EMBEDDED_ATTRIBUTE_DATA = [
             { code: 'brand', 'label-uk_UA': 'Бренд', type: 'pim_catalog_simpleselect', group: 'general' },
@@ -753,6 +763,7 @@
             { key: 'attributeCode', label: 'Код атрибуту' },
             { key: 'attributeLabel', label: 'Назва атрибуту' },
             { key: 'attributeType', label: 'Тип атрибуту' },
+            { key: 'attributeRequirement', label: 'Обовʼязковість' },
             { key: 'valueCode', label: 'Код значення' },
             { key: 'valueLabel', label: 'Значення' }
         ];
@@ -1105,10 +1116,17 @@
                     .map(attr => cleanValue(attr))
                     .filter(Boolean);
                 attrs.forEach(attr => attributeCodes.add(attr));
+                const requirementsRaw = family['requirements-marketplace'] || '';
+                const requirements = requirementsRaw
+                    .split(',')
+                    .map(item => cleanValue(item))
+                    .filter(Boolean)
+                    .join(',');
                 return {
                     code,
                     'label-uk_UA': family['label-uk_UA'] || '',
-                    attributes: attrs.join(',')
+                    attributes: attrs.join(','),
+                    'requirements-marketplace': requirements
                 };
             });
 
@@ -1218,7 +1236,7 @@
             return '';
         }
 
-        function appendExportRows(family, attribute, values) {
+        function appendExportRows(family, attribute, values, isRequired, includeValues) {
             if (!family || !attribute) return;
             const familyCode = cleanValue(family.code || '');
             const familyLabel = normalizeLabel(family['label-uk_UA']);
@@ -1229,8 +1247,9 @@
             }
             const attributeTypeRaw = getAttributeType(attribute);
             const attributeType = getAttributeTypeLabel(attributeTypeRaw) || attributeTypeRaw || '';
+            const requirementText = isRequired ? 'Обовʼязковий' : '';
 
-            if (values && values.length > 0) {
+            if (includeValues && values && values.length > 0) {
                 for (const value of values) {
                     exportRows.push({
                         familyCode,
@@ -1238,6 +1257,7 @@
                         attributeCode,
                         attributeLabel,
                         attributeType,
+                        attributeRequirement: requirementText,
                         valueCode: cleanValue(value.code || ''),
                         valueLabel: getValueLabel(value)
                     });
@@ -1249,10 +1269,18 @@
                     attributeCode,
                     attributeLabel,
                     attributeType,
+                    attributeRequirement: requirementText,
                     valueCode: '',
                     valueLabel: ''
                 });
             }
+        }
+
+        function getRequirementSet(family) {
+            if (!family) return new Set();
+            const raw = family['requirements-marketplace'] || family.requirementsMarketplace || '';
+            if (!raw) return new Set();
+            return new Set(raw.split(',').map(item => cleanValue(item)).filter(Boolean));
         }
 
         function crc32(buffer) {
@@ -1667,8 +1695,10 @@
                     const includeAttributeCode = !!exportSettings.attributeCode;
                     const includeAttributeLabel = !!exportSettings.attributeLabel;
                     const includeAttributeType = !!exportSettings.attributeType;
+                    const includeAttributeRequired = !!exportSettings.attributeRequirement;
                     const includeValueCode = !!exportSettings.valueCode;
                     const includeValueLabel = !!exportSettings.valueLabel;
+                    const includeValueFields = includeValueCode || includeValueLabel;
                     const xmlParts = [];
                     addLine(xmlParts, 0, '<?xml version="1.0" encoding="UTF-8"?>');
                     addLine(xmlParts, 0, '<families>');
@@ -1687,6 +1717,7 @@
                             const family = families[currentIndex];
                             const familyLabel = escapeXml(family['label-uk_UA']);
                             const familyCode = escapeXml(family.code);
+                            const requiredSet = getRequirementSet(family);
 
                             let familyOpen = '<family';
                             if (includeFamilyCode) {
@@ -1725,6 +1756,8 @@
                                     logAttributeIssue(attrCode, 'Attribute type label not mapped', attribute);
                                 }
                                 const attrType = escapeXml(attrTypeLabel);
+                                const isRequired = requiredSet.has(attrCode);
+                                const requirementText = isRequired ? 'Обовʼязковий' : '';
 
                                 let attributeOpen = '<attribute';
                                 if (includeAttributeCode) {
@@ -1733,15 +1766,21 @@
                                 if (includeAttributeType) {
                                     attributeOpen += ` type="${attrType}"`;
                                 }
+                                if (includeAttributeRequired && requirementText) {
+                                    attributeOpen += ` required="${requirementText}"`;
+                                }
                                 attributeOpen += '>';
                                 addLine(xmlParts, 3, attributeOpen);
                                 if (includeAttributeLabel) {
                                     addLine(xmlParts, 4, `<label>${attrLabel}</label>`);
                                 }
+                                if (includeAttributeRequired && requirementText && !includeAttributeType) {
+                                    addLine(xmlParts, 4, `<required>${requirementText}</required>`);
+                                }
 
                                 const values = findValuesByAttributeCode(attrCode);
-                                appendExportRows(family, attribute, values);
-                                if (values.length > 0 && (includeValueCode || includeValueLabel)) {
+                                appendExportRows(family, attribute, values, isRequired, includeValueFields);
+                                if (includeValueFields && values.length > 0 && (includeValueCode || includeValueLabel)) {
                                     addLine(xmlParts, 4, '<options>');
                                     for (const value of values) {
                                         if (!includeValueCode && !includeValueLabel) {
@@ -1799,6 +1838,8 @@
                     const includeFamilyLabel = !!exportSettings.familyLabel;
                     const includeAttributeLabel = !!exportSettings.attributeLabel;
                     const includeAttributeType = !!exportSettings.attributeType;
+                    const includeAttributeRequired = !!exportSettings.attributeRequirement;
+                    const includeValueFields = exportSettings.valueCode || exportSettings.valueLabel;
                     const xmlParts = [];
                     addLine(xmlParts, 0, '<?xml version="1.0" encoding="UTF-8"?>');
                     addLine(xmlParts, 0, '<families>');
@@ -1816,6 +1857,7 @@
                         while (currentIndex < totalFamilies && (getNow() - batchStart) < 16) {
                             const family = families[currentIndex];
                             const familyLabel = escapeXml(normalizeLabel(family['label-uk_UA']));
+                            const requiredSet = getRequirementSet(family);
 
                             addLine(xmlParts, 1, '<family>');
                             if (includeFamilyLabel) {
@@ -1853,13 +1895,18 @@
                                     logAttributeIssue(attrCode, 'Attribute type label not mapped (simple XML)', attribute);
                                 }
                                 const values = findValuesByAttributeCode(attrCode);
-                                appendExportRows(family, attribute, values);
+                                const isRequired = requiredSet.has(attrCode);
+                                const requirementText = isRequired ? 'Обовʼязковий' : '';
+                                appendExportRows(family, attribute, values, isRequired, includeValueFields);
                                 let attributeLine = '<attribute';
                                 if (includeAttributeLabel) {
                                     attributeLine += ` label="${attrLabel}"`;
                                 }
                                 if (includeAttributeType && attrTypeLabel) {
                                     attributeLine += ` type="${escapeXml(attrTypeLabel)}"`;
+                                }
+                                if (includeAttributeRequired && requirementText) {
+                                    attributeLine += ` required="${requirementText}"`;
                                 }
                                 attributeLine += ' />';
                                 addLine(xmlParts, 3, attributeLine);
