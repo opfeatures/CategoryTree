@@ -41,6 +41,18 @@
             display: none;
         }
 
+        .login-header {
+            position: relative;
+            text-align: left;
+            color: #111;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 0.8px;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            z-index: 1;
+        }
+
         .login-card {
             background: #fff;
             border-radius: 20px;
@@ -50,6 +62,40 @@
             box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
             border: 1px solid #e0e0e0;
         }
+
+        .profile-bar {
+            display: none;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 14px 18px;
+            border-radius: 14px;
+            border: 1px solid #e0e0e0;
+            background: #fafafa;
+            font-size: 14px;
+        }
+
+        body.authenticated .profile-bar {
+            display: flex;
+        }
+
+        .profile-role {
+            font-weight: 600;
+            letter-spacing: 0.6px;
+        }
+
+        .logout-btn {
+            border: 1px solid #111;
+            background: #fff;
+            color: #111;
+            border-radius: 10px;
+            padding: 8px 14px;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            cursor: pointer;
+        }
+
 
         .login-card h2 {
             text-transform: uppercase;
@@ -549,7 +595,7 @@
 <body>
     <div class="login-screen" id="loginScreen">
         <div class="login-card">
-            <h2>Авторизація</h2>
+            <div class="login-header">Дерево категорій</div>
             <form id="loginForm">
                 <label for="usernameInput">Логін</label>
                 <input type="text" id="usernameInput" autocomplete="username" placeholder="Введіть логін" required>
@@ -562,6 +608,10 @@
         </div>
     </div>
     <div class="container">
+        <div class="profile-bar" id="profileBar">
+            <span class="profile-label">Профіль: <span class="profile-role" id="profileRole"></span></span>
+            <button class="logout-btn" id="logoutBtn">Вихід</button>
+        </div>
         <h1>CSV to XML Converter</h1>
         <p class="subtitle">Завантажте 3 CSV файли для генерації XML</p>
 
@@ -734,6 +784,11 @@
         const loginError = document.getElementById('loginError');
         const usernameInput = document.getElementById('usernameInput');
         const passwordInput = document.getElementById('passwordInput');
+        const profileBar = document.getElementById('profileBar');
+        const profileRoleText = document.getElementById('profileRole');
+        const logoutBtn = document.getElementById('logoutBtn');
+        const ROLE_NAMES = { admin: 'Адмін', partner: 'Партнер' };
+        const LOCAL_ROLE_KEY = 'category-tree-role';
         let attributeMap = new Map();
         let valuesMap = new Map();
         let exportRows = [];
@@ -1933,6 +1988,18 @@
             });
         }
 
+        function applyRole(role) {
+            currentRole = role;
+            document.body.classList.add('authenticated');
+            document.body.classList.toggle('partner-role', role === 'partner');
+            document.body.classList.toggle('admin-role', role === 'admin');
+            if (profileRoleText) {
+                profileRoleText.textContent = ROLE_NAMES[role] || role;
+            }
+            localStorage.setItem(LOCAL_ROLE_KEY, role);
+            initializeData();
+        }
+
         if (loginForm) {
             loginForm.addEventListener('submit', (e) => {
                 e.preventDefault();
@@ -1944,11 +2011,19 @@
                     return;
                 }
                 loginError.textContent = '';
-                currentRole = account.role;
-                document.body.classList.add('authenticated');
-                document.body.classList.toggle('partner-role', currentRole === 'partner');
-                document.body.classList.toggle('admin-role', currentRole === 'admin');
-                initializeData();
+                applyRole(account.role);
+            });
+        }
+
+        const storedRole = localStorage.getItem(LOCAL_ROLE_KEY);
+        if (storedRole && USERS.some(user => user.role === storedRole)) {
+            applyRole(storedRole);
+        }
+
+        if (logoutBtn) {
+            logoutBtn.addEventListener('click', () => {
+                localStorage.removeItem(LOCAL_ROLE_KEY);
+                window.location.reload();
             });
         }
 
