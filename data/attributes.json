@@ -3226,4 +3226,3 @@
 { code: 'spare_parts_exercise_designation', 'label-uk_UA': 'Призначення', type: 'pim_catalog_multiselect', group: 'main' },
 { code: 'spare_parts_exercise_machines_type', 'label-uk_UA': 'Тип', type: 'pim_catalog_simpleselect', group: 'main' },
 { code: 'rugs_type', 'label-uk_UA': 'Тип', type: 'pim_catalog_multiselect', group: 'main' }
-];
