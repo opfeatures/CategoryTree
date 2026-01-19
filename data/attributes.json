@@ -186,12 +186,6 @@
     "group": "technology_communications"
   },
   {
-    "code": "sensors",
-    "label-uk_UA": "Датчики",
-    "type": "pim_catalog_multiselect",
-    "group": "additionally"
-  },
-  {
     "code": "for_whom",
     "label-uk_UA": "Для кого",
     "type": "pim_catalog_multiselect",
@@ -330,12 +324,6 @@
     "group": "processor"
   },
   {
-    "code": "processor",
-    "label-uk_UA": "Процесор",
-    "type": "pim_catalog_simpleselect",
-    "group": "processor"
-  },
-  {
     "code": "proc_number_cores_thrds",
     "label-uk_UA": "Процесор (ядра/потоки)",
     "type": "pim_catalog_simpleselect",
@@ -352,30 +340,6 @@
     "label-uk_UA": "Клас захисту",
     "type": "pim_catalog_simpleselect",
     "group": "security"
-  },
-  {
-    "code": "videocard_integrated",
-    "label-uk_UA": "Відеокарта (інтегрована)",
-    "type": "pim_catalog_simpleselect",
-    "group": "videocard"
-  },
-  {
-    "code": "videocard_discrete",
-    "label-uk_UA": "Відеокарта (дискретна)",
-    "type": "pim_catalog_simpleselect",
-    "group": "videocard"
-  },
-  {
-    "code": "videocard_amount_memory",
-    "label-uk_UA": "Об'єм пам'яті відеокарти",
-    "type": "pim_catalog_simpleselect",
-    "group": "videocard"
-  },
-  {
-    "code": "videocard_type",
-    "label-uk_UA": "Тип відеокарти",
-    "type": "pim_catalog_simpleselect",
-    "group": "videocard"
   },
   {
     "code": "videomemory",
@@ -612,12 +576,6 @@
     "group": "erp"
   },
   {
-    "code": "surface_type",
-    "label-uk_UA": "Тип поверхні",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics"
-  },
-  {
     "code": "controls",
     "label-uk_UA": "Керування",
     "type": "pim_catalog_multiselect",
@@ -642,12 +600,6 @@
     "group": "main_characteristics"
   },
   {
-    "code": "preparing_drinks",
-    "label-uk_UA": "Приготування напоїв",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics"
-  },
-  {
     "code": "drinks_with_milk",
     "label-uk_UA": "Напої з молоком",
     "type": "pim_catalog_boolean",
@@ -658,12 +610,6 @@
     "label-uk_UA": "Кількість ступенів помелу",
     "type": "pim_catalog_text",
     "group": "parametrs"
-  },
-  {
-    "code": "adjustment_drink",
-    "label-uk_UA": "Регулювання напою",
-    "type": "pim_catalog_multiselect",
-    "group": "additionally"
   },
   {
     "code": "availability_mill",
@@ -706,18 +652,6 @@
     "label-uk_UA": "Розмір нагрівального елементу",
     "type": "pim_catalog_text",
     "group": "additionally"
-  },
-  {
-    "code": "cleaning",
-    "label-uk_UA": "Очищення",
-    "type": "pim_catalog_simpleselect",
-    "group": "additionally"
-  },
-  {
-    "code": "field_applications",
-    "label-uk_UA": "Сфера використання",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics"
   },
   {
     "code": "support_fast_charging",
@@ -1422,12 +1356,6 @@
     "group": "parametrs"
   },
   {
-    "code": "type_work",
-    "label-uk_UA": "Тип роботи",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics"
-  },
-  {
     "code": "switching_time",
     "label-uk_UA": "Час перемикання",
     "type": "pim_catalog_text",
@@ -1632,12 +1560,6 @@
     "group": "parametrs"
   },
   {
-    "code": "type_vacuum_cleaner",
-    "label-uk_UA": "Тип пилососа",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics"
-  },
-  {
     "code": "heating_time",
     "label-uk_UA": "Час нагрівання",
     "type": "pim_catalog_text",
@@ -1654,12 +1576,6 @@
     "label-uk_UA": "Тип обігрівача",
     "type": "pim_catalog_multiselect",
     "group": "main_characteristics"
-  },
-  {
-    "code": "type_builtin_storage_device",
-    "label-uk_UA": "Тип вбудованого накопичувача",
-    "type": "pim_catalog_multiselect",
-    "group": "memory"
   },
   {
     "code": "optical_zoom",
@@ -1726,12 +1642,6 @@
     "label-uk_UA": "Встановлення довжини стрижки, мм",
     "type": "pim_catalog_text",
     "group": "parametrs"
-  },
-  {
-    "code": "type_massage",
-    "label-uk_UA": "Вид масажу",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics"
   },
   {
     "code": "processor_type",
@@ -1966,12 +1876,6 @@
     "label-uk_UA": "Розмір вентилятора",
     "type": "pim_catalog_text",
     "group": "parametrs"
-  },
-  {
-    "code": "max_rotation_speed",
-    "label-uk_UA": "Макс. швидкість обертання",
-    "type": "pim_catalog_multiselect",
-    "group": "physical_characteristics"
   },
   {
     "code": "bearing",
@@ -2226,46 +2130,10 @@
     "group": "physical_characteristics"
   },
   {
-    "code": "compressor_type",
-    "label-uk_UA": "Тип компресора",
-    "type": "pim_catalog_simpleselect",
-    "group": "parametrs"
-  },
-  {
-    "code": "type_handles",
-    "label-uk_UA": "Тип ручок",
-    "type": "pim_catalog_simpleselect",
-    "group": "additionally"
-  },
-  {
-    "code": "energy_consumption_class",
-    "label-uk_UA": "Клас енергоспоживання",
-    "type": "pim_catalog_simpleselect",
-    "group": "power_supply"
-  },
-  {
-    "code": "Number_compressors",
-    "label-uk_UA": "Кількість компресорів",
-    "type": "pim_catalog_simpleselect",
-    "group": "parametrs"
-  },
-  {
-    "code": "number_shelves_refrigerator_compartment",
-    "label-uk_UA": "Кількість полиць у холодильній камері",
-    "type": "pim_catalog_simpleselect",
-    "group": "parametrs"
-  },
-  {
     "code": "internal_equipment",
     "label-uk_UA": "Внутрішнє оснащення",
     "type": "pim_catalog_text",
     "group": "power_supply"
-  },
-  {
-    "code": "defrosting_system",
-    "label-uk_UA": "Система розморожування",
-    "type": "pim_catalog_simpleselect",
-    "group": "parametrs"
   },
   {
     "code": "electricity_consumption_perday",
@@ -2574,12 +2442,6 @@
     "group": "parametrs"
   },
   {
-    "code": "type_of_cooling_agent",
-    "label-uk_UA": "Тип холодоагенту",
-    "type": "pim_catalog_simpleselect",
-    "group": "parametrs"
-  },
-  {
     "code": "filters",
     "label-uk_UA": "Фільтри",
     "type": "pim_catalog_text",
@@ -2610,12 +2472,6 @@
     "group": "size"
   },
   {
-    "code": "labeling",
-    "label-uk_UA": "Маркування",
-    "type": "pim_catalog_simpleselect",
-    "group": "parametrs"
-  },
-  {
     "code": "power_consumption_during_cooling",
     "label-uk_UA": "Споживана потужність при охолодженні",
     "type": "pim_catalog_text",
@@ -2625,12 +2481,6 @@
     "code": "power_consumption_during_heating",
     "label-uk_UA": "Споживана потужність при обігріві",
     "type": "pim_catalog_text",
-    "group": "parametrs"
-  },
-  {
-    "code": "number_of_blades",
-    "label-uk_UA": "Кількість лопатей",
-    "type": "pim_catalog_simpleselect",
     "group": "parametrs"
   },
   {
@@ -3102,18 +2952,6 @@
     "group": "range_from_to"
   },
   {
-    "code": "volume_of_water_tank",
-    "label-uk_UA": "Об'єм резервуара води",
-    "type": "pim_catalog_simpleselect",
-    "group": "physical_characteristics"
-  },
-  {
-    "code": "noise_level_s",
-    "label-uk_UA": "Рівень шуму",
-    "type": "pim_catalog_simpleselect",
-    "group": "parametrs"
-  },
-  {
     "code": "internal_coatings",
     "label-uk_UA": "Внутрішнє покриття",
     "type": "pim_catalog_simpleselect",
@@ -3122,18 +2960,6 @@
   {
     "code": "material_of_handle",
     "label-uk_UA": "Матеріал ручки",
-    "type": "pim_catalog_simpleselect",
-    "group": "physical_characteristics"
-  },
-  {
-    "code": "volume_of_dust_collector",
-    "label-uk_UA": "Об'єм пилозбірника",
-    "type": "pim_catalog_simpleselect",
-    "group": "physical_characteristics"
-  },
-  {
-    "code": "volume_refrigerator_compartment_s",
-    "label-uk_UA": "Об'єм холодильної камери",
     "type": "pim_catalog_simpleselect",
     "group": "physical_characteristics"
   },
@@ -3192,28 +3018,10 @@
     "group": "additionally"
   },
   {
-    "code": "total_volumes",
-    "label-uk_UA": "Загальний об'єм",
-    "type": "pim_catalog_simpleselect",
-    "group": "physical_characteristics"
-  },
-  {
-    "code": "power_of_suction",
-    "label-uk_UA": "Потужність всмоктування",
-    "type": "pim_catalog_simpleselect",
-    "group": "parametrs"
-  },
-  {
     "code": "life_of_battery",
     "label-uk_UA": "Час автономної роботи",
     "type": "pim_catalog_simpleselect",
     "group": "power_supply"
-  },
-  {
-    "code": "area_of_cleaning",
-    "label-uk_UA": "Площа прибирання",
-    "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics"
   },
   {
     "code": "composition",
@@ -3252,18 +3060,6 @@
     "group": "main_characteristics"
   },
   {
-    "code": "operating_time_of_accumulator",
-    "label-uk_UA": "Час роботи від акумулятора",
-    "type": "pim_catalog_simpleselect",
-    "group": "power_supply"
-  },
-  {
-    "code": "docking_station",
-    "label-uk_UA": "Док-станція",
-    "type": "pim_catalog_simpleselect",
-    "group": "parametrs"
-  },
-  {
     "code": "dated",
     "label-uk_UA": "Датований",
     "type": "pim_catalog_boolean",
@@ -3296,30 +3092,6 @@
   {
     "code": "publishers",
     "label-uk_UA": "Видавництво",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics"
-  },
-  {
-    "code": "ice_machine_performance",
-    "label-uk_UA": "Продуктивність льодогенератора",
-    "type": "pim_catalog_simpleselect",
-    "group": "parametrs"
-  },
-  {
-    "code": "fixation_system",
-    "label-uk_UA": "Система фіксації",
-    "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics"
-  },
-  {
-    "code": "bottle_volume",
-    "label-uk_UA": "Об'єм пляшки",
-    "type": "pim_catalog_simpleselect",
-    "group": "physical_characteristics"
-  },
-  {
-    "code": "type_of_cleaning",
-    "label-uk_UA": "Тип прибирання",
     "type": "pim_catalog_multiselect",
     "group": "main_characteristics"
   },
@@ -3616,12 +3388,6 @@
     "label-uk_UA": "Довжина леза, см",
     "type": "pim_catalog_simpleselect",
     "group": "size"
-  },
-  {
-    "code": "type_of_dust_collector",
-    "label-uk_UA": "Тип пилозбірника",
-    "type": "pim_catalog_multiselect",
-    "group": "parametrs"
   },
   {
     "code": "product_size",
@@ -4728,12 +4494,6 @@
     "group": "range_from_to"
   },
   {
-    "code": "volume_range",
-    "label-uk_UA": "Об'єм",
-    "type": "pim_catalog_simpleselect",
-    "group": "range_from_to"
-  },
-  {
     "code": "range_max_power_w",
     "label-uk_UA": "Макс. потужність, Вт",
     "type": "pim_catalog_simpleselect",
@@ -4748,12 +4508,6 @@
   {
     "code": "range_operating_time_of_accumulator",
     "label-uk_UA": "Час роботи від акумулятора",
-    "type": "pim_catalog_simpleselect",
-    "group": "range_from_to"
-  },
-  {
-    "code": "range_bowl_volume",
-    "label-uk_UA": "Об'єм чаші",
     "type": "pim_catalog_simpleselect",
     "group": "range_from_to"
   },
@@ -5836,12 +5590,6 @@
     "label-uk_UA": "Одночасно заряджуваних пристроїв",
     "type": "pim_catalog_simpleselect",
     "group": "parametrs"
-  },
-  {
-    "code": "powerbanks_connection_interfaces",
-    "label-uk_UA": "Інтерфейси підключення",
-    "type": "pim_catalog_multiselect",
-    "group": "ports_connectors"
   },
   {
     "code": "powerbanks_input_interfaces",
@@ -8803,7 +8551,7 @@
   },
   {
     "code": "tv_vesa_wall_mount",
-    "label-uk_UA": "Настінне кріплення VESA",
+    "label-uk_UA": "Сумісність кріплення VESA",
     "type": "pim_catalog_simpleselect",
     "group": "additionally"
   },
@@ -11413,7 +11161,7 @@
   },
   {
     "code": "display_vesa_wall_mount",
-    "label-uk_UA": "Настінне кріплення VESA",
+    "label-uk_UA": "Сумісність кріплення VESA",
     "type": "pim_catalog_simpleselect",
     "group": "additionally"
   },
@@ -11428,12 +11176,6 @@
     "label-uk_UA": "Вбудована камера",
     "type": "pim_catalog_simpleselect",
     "group": "cameras"
-  },
-  {
-    "code": "monoblocks_builtin_storage",
-    "label-uk_UA": "Обсяг накопичувача",
-    "type": "pim_catalog_simpleselect",
-    "group": "memory"
   },
   {
     "code": "monoblocks_diagonal_displ",
@@ -11533,7 +11275,7 @@
   },
   {
     "code": "monoblocks_vesa_wall_mount",
-    "label-uk_UA": "Настінне кріплення VESA",
+    "label-uk_UA": "Сумісність кріплення VESA",
     "type": "pim_catalog_simpleselect",
     "group": "additionally"
   },
@@ -16638,12 +16380,6 @@
     "group": "main_characteristics"
   },
   {
-    "code": "ink_inkjet_technology_compatibility_models",
-    "label-uk_UA": "Сумісність з моделями",
-    "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics"
-  },
-  {
     "code": "ink_inkjet_technology_volume_ml",
     "label-uk_UA": "Об'єм, мл",
     "type": "pim_catalog_simpleselect",
@@ -19366,5 +19102,1409 @@
     "label-uk_UA": "Тип",
     "type": "pim_catalog_multiselect",
     "group": "main"
+  },
+  {
+    "code": "refrigerated_display_cases_cooling_type",
+    "label-uk_UA": "Тип охолодження",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "refrigerated_display_cases_functions",
+    "label-uk_UA": "Функції",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "refrigerated_display_cases_range_of_temperature",
+    "label-uk_UA": "Діапазон температур",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "refrigerated_display_cases_type_handles",
+    "label-uk_UA": "Тип ручок",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "refrigerated_display_cases_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "refrigerated_display_cases_compressor_type",
+    "label-uk_UA": "Тип компресора",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "refrigerated_display_cases_controls",
+    "label-uk_UA": "Керування",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "refrigerated_display_cases_defrosting_system",
+    "label-uk_UA": "Система розморожування",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "refrigerated_display_cases_installation_method",
+    "label-uk_UA": "Спосіб встановлення",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "refrigerated_display_cases_noise_level_s",
+    "label-uk_UA": "Рівень шуму",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "refrigerated_display_cases_Number_compressors",
+    "label-uk_UA": "Кількість компресорів",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "refrigerated_display_cases_number_shelves_refrigerator_compartment",
+    "label-uk_UA": "Кількість полиць у холодильній камері",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "refrigerated_display_cases_total_volumes",
+    "label-uk_UA": "Загальний об'єм",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "refrigerated_display_cases_volume_refrigerator_compartment_s",
+    "label-uk_UA": "Об'єм холодильної камери",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "refrigerated_display_cases_energy_consumption_class",
+    "label-uk_UA": "Клас енергоспоживання",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "refrigerated_display_cases_depth_from_to",
+    "label-uk_UA": "Глибина (Від-До)",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "refrigerated_display_cases_height_from_to",
+    "label-uk_UA": "Висота (Від-До)",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "refrigerated_display_cases_width_from_to",
+    "label-uk_UA": "Ширина (Від-До)",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "range_refrigerated_display_cases_useful_volumes",
+    "label-uk_UA": "Корисний об'єм",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "electricity_consumption_per_day",
+    "label-uk_UA": "Споживання електроенергії на добу",
+    "type": "pim_catalog_text",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "branded_technologies",
+    "label-uk_UA": "Фірмові технології",
+    "type": "pim_catalog_text",
+    "group": "additional_features"
+  },
+  {
+    "code": "system_units_cooling_type",
+    "label-uk_UA": "Тип охолодження",
+    "type": "pim_catalog_simpleselect",
+    "group": "additionally"
+  },
+  {
+    "code": "system_units_chipset",
+    "label-uk_UA": "Чіпсет",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "system_units_class",
+    "label-uk_UA": "Клас",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "system_units_cpu_connector_socket",
+    "label-uk_UA": "Роз'єм CPU (Socket)",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "system_units_form__factor",
+    "label-uk_UA": "Форм-фактор",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "system_units_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "system_units_ram_amount",
+    "label-uk_UA": "Об'єм оперативної пам'яті",
+    "type": "pim_catalog_simpleselect",
+    "group": "memory"
+  },
+  {
+    "code": "system_units_ram_type",
+    "label-uk_UA": "Тип оперативної пам'яті",
+    "type": "pim_catalog_simpleselect",
+    "group": "memory"
+  },
+  {
+    "code": "system_units_type_builtin_storage_device",
+    "label-uk_UA": "Тип вбудованого накопичувача",
+    "type": "pim_catalog_multiselect",
+    "group": "memory"
+  },
+  {
+    "code": "system_units_number_of_memory_slots",
+    "label-uk_UA": "Кількість слотів пам'яті",
+    "type": "pim_catalog_simpleselect",
+    "group": "ports_connectors"
+  },
+  {
+    "code": "system_units_ports_connectors",
+    "label-uk_UA": "Порти і роз'єми",
+    "type": "pim_catalog_multiselect",
+    "group": "ports_connectors"
+  },
+  {
+    "code": "system_units_power_supply_unit",
+    "label-uk_UA": "Блок живлення",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "system_units_processor",
+    "label-uk_UA": "Процесор",
+    "type": "pim_catalog_simpleselect",
+    "group": "processor"
+  },
+  {
+    "code": "system_units_processor_series",
+    "label-uk_UA": "Процесор (серія)",
+    "type": "pim_catalog_simpleselect",
+    "group": "processor"
+  },
+  {
+    "code": "system_units_proc_number_cores_thrds",
+    "label-uk_UA": "Процесор (ядра/потоки)",
+    "type": "pim_catalog_simpleselect",
+    "group": "processor"
+  },
+  {
+    "code": "system_units_wireless_technologies",
+    "label-uk_UA": "Бездротові технології",
+    "type": "pim_catalog_multiselect",
+    "group": "technology_communications"
+  },
+  {
+    "code": "system_units_videocard_amount_memory",
+    "label-uk_UA": "Об'єм пам'яті відеокарти",
+    "type": "pim_catalog_simpleselect",
+    "group": "videocard"
+  },
+  {
+    "code": "system_units_videocard_discrete",
+    "label-uk_UA": "Відеокарта (дискретна)",
+    "type": "pim_catalog_simpleselect",
+    "group": "videocard"
+  },
+  {
+    "code": "system_units_videocard_integrated",
+    "label-uk_UA": "Відеокарта (інтегрована)",
+    "type": "pim_catalog_simpleselect",
+    "group": "videocard"
+  },
+  {
+    "code": "system_units_videocard_type",
+    "label-uk_UA": "Тип відеокарти",
+    "type": "pim_catalog_simpleselect",
+    "group": "videocard"
+  },
+  {
+    "code": "massage_chairs_regulation",
+    "label-uk_UA": "Регулювання",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "massage_chairs_maximum_user_weight",
+    "label-uk_UA": "Максимальна вага користувача",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "range_massage_chairs_maximum_user_weight",
+    "label-uk_UA": "Максимальна вага користувача",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "range_massage_chairs_number_of_operating_modes",
+    "label-uk_UA": "Кількість автоматичних програм",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "massage_chairs_attachments",
+    "label-uk_UA": "Насадки",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "massage_chairs_functions",
+    "label-uk_UA": "Функції",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "massage_chairs_field_applications",
+    "label-uk_UA": "Зони масажу",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "massage_chairs_operating_modes",
+    "label-uk_UA": "Режими роботи",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "massage_chairs_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "massage_chairs_type_massage",
+    "label-uk_UA": "Тип масажу",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "massage_chairs_number_of_operating_modes",
+    "label-uk_UA": "Кількість автоматичних програм",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "massage_chairs_controls",
+    "label-uk_UA": "Тип управління",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "massage_chairs_power_supply",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "additional_features_and_capabilities",
+    "label-uk_UA": "Функції та можливості",
+    "type": "pim_catalog_textarea",
+    "group": "additional_features"
+  },
+  {
+    "code": "trimmers_clothes_max_rotation_speed",
+    "label-uk_UA": "Макс. швидкість обертання",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "trimmers_clothes_power_supply",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "trimmers_clothes_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "monoblocks_ssd_volume",
+    "label-uk_UA": "Обсяг SSD",
+    "type": "pim_catalog_simpleselect",
+    "group": "memory"
+  },
+  {
+    "code": "drying_machines_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "monoblocks_hdd_volume",
+    "label-uk_UA": "Обсяг HDD",
+    "type": "pim_catalog_simpleselect",
+    "group": "memory"
+  },
+  {
+    "code": "clothes_and_shoe_dryers_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "clothes_and_shoe_dryers_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "clothes_and_shoe_dryers_maximum_power_w",
+    "label-uk_UA": "Максимальна потужність, Вт",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "clothes_and_shoe_dryers_length_of_the_cable",
+    "label-uk_UA": "Довжина кабелю",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "siphons_for_carbonating_water_bottle_volume",
+    "label-uk_UA": "Об'єм пляшки",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "siphons_for_carbonating_water_fixation_system",
+    "label-uk_UA": "Система фіксації",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "siphons_for_carbonating_water_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "ice_machines_productivity",
+    "label-uk_UA": "Продуктивність",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "ice_machines_power_supply",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "range_ice_machines_volume",
+    "label-uk_UA": "Об'єм",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "ice_machines_the_volume_of_dishes",
+    "label-uk_UA": "Об'єм",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "ice_machines_shape_of_ice",
+    "label-uk_UA": "Форма льоду",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "bottles_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "bottles_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally"
+  },
+  {
+    "code": "bottles_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "milk_frothers_adjustment_drink",
+    "label-uk_UA": "Регулювання напою",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "milk_frothers_functions",
+    "label-uk_UA": "Функції",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "milk_frothers_cleaning",
+    "label-uk_UA": "Очищення",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "milk_frothers_field_applications",
+    "label-uk_UA": "Сфера використання",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "milk_frothers_preparing_drinks",
+    "label-uk_UA": "Приготування напоїв",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "milk_frothers_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "milk_frothers_controls",
+    "label-uk_UA": "Керування",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "milk_frothers_maximum_power_w",
+    "label-uk_UA": "Максимальна потужність, Вт",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "milk_frothers_bowl_volume",
+    "label-uk_UA": "Об'єм чаші",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "milk_frothers_power_supply",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "range_milk_frothers_bowl_volume",
+    "label-uk_UA": "Об'єм чаші",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "range_milk_frothers_max_power_w",
+    "label-uk_UA": "Максимальна потужність",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "range_juicers_juice_tank_capacity",
+    "label-uk_UA": "Обʼєм резервуара для соку",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "juicers_attachments",
+    "label-uk_UA": "Насадки",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "juicers_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "juicers_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "juicers_controls",
+    "label-uk_UA": "Керування",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "juicers_maximum_power_w",
+    "label-uk_UA": "Максимальна потужність, Вт",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "juicers_number_speeds",
+    "label-uk_UA": "Кількість швидкостей",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "juicers_body_material",
+    "label-uk_UA": "Матеріал корпусу",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "range_juicers_max_power_w",
+    "label-uk_UA": "Максимальна потужність",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "balancing_platforms_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "balancing_platforms_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally"
+  },
+  {
+    "code": "dumbbells_type",
+    "label-uk_UA": "Тип гантелі",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "dumbbells_weight",
+    "label-uk_UA": "Вага",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "dumbbells_view_lock",
+    "label-uk_UA": "Вид замка",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "dumbbells_material_dumbbell_disc",
+    "label-uk_UA": "Матеріал гантелі/диска",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "dumbbells_dumbbell_disc_cover",
+    "label-uk_UA": "Покриття гантелі/диска",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "dumbbells_quantity_in_set",
+    "label-uk_UA": "Кількість у наборі",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "balls_size",
+    "label-uk_UA": "Розмір",
+    "type": "pim_catalog_multiselect",
+    "group": "size"
+  },
+  {
+    "code": "balls_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "balls_type_playing_surface",
+    "label-uk_UA": "Тип ігрового покриття",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally"
+  },
+  {
+    "code": "balls_quantity",
+    "label-uk_UA": "Кількість",
+    "type": "pim_catalog_simpleselect",
+    "group": "additionally"
+  },
+  {
+    "code": "fitness_balls_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "fitness_balls_size_cm",
+    "label-uk_UA": "Розмір, см",
+    "type": "pim_catalog_multiselect",
+    "group": "size"
+  },
+  {
+    "code": "fitness_balls_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally"
+  },
+  {
+    "code": "weighting_agents_weight_1piece_kg",
+    "label-uk_UA": "Вага 1 шт, кг",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "weighting_agents_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "weighting_agents_filler",
+    "label-uk_UA": "Наповнювач",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "weighting_agents_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "weighting_agents_quantity_in_set",
+    "label-uk_UA": "Кількість у наборі",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "jump_rope_quantity_in_set",
+    "label-uk_UA": "Кількість у наборі",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "jump_rope_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "jump_rope_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "jump_rope_length",
+    "label-uk_UA": "Довжина",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "supports_for_push_ups_maximum_load",
+    "label-uk_UA": "Максимальне навантаження",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "supports_for_push_ups_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "ink_inkjet_technology_compatibility_with_models",
+    "label-uk_UA": "Сумісність з моделями",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "espanders_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "espanders_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "espanders_resistance_level",
+    "label-uk_UA": "Рівень опору",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "air_conditioners_operating_modes",
+    "label-uk_UA": "Режими роботи",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "air_conditioners_recommended_floor_space_m2",
+    "label-uk_UA": "Рекомендована площа приміщення, м²",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "air_conditioners_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "air_conditioners_type_of_indoor_unit",
+    "label-uk_UA": "Тип внутрішнього блоку",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "air_conditioners_compressor_type",
+    "label-uk_UA": "Тип компресора",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "air_conditioners_labeling",
+    "label-uk_UA": "Маркування",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "air_conditioners_type_of_cooling_agent",
+    "label-uk_UA": "Тип холодоагенту",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "air_conditioners_energy_consumption_class",
+    "label-uk_UA": "Клас енергоспоживання",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "espanders_resistance_kg",
+    "label-uk_UA": "Опір, кг",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "range_fans_maximum_power_w",
+    "label-uk_UA": "Максимальна потужність",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "range_fans_number_speeds",
+    "label-uk_UA": "Кількість швидкостей",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "air_conditioners_controls",
+    "label-uk_UA": "Керування",
+    "type": "pim_catalog_multiselect",
+    "group": "technology_communications"
+  },
+  {
+    "code": "step_platforms_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "step_platforms_maximum_load",
+    "label-uk_UA": "Максимальне навантаження",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "step_platforms_number_height_levels",
+    "label-uk_UA": "Кількість рівнів висоти",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "fans_features_and_capabilities",
+    "label-uk_UA": "Функції та можливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally"
+  },
+  {
+    "code": "fans_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "fans_maximum_power_w",
+    "label-uk_UA": "Максимальна потужність, Вт",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "fans_number_of_blades",
+    "label-uk_UA": "Кількість лопатей",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "fans_number_of_operating_modes",
+    "label-uk_UA": "Кількість режимів роботи",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "fans_number_speeds",
+    "label-uk_UA": "Кількість швидкостей",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "fans_power_supply",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "weather_stations_meteo_measurement",
+    "label-uk_UA": "Метео вимірювання",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "weather_stations_range_of_temperature",
+    "label-uk_UA": "Діапазон температур",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "weather_stations_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "weather_stations_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "weather_stations_type_work",
+    "label-uk_UA": "Тип роботи",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "weather_stations_installation_method",
+    "label-uk_UA": "Спосіб встановлення",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "weather_stations_power_supply",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "features_and_capabilities_additionally",
+    "label-uk_UA": "Функції та можливості",
+    "type": "pim_catalog_textarea",
+    "group": "additional_features"
+  },
+  {
+    "code": "mobile_air_conditioners_operating_modes",
+    "label-uk_UA": "Режими роботи",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "mobile_air_conditioners_recommended_floor_space_m2",
+    "label-uk_UA": "Рекомендована площа приміщення, м²",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "mobile_air_conditioners_compressor_type",
+    "label-uk_UA": "Тип компресора",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "mobile_air_conditioners_labeling",
+    "label-uk_UA": "Маркування",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "mobile_air_conditioners_maximum_power_w",
+    "label-uk_UA": "Максимальна потужність, Вт",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "mobile_air_conditioners_type_of_cooling_agent",
+    "label-uk_UA": "Тип холодоагенту",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "mobile_air_conditioners_energy_consumption_class",
+    "label-uk_UA": "Клас енергоспоживання",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "range_mobile_air_conditioners_recommended_floor_space_m2",
+    "label-uk_UA": "Рекомендована площа приміщення, м²",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "electricalappliances_electricmops_attachments",
+    "label-uk_UA": "Насадки",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally"
+  },
+  {
+    "code": "electricalappliances_electricmops_type_of_cleaning",
+    "label-uk_UA": "Тип прибирання",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "electricalappliances_electricmops_type_vacuum_cleaner",
+    "label-uk_UA": "Тип пилососа",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "electricalappliances_electricmops_maximum_power_w",
+    "label-uk_UA": "Максимальна потужність, Вт",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "electricalappliances_electricmops_noise_level_s",
+    "label-uk_UA": "Рівень шуму",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "electricalappliances_electricmops_type_of_dust_collector",
+    "label-uk_UA": "Тип пилозбірника",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "electricalappliances_electricmops_length_of_the_cable",
+    "label-uk_UA": "Довжина кабелю",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "electricalappliances_electricmops_volume_of_dust_collector",
+    "label-uk_UA": "Об'єм пилозбірника",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "electricalappliances_electricmops_battery_capacity_mah",
+    "label-uk_UA": "Ємність акумулятора, мАг",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "electricalappliances_electricmops_full_charging_time",
+    "label-uk_UA": "Час повного заряджання",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "electricalappliances_electricmops_operating_time_of_accumulator",
+    "label-uk_UA": "Час роботи від акумулятора",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "electricalappliances_electricmops_power_supply",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "range_electricalappliances_electricmops_operating_time_of_accumulator",
+    "label-uk_UA": "Час роботи від акумулятора",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "robots_for_swimming_pools_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally"
+  },
+  {
+    "code": "robots_for_swimming_pools_functions",
+    "label-uk_UA": "Функції",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally"
+  },
+  {
+    "code": "robots_for_swimming_pools_sensors",
+    "label-uk_UA": "Датчики",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally"
+  },
+  {
+    "code": "robots_for_swimming_pools_area_of_cleaning",
+    "label-uk_UA": "Площа прибирання",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "robots_for_swimming_pools_surface_type",
+    "label-uk_UA": "Тип поверхні",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "robots_for_swimming_pools_controls",
+    "label-uk_UA": "Керування",
+    "type": "pim_catalog_multiselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "robots_for_swimming_pools_full_charging_time",
+    "label-uk_UA": "Час повного заряджання",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "robots_for_swimming_pools_operating_time_of_accumulator",
+    "label-uk_UA": "Час роботи від акумулятора",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "accessories_for_vacuum_cleaners_compatibility",
+    "label-uk_UA": "Сумісність",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "accessories_for_vacuum_cleaners_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "accessories_for_vacuum_cleaners_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "season_tires",
+    "label-uk_UA": "Сезон шини",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "diameter_tires",
+    "label-uk_UA": "Діаметр шини",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "width_tires",
+    "label-uk_UA": "Ширина шини",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "profile_tires",
+    "label-uk_UA": "Профіль шини",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "speed_index_tires",
+    "label-uk_UA": "Індекс швидкості шини",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "load_index_tires",
+    "label-uk_UA": "Індекс навантаження шини",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "tread_type_tires",
+    "label-uk_UA": "Тип протектору шини",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "type_vehicle_tires",
+    "label-uk_UA": "Тип Т/З шини",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "milk_substitutes_for_cats_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "range_milk_substitutes_for_dogs_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "range_milk_substitutes_for_cats_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "milk_substitutes_for_dogs_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "powerbanks_wireless_charging",
+    "label-uk_UA": "Бездротова зарядка",
+    "type": "pim_catalog_boolean",
+    "group": "technology_communications"
+  },
+  {
+    "code": "powerbanks_wireless_charging_w",
+    "label-uk_UA": "Бездротова зарядка, Вт",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "milk_substitutes_for_dogs_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_text",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "milk_substitutes_for_cats_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_text",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "range_cans_containers_baking_molds_baking_volume",
+    "label-uk_UA": "Об'єм",
+    "type": "pim_catalog_multiselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "range_decanters_and_jugs_volume",
+    "label-uk_UA": "Об'єм",
+    "type": "pim_catalog_multiselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "range_lights_number_of_brightness_modes",
+    "label-uk_UA": "Кількість режимів яскравості",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "range_bicycles_number_speeds",
+    "label-uk_UA": "Кількість швидкостей",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "range_bike_flags_and_holders_volume",
+    "label-uk_UA": "Об'єм",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "range_powerbanks_maximum_power_w",
+    "label-uk_UA": "Максимальна потужність, Вт",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "year_of_tire_production",
+    "label-uk_UA": "Рік випуску шини",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "soft_places_for_cats_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "soft_places_for_cats_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "soft_places_for_cats_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "dishes_for_cats_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "range_laser_cartridges_print_resource_pages",
+    "label-uk_UA": "Ресурс друку(сторінок)",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "range_jet_cartridges_print_resource_pages",
+    "label-uk_UA": "Ресурс друку(сторінок)",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "range_toys_recommended_age_from",
+    "label-uk_UA": "Рекомендований вік, від",
+    "type": "pim_catalog_multiselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "range_tv_screen_diagonal",
+    "label-uk_UA": "Діагональ екрану",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "accessories_knives_tools_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "obvisy_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "nets_and_landing_nets_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "nets_and_landing_nets_length",
+    "label-uk_UA": "Довжина",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "nets_and_landing_nets_length_m",
+    "label-uk_UA": "Довжина, м",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "soft_places_for_dogs_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "soft_places_for_dogs_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "soft_places_for_dogs_breed_size",
+    "label-uk_UA": "Розмір породи",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "radio_set_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "radio_set_maximum_communication_distance",
+    "label-uk_UA": "Максимальна дистанція зв'язку",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "radio_set_maximum_communication_distance_km",
+    "label-uk_UA": "Максимальна дистанція зв'язку, км",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "radio_set_power_supply",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "obvisy_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_text",
+    "group": "additional_features"
+  },
+  {
+    "code": "soft_places_for_dogs_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics"
   }
 ]
