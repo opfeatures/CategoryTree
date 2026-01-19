@@ -1145,30 +1145,6 @@
             });
             return dataInitPromise;
         }
-        function formatKey(key) {
-            return key.includes('-') ? `'${key}'` : key;
-        }
-
-        function formatValue(value) {
-            if (typeof value === 'number') return value;
-            const escaped = String(value || '').replace(/'/g, '\\\'');
-            return `'${escaped}'`;
-        }
-
-        function formatObjectLiteral(entry) {
-            const parts = [];
-            for (const [key, value] of Object.entries(entry)) {
-                parts.push(`${formatKey(key)}: ${formatValue(value)}`);
-            }
-            return parts.join(', ');
-        }
-
-        function createSnippet(name, data) {
-            if (!data.length) return '';
-            const lines = data.map(entry => `{ ${formatObjectLiteral(entry)} }`);
-            return `const ${name} = [\n${lines.join(',\n')}\n];`;
-        }
-
         function getAttributeLabel(attribute) {
             if (!attribute) return '';
             if (attribute.label) return attribute.label;
@@ -1446,27 +1422,30 @@
                 showError('Оберіть фемілії для формування даних');
                 return;
             }
+
             const datasets = [
-                { name: 'EMBEDDED_FAMILY_DATA', data: payload.families },
-                { name: 'EMBEDDED_ATTRIBUTE_DATA', data: payload.attributes },
-                { name: 'EMBEDDED_VALUE_DATA', data: payload.values }
+                { filename: 'families.json', data: payload.families },
+                { filename: 'attributes.json', data: payload.attributes },
+                { filename: 'values.json', data: payload.values }
             ];
 
             let downloaded = 0;
-            for (const dataset of datasets) {
-                if (!dataset.data.length) continue;
-                const snippet = createSnippet(dataset.name, dataset.data);
-                const blob = new Blob([snippet], { type: 'text/plain;charset=utf-8' });
-                triggerDownload(blob, `${dataset.name.toLowerCase()}.js`);
+            for (const { filename, data } of datasets) {
+                if (!data.length) continue;
+                const blob = new Blob(
+                    [JSON.stringify(data, null, 2)],
+                    { type: 'application/json;charset=utf-8' }
+                );
+                triggerDownload(blob, filename);
                 downloaded++;
             }
 
             if (!downloaded) {
-                showError('Для вибраних фемілій немає даних атрибутів/значень');
+                showError('Для вибраних фемілій немає даних атрибутів або значень');
                 return;
             }
 
-            showSuccess('Файли збережено. Замініть відповідні константи у коді.');
+            showSuccess('JSON файли збережено. Завантаж їх у папку data/');
         }
 
         function checkAllFilesLoaded() {
