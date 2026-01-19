@@ -1,4 +1,3 @@
-const EMBEDDED_ATTRIBUTE_DATA = [
 { code: 'sku', 'label-uk_UA': 'SKU', type: 'pim_catalog_identifier', group: 'erp' },
 { code: 'ean', 'label-uk_UA': 'EAN', type: 'pim_catalog_text', group: 'erp' },
 { code: 'barcode', 'label-uk_UA': 'Штрихкод', type: 'pim_catalog_text', group: 'erp' },
