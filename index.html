@@ -20,6 +20,84 @@
             color: #111;
         }
 
+        body:not(.authenticated) .container {
+            display: none;
+        }
+
+        .login-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #000, #333);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        body.authenticated .login-screen {
+            display: none;
+        }
+
+        .login-card {
+            background: #fff;
+            border-radius: 20px;
+            padding: 32px;
+            width: 100%;
+            max-width: 420px;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
+            border: 1px solid #e0e0e0;
+        }
+
+        .login-card h2 {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 18px;
+        }
+
+        .login-card label {
+            display: block;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+            margin-top: 12px;
+        }
+
+        .login-card input {
+            width: 100%;
+            padding: 12px 14px;
+            border-radius: 12px;
+            border: 1px solid #d1d1d1;
+            font-size: 14px;
+        }
+
+        .login-card button {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .login-error {
+            margin-top: 12px;
+            color: #c53030;
+            font-size: 13px;
+            min-height: 18px;
+        }
+
+        body.partner-role #uploadSectionContainer {
+            display: none;
+        }
+
+        .admin-only {
+            display: none;
+        }
+
+        body.admin-role .admin-only {
+            display: inline-flex;
+        }
+
         .container {
             max-width: 840px;
             margin: 0 auto;
@@ -469,35 +547,54 @@
 </head>
 
 <body>
+    <div class="login-screen" id="loginScreen">
+        <div class="login-card">
+            <h2>Авторизація</h2>
+            <form id="loginForm">
+                <label for="usernameInput">Логін</label>
+                <input type="text" id="usernameInput" autocomplete="username" placeholder="Введіть логін" required>
+                <label for="passwordInput">Пароль</label>
+                <input type="password" id="passwordInput" autocomplete="current-password" placeholder="Введіть пароль"
+                    required>
+                <button type="submit" class="btn btn-primary">Увійти</button>
+                <div class="login-error" id="loginError"></div>
+            </form>
+        </div>
+    </div>
     <div class="container">
         <h1>CSV to XML Converter</h1>
         <p class="subtitle">Завантажте 3 CSV файли для генерації XML</p>
 
-        <div class="upload-section">
-            <label class="upload-label">1. Файл Фемілі -- export_Export_family_csv</label>
-            <div class="file-input-wrapper">
-                <input type="file" id="familyFile" accept=".csv" class="file-input">
-                <span class="file-name" id="familyFileName">Файл не вибрано</span>
+        <div id="uploadSectionContainer">
+            <div class="upload-section">
+                <label class="upload-label">1. Файл Фемілі -- export_Export_family_csv</label>
+                <div class="file-input-wrapper">
+                    <input type="file" id="familyFile" accept=".csv" class="file-input">
+                    <span class="file-name" id="familyFileName">Файл не вибрано</span>
+                </div>
+                <div class="file-status" id="familyStatus">✓ Файл завантажено</div>
             </div>
-            <div class="file-status" id="familyStatus">✓ Файл завантажено</div>
-        </div>
 
-        <div class="upload-section">
-            <label class="upload-label">2. Файл Атрибутів -- export_Export_attribute_csv</label>
-            <div class="file-input-wrapper">
-                <input type="file" id="attributesFile" accept=".csv" class="file-input">
-                <span class="file-name" id="attributesFileName">Файл не вибрано</span>
+            <div class="upload-section">
+                <label class="upload-label">2. Файл Атрибутів -- export_Export_attribute_csv</label>
+                <div class="file-input-wrapper">
+                    <input type="file" id="attributesFile" accept=".csv" class="file-input">
+                    <span class="file-name" id="attributesFileName">Файл не вибрано</span>
+                </div>
+                <div class="file-status" id="attributesStatus">✓ Файл завантажено</div>
             </div>
-            <div class="file-status" id="attributesStatus">✓ Файл завантажено</div>
-        </div>
 
-        <div class="upload-section">
-            <label class="upload-label">3. Файл Значень Атрибутів -- export_Export_attribute_OPTION_csv</label>
-            <div class="file-input-wrapper">
-                <input type="file" id="valuesFile" accept=".csv" class="file-input">
-                <span class="file-name" id="valuesFileName">Файл не вибрано</span>
+            <div class="upload-section">
+                <label class="upload-label">3. Файл Значень Атрибутів -- export_Export_attribute_OPTION_csv</label>
+                <div class="file-input-wrapper">
+                    <input type="file" id="valuesFile" accept=".csv" class="file-input">
+                    <span class="file-name" id="valuesFileName">Файл не вибрано</span>
+                </div>
+                <div class="file-status" id="valuesStatus">✓ Файл завантажено</div>
             </div>
-            <div class="file-status" id="valuesStatus">✓ Файл завантажено</div>
+
+            <button class="mini-btn primary admin-only" id="saveEmbeddedBtn" style="margin-top:12px;">Зберегти вбудовані
+                дані</button>
         </div>
 
         <div class="control-grid">
@@ -524,6 +621,7 @@
                 </div>
                 <p class="info-text">Обрані поля потраплять у XML, CSV та XLSX.</p>
             </div>
+
         </div>
 
         <div class="action-panel">
@@ -571,6 +669,34 @@
             'pim_catalog_multiselect': 'Мультиселект',
             'pim_catalog_simpleselect': 'Сімплселект'
         };
+        const EMBEDDED_FAMILY_DATA = [
+            { code: 'smartphones', 'label-uk_UA': 'Смартфони', attributes: 'brand,smartphones_operating_system,smartphones_ram_amount' },
+            { code: 'portable_powerplants', 'label-uk_UA': 'Портативні електростанції', attributes: 'brand,portable_capacity,power_output' }
+        ];
+        const EMBEDDED_ATTRIBUTE_DATA = [
+            { code: 'brand', 'label-uk_UA': 'Бренд', type: 'pim_catalog_simpleselect', group: 'general' },
+            { code: 'smartphones_operating_system', 'label-uk_UA': 'Операційна система', type: 'pim_catalog_simpleselect', group: 'additionally' },
+            { code: 'smartphones_ram_amount', 'label-uk_UA': 'Оперативна памʼять, ГБ', type: 'pim_catalog_number', group: 'technical' },
+            { code: 'portable_capacity', 'label-uk_UA': 'Ємність батареї, Вт·год', type: 'pim_catalog_number', group: 'technical' },
+            { code: 'power_output', 'label-uk_UA': 'Пікова потужність, Вт', type: 'pim_catalog_number', group: 'technical' }
+        ];
+        const EMBEDDED_VALUE_DATA = [
+            { code: 'apple', 'label-uk_UA': 'Apple', attribute: 'brand' },
+            { code: 'samsung', 'label-uk_UA': 'Samsung', attribute: 'brand' },
+            { code: 'android', 'label-uk_UA': 'Android', attribute: 'smartphones_operating_system' },
+            { code: 'ios', 'label-uk_UA': 'iOS', attribute: 'smartphones_operating_system' },
+            { code: 'ram_8', 'label-uk_UA': '8', attribute: 'smartphones_ram_amount' },
+            { code: 'ram_12', 'label-uk_UA': '12', attribute: 'smartphones_ram_amount' },
+            { code: 'cap_512', 'label-uk_UA': '512', attribute: 'portable_capacity' },
+            { code: 'cap_1024', 'label-uk_UA': '1024', attribute: 'portable_capacity' },
+            { code: 'power_800', 'label-uk_UA': '800', attribute: 'power_output' },
+            { code: 'power_1200', 'label-uk_UA': '1200', attribute: 'power_output' }
+        ];
+        const DATA_FILES = {
+            families: 'data/families.json',
+            attributes: 'data/attributes.json',
+            values: 'data/values.json'
+        };
         const EXPORT_COLUMNS = [
             { key: 'familyCode', label: 'Код фемілі' },
             { key: 'familyLabel', label: 'Назва фемілі' },
@@ -599,6 +725,15 @@
             return table;
         })();
         const textEncoder = new TextEncoder();
+        const USERS = [
+            { username: 'admin', password: 'admin123', role: 'admin' },
+            { username: 'partner', password: 'partner123', role: 'partner' }
+        ];
+        let currentRole = null;
+        const loginForm = document.getElementById('loginForm');
+        const loginError = document.getElementById('loginError');
+        const usernameInput = document.getElementById('usernameInput');
+        const passwordInput = document.getElementById('passwordInput');
         let attributeMap = new Map();
         let valuesMap = new Map();
         let exportRows = [];
@@ -613,6 +748,7 @@
         const settingsGrid = document.getElementById('settingsGrid');
         const settingsSelectAllBtn = document.getElementById('settingsSelectAllBtn');
         const settingsClearBtn = document.getElementById('settingsClearBtn');
+        const saveEmbeddedBtn = document.getElementById('saveEmbeddedBtn');
         let familyListData = [];
         let selectedFamilyCodes = new Set();
         let familySearchTerm = '';
@@ -893,6 +1029,148 @@
             });
         }
 
+        function buildEmbeddedPayload() {
+            if (!familyData || !attributesData || !valuesData) {
+                return { families: [], attributes: [], values: [] };
+            }
+            if (!selectedFamilyCodes.size) {
+                return { families: [], attributes: [], values: [] };
+            }
+
+            const familiesRaw = getFilteredFamilies();
+            if (!familiesRaw.length) {
+                return { families: [], attributes: [], values: [] };
+            }
+
+            const attributeCodes = new Set();
+            const families = familiesRaw.map(family => {
+                const code = cleanValue(family.code || '');
+                const attrs = (family.attributes || '')
+                    .split(',')
+                    .map(attr => cleanValue(attr))
+                    .filter(Boolean);
+                attrs.forEach(attr => attributeCodes.add(attr));
+                return {
+                    code,
+                    'label-uk_UA': family['label-uk_UA'] || '',
+                    attributes: attrs.join(',')
+                };
+            });
+
+            const attributes = attributesData.data
+                .filter(attr => {
+                    const code = cleanValue(attr.code || '');
+                    if (!code || !attributeCodes.has(code)) return false;
+                    const label = normalizeLabel(attr['label-uk_UA'] || '').toLowerCase();
+                    if (EXCLUDED_ATTRIBUTE_LABELS.has(label)) return false;
+                    return true;
+                })
+                .map(attr => ({
+                    code: cleanValue(attr.code || ''),
+                    'label-uk_UA': attr['label-uk_UA'] || '',
+                    type: attr.type || '',
+                    group: attr.group || ''
+                }));
+
+            const allowedAttributeCodes = new Set(attributes.map(attr => attr.code));
+            const values = valuesData.data
+                .filter(value => allowedAttributeCodes.has(cleanValue(value.attribute || '')))
+                .map(value => ({
+                    code: cleanValue(value.code || ''),
+                    'label-uk_UA': value['label-uk_UA'] || '',
+                    attribute: cleanValue(value.attribute || '')
+                }));
+
+            return { families, attributes, values };
+        }
+
+        function cloneEmbeddedData(data) {
+            return data.map(item => ({ ...item }));
+        }
+
+        function markEmbeddedStatus(source = 'embedded') {
+            ['family', 'attributes', 'values'].forEach(prefix => {
+                const statusEl = document.getElementById(`${prefix}Status`);
+                const nameEl = document.getElementById(`${prefix}FileName`);
+                if (statusEl) {
+                    statusEl.textContent = '✓ Використовується вбудований набір';
+                    statusEl.classList.add('show');
+                }
+                if (nameEl) {
+                    nameEl.textContent = source === 'remote'
+                        ? 'Файл data/' + prefix + '.json'
+                        : 'Вбудовані дані';
+                }
+            });
+        }
+
+        function useEmbeddedData() {
+            familyData = { headers: [], data: cloneEmbeddedData(EMBEDDED_FAMILY_DATA) };
+            attributesData = { headers: [], data: cloneEmbeddedData(EMBEDDED_ATTRIBUTE_DATA) };
+            valuesData = { headers: [], data: cloneEmbeddedData(EMBEDDED_VALUE_DATA) };
+            exportRows = [];
+            markEmbeddedStatus('embedded');
+            checkAllFilesLoaded();
+        }
+
+        async function loadRemoteData() {
+            const fetchJson = async (url) => {
+                const response = await fetch(url, { cache: 'no-cache' });
+                if (!response.ok) {
+                    throw new Error(`Не вдалося завантажити ${url}`);
+                }
+                return response.json();
+            };
+
+            const [families, attributes, values] = await Promise.all([
+                fetchJson(DATA_FILES.families),
+                fetchJson(DATA_FILES.attributes),
+                fetchJson(DATA_FILES.values)
+            ]);
+
+            familyData = { headers: [], data: families };
+            attributesData = { headers: [], data: attributes };
+            valuesData = { headers: [], data: values };
+            exportRows = [];
+            markEmbeddedStatus('remote');
+            checkAllFilesLoaded();
+        }
+
+        let dataInitPromise = null;
+        function initializeData() {
+            if (dataInitPromise) return dataInitPromise;
+            dataInitPromise = loadRemoteData().catch((error) => {
+                console.warn('Fallback to embedded data:', error);
+                useEmbeddedData();
+            });
+            return dataInitPromise;
+        }
+*** End Patch
+
+        function formatKey(key) {
+            return key.includes('-') ? `'${key}'` : key;
+        }
+
+        function formatValue(value) {
+            if (typeof value === 'number') return value;
+            const escaped = String(value || '').replace(/'/g, '\\\'');
+            return `'${escaped}'`;
+        }
+
+        function formatObjectLiteral(entry) {
+            const parts = [];
+            for (const [key, value] of Object.entries(entry)) {
+                parts.push(`${formatKey(key)}: ${formatValue(value)}`);
+            }
+            return parts.join(', ');
+        }
+
+        function createSnippet(name, data) {
+            if (!data.length) return '';
+            const lines = data.map(entry => `{ ${formatObjectLiteral(entry)} }`);
+            return `const ${name} = [\n${lines.join(',\n')}\n];`;
+        }
+
         function getAttributeLabel(attribute) {
             if (!attribute) return '';
             if (attribute.label) return attribute.label;
@@ -1164,14 +1442,52 @@
             showSuccess('XLSX файл сформовано');
         }
 
+        function downloadEmbeddedDataFile() {
+            const payload = buildEmbeddedPayload();
+            if (!payload.families.length) {
+                showError('Оберіть фемілії для формування даних');
+                return;
+            }
+            const datasets = [
+                { name: 'EMBEDDED_FAMILY_DATA', data: payload.families },
+                { name: 'EMBEDDED_ATTRIBUTE_DATA', data: payload.attributes },
+                { name: 'EMBEDDED_VALUE_DATA', data: payload.values }
+            ];
+
+            let downloaded = 0;
+            for (const dataset of datasets) {
+                if (!dataset.data.length) continue;
+                const snippet = createSnippet(dataset.name, dataset.data);
+                const blob = new Blob([snippet], { type: 'text/plain;charset=utf-8' });
+                triggerDownload(blob, `${dataset.name.toLowerCase()}.js`);
+                downloaded++;
+            }
+
+            if (!downloaded) {
+                showError('Для вибраних фемілій немає даних атрибутів/значень');
+                return;
+            }
+
+            showSuccess('Файли збережено. Замініть відповідні константи у коді.');
+        }
+
         function checkAllFilesLoaded() {
-            const allLoaded = familyData && attributesData && valuesData;
-            document.getElementById('generateBtn').disabled = !allLoaded;
+            const hasFamilies = familyData && Array.isArray(familyData.data) && familyData.data.length > 0;
+            const hasAttributes = attributesData && Array.isArray(attributesData.data) && attributesData.data.length > 0;
+            const hasValues = valuesData && Array.isArray(valuesData.data) && valuesData.data.length > 0;
+            const ready = hasFamilies && hasAttributes && hasValues;
+
+            document.getElementById('generateBtn').disabled = !ready;
             downloadBtn.disabled = !generatedXMLBlob;
 
-            if (allLoaded) {
+            if (ready) {
                 buildAttributeMap();
                 buildValuesMap();
+                prepareFamilySelection();
+                updateExportButtonsState();
+            } else {
+                updateFamilySelectionInfo();
+                renderFamilyList();
             }
         }
 
@@ -1607,6 +1923,7 @@
                 selectedFamilyCodes = new Set(familyListData.map(item => item.code));
                 renderFamilyList();
                 updateFamilySelectionInfo();
+                updateEmbeddedOutputs();
             });
         }
 
@@ -1615,6 +1932,7 @@
                 selectedFamilyCodes.clear();
                 renderFamilyList();
                 updateFamilySelectionInfo();
+                updateEmbeddedOutputs();
             });
         }
 
@@ -1635,6 +1953,25 @@
                 });
                 renderSettingsControls();
                 updateExportButtonsState();
+            });
+        }
+
+        if (loginForm) {
+            loginForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const username = (usernameInput.value || '').trim();
+                const password = (passwordInput.value || '').trim();
+                const account = USERS.find(user => user.username === username && user.password === password);
+                if (!account) {
+                    loginError.textContent = 'Невірний логін або пароль';
+                    return;
+                }
+                loginError.textContent = '';
+                currentRole = account.role;
+                document.body.classList.add('authenticated');
+                document.body.classList.toggle('partner-role', currentRole === 'partner');
+                document.body.classList.toggle('admin-role', currentRole === 'admin');
+                initializeData();
             });
         }
 
@@ -1700,6 +2037,9 @@
 
         downloadCsvBtn.addEventListener('click', downloadCsvFile);
         downloadXlsxBtn.addEventListener('click', downloadXlsxFile);
+        if (saveEmbeddedBtn) {
+            saveEmbeddedBtn.addEventListener('click', downloadEmbeddedDataFile);
+        }
     </script>
 </body>
 
