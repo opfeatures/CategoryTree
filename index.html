@@ -758,12 +758,12 @@
             values: 'data/values.json'
         };
         const EXPORT_COLUMNS = [
-            { key: 'familyCode', label: 'Код фемілі' },
-            { key: 'familyLabel', label: 'Назва фемілі' },
+            { key: 'familyCode', label: 'Код категорії' },
+            { key: 'familyLabel', label: 'Назва категорії' },
             { key: 'attributeCode', label: 'Код атрибуту' },
             { key: 'attributeLabel', label: 'Назва атрибуту' },
             { key: 'attributeType', label: 'Тип атрибуту' },
-            { key: 'attributeRequirement', label: 'Обовʼязковість' },
+            { key: 'attributeRequirement', label: 'Обовʼязковість атрибуту' },
             { key: 'valueCode', label: 'Код значення' },
             { key: 'valueLabel', label: 'Значення' }
         ];
@@ -787,8 +787,8 @@
         })();
         const textEncoder = new TextEncoder();
         const USERS = [
-            { username: 'admin', password: 'admin123', role: 'admin' },
-            { username: 'partner', password: 'partner123', role: 'partner' }
+            { username: 'admin', password: 'monoadmin2026', role: 'admin' },
+            { username: 'partner', password: 'monopartner2026', role: 'partner' }
         ];
         let currentRole = null;
         const loginForm = document.getElementById('loginForm');
@@ -1166,7 +1166,7 @@
                 const statusEl = document.getElementById(`${prefix}Status`);
                 const nameEl = document.getElementById(`${prefix}FileName`);
                 if (statusEl) {
-                    statusEl.textContent = '✓ Використовується вбудований набір';
+                    statusEl.textContent = '✓ Використовується вбудований набір даних';
                     statusEl.classList.add('show');
                 }
                 if (nameEl) {
