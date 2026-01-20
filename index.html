@@ -649,14 +649,14 @@
 
         <div class="control-grid">
             <div class="panel family-panel">
-                <h3>Фільтр фемілі</h3>
+                <h3>Фільтр категорій</h3>
                 <input type="text" id="familySearchInput" class="search-input" placeholder="Пошук за назвою або кодом"
                     disabled>
                 <div class="family-toolbar">
                     <button class="mini-btn primary" id="familySelectAllBtn" disabled>Обрати всі</button>
                     <button class="mini-btn" id="familyClearBtn" disabled>Очистити вибір</button>
                 </div>
-                <div class="info-text" id="familySelectionInfo">Завантажте файл фемілі, щоб сформувати список.</div>
+                <div class="info-text" id="familySelectionInfo">Завантажте файл категорій, щоб сформувати список.</div>
                 <div class="family-list" id="familyList">
                     <div class="empty-state">Список порожній</div>
                 </div>
@@ -693,7 +693,7 @@
             <div class="progress-bar">
                 <div class="progress-fill" id="progressFill"></div>
             </div>
-            <div class="progress-text" id="progressText">Обробка фемілії 0...</div>
+            <div class="progress-text" id="progressText">Обробка категорії 0...</div>
         </div>
 
         <div class="preview" id="preview">
@@ -993,7 +993,7 @@
             if (!familySelectionInfo) return;
             const total = familyListData.length;
             if (!total) {
-                familySelectionInfo.textContent = 'Завантажте файл фемілі, щоб сформувати список.';
+                familySelectionInfo.textContent = 'Завантажте файл категорії, щоб сформувати список.';
                 familySearchInput.disabled = true;
                 familySelectAllBtn.disabled = true;
                 familyClearBtn.disabled = true;
@@ -1003,7 +1003,7 @@
             familySelectAllBtn.disabled = false;
             familyClearBtn.disabled = false;
             const selected = selectedFamilyCodes.size;
-            familySelectionInfo.textContent = `Обрано ${selected} з ${total} фемілій`;
+            familySelectionInfo.textContent = `Обрано ${selected} з ${total} категорій`;
         }
 
         function renderFamilyList() {
@@ -1502,7 +1502,7 @@
         function downloadEmbeddedDataFile() {
             const payload = buildEmbeddedPayload();
             if (!payload.families.length) {
-                showError('Оберіть фемілії для формування даних');
+                showError('Оберіть категорії для формування даних');
                 return;
             }
 
@@ -1524,7 +1524,7 @@
             }
 
             if (!downloaded) {
-                showError('Для вибраних фемілій немає даних атрибутів або значень');
+                showError('Для вибраних категорій немає даних атрибутів або значень');
                 return;
             }
 
@@ -1812,7 +1812,7 @@
                             }
 
                             currentIndex++;
-                            updateProgress(currentIndex, totalFamilies, `Обробка фемілії ${currentIndex} з ${totalFamilies}...`);
+                            updateProgress(currentIndex, totalFamilies, `Обробка категорії ${currentIndex} з ${totalFamilies}...`);
                         }
 
                         if (currentIndex < totalFamilies) {
@@ -1824,7 +1824,7 @@
                         }
                     };
 
-                    updateProgress(0, totalFamilies, `Обробка фемілії 0 з ${totalFamilies}...`);
+                    updateProgress(0, totalFamilies, `Обробка категорії 0 з ${totalFamilies}...`);
                     processBatch();
                 } catch (error) {
                     reject(new Error('Помилка генерації XML: ' + error.message));
@@ -1919,7 +1919,7 @@
                             }
 
                             currentIndex++;
-                            updateProgress(currentIndex, totalFamilies, `Обробка фемілії ${currentIndex} з ${totalFamilies}...`);
+                            updateProgress(currentIndex, totalFamilies, `Обробка категорії ${currentIndex} з ${totalFamilies}...`);
                         }
 
                         if (currentIndex < totalFamilies) {
@@ -1931,7 +1931,7 @@
                         }
                     };
 
-                    updateProgress(0, totalFamilies, `Обробка фемілії 0 з ${totalFamilies}...`);
+                    updateProgress(0, totalFamilies, `Обробка категорії 0 з ${totalFamilies}...`);
                     processBatch();
                 } catch (error) {
                     reject(new Error('Помилка генерації XML: ' + error.message));
@@ -1948,7 +1948,7 @@
             try {
                 const families = getFilteredFamilies();
                 if (!families.length) {
-                    showError('Оберіть щонайменше одну фемілію для генерації');
+                    showError('Оберіть щонайменше одну категорію для генерації');
                     return;
                 }
                 activeFamilies = families;
@@ -2086,7 +2086,7 @@
                 checkAllFilesLoaded();
                 prepareFamilySelection();
             } catch (error) {
-                showError('Помилка завантаження файлу фемілі: ' + error.message);
+                showError('Помилка завантаження файлу категорії: ' + error.message);
             }
         });
 
