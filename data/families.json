@@ -405,7 +405,7 @@
     "code": "steadicam",
     "label-uk_UA": "Стедіками та моноподи",
     "attributes": "article,barcode,brand,code,color,country_origin,description,external_id,full_weight,keywords,material,name,offer,package_height,package_length,package_width,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,range_battery_life,rating,sku,steadicam_battery_capacity_mah,steadicam_battery_life,steadicam_designation,steadicam_operating_modes,steadicam_stabilization,steadicam_type,steadicam_wireless_technologies,variation_name,vendor_code",
-    "requirements-marketplace": "code,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,range_battery_life,sku,steadicam_battery_life,steadicam_operating_modes,steadicam_stabilization,variation_name"
+    "requirements-marketplace": "brand,code,color,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,range_battery_life,sku,steadicam_battery_life,steadicam_operating_modes,steadicam_stabilization,variation_name"
   },
   {
     "code": "accessories_mobile_devices",
@@ -440,8 +440,8 @@
   {
     "code": "system_units",
     "label-uk_UA": "Системні блоки",
-    "attributes": "article,barcode,body_material,brand,code,color,cooling_system,cooling_type,country_origin,description,dimensions_wxhxd,external_id,features,full_weight,illumination,keywords,length_product,model,name,offer,package_height,package_length,package_width,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_height,product_status,product_weight,product_width,rating,series,sku,system_units_chipset,system_units_class,system_units_cooling_type,system_units_cpu_connector_socket,system_units_emmc_volume,system_units_form__factor,system_units_hdd_volume,system_units_number_of_memory_slots,system_units_operating_system,system_units_ports_connectors,system_units_power_supply_unit,system_units_proc_number_cores_thrds,system_units_processor,system_units_processor_series,system_units_ram_amount,system_units_ram_type,system_units_ssd_volume,system_units_type,system_units_type_builtin_storage_device,system_units_videocard_amount_memory,system_units_videocard_discrete,system_units_videocard_integrated,system_units_videocard_type,system_units_wireless_technologies,variation_name,vendor_code",
-    "requirements-marketplace": "brand,code,cooling_type,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,sku,system_units_hdd_volume,system_units_operating_system,system_units_power_supply_unit,system_units_processor_series,system_units_ram_amount,system_units_ram_type,system_units_ssd_volume,system_units_type_builtin_storage_device,system_units_videocard_amount_memory,system_units_videocard_discrete,variation_name"
+    "attributes": "article,barcode,body_material,brand,code,color,cooling_system,country_origin,description,dimensions_wxhxd,external_id,features,full_weight,illumination,keywords,model,name,offer,package_height,package_length,package_width,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,series,sku,system_units_chipset,system_units_class,system_units_cooling_type,system_units_cpu_connector_socket,system_units_emmc_volume,system_units_form__factor,system_units_hdd_volume,system_units_number_of_memory_slots,system_units_operating_system,system_units_ports_connectors,system_units_power_supply_unit,system_units_proc_number_cores_thrds,system_units_processor,system_units_processor_series,system_units_ram_amount,system_units_ram_type,system_units_ssd_volume,system_units_type,system_units_type_builtin_storage_device,system_units_videocard_amount_memory,system_units_videocard_discrete,system_units_videocard_integrated,system_units_videocard_type,system_units_wireless_technologies,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,sku,system_units_cooling_type,system_units_hdd_volume,system_units_operating_system,system_units_power_supply_unit,system_units_processor_series,system_units_ram_amount,system_units_ram_type,system_units_ssd_volume,system_units_type_builtin_storage_device,system_units_videocard_amount_memory,system_units_videocard_discrete,variation_name"
   },
   {
     "code": "central_controllers",
@@ -973,7 +973,7 @@
   },
   {
     "code": "cables_for_charging_phones_and_tablets",
-    "label-uk_UA": "Кабелі для заряджання телефонів і планшетів",
+    "label-uk_UA": "Кабелі та адаптери",
     "attributes": "article,barcode,brand,cables_for_charging_phones_and_tablets_connector_1,cables_for_charging_phones_and_tablets_connector_2,cables_for_charging_phones_and_tablets_length_of_the_cable,cables_for_charging_phones_and_tablets_maximum_power_w,cables_for_charging_phones_and_tablets_type,code,color,country_origin,description,ean,external_id,features,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
     "requirements-marketplace": "brand,cables_for_charging_phones_and_tablets_connector_1,cables_for_charging_phones_and_tablets_connector_2,cables_for_charging_phones_and_tablets_length_of_the_cable,cables_for_charging_phones_and_tablets_type,code,color,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,sku,variation_name"
   },
@@ -1122,12 +1122,6 @@
     "requirements-marketplace": "age_pets,brand,country_origin,description,designation,feed_class,full_weight,main_ingredient,name,package_height,package_length,package_width,packaging,range_packaging,size_of_the_breed,sku,type_of_feed,variation_name"
   },
   {
-    "code": "cat_food",
-    "label-uk_UA": "Корм для котів",
-    "attributes": "age_pets,article,barcode,brand,code,country_origin,description,designation,ean,external_id,features,feed_class,for_whom_zoo,full_weight,keywords,main_ingredient,model,name,offer,package_height,package_length,package_width,packaging,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,quantity_package_pcs,range_packaging,rating,series,sku,type_of_feed,variation_name,vendor_code,view_of_feed",
-    "requirements-marketplace": "age_pets,brand,country_origin,description,designation,feed_class,full_weight,main_ingredient,name,package_height,package_length,package_width,packaging,range_packaging,sku,type_of_feed"
-  },
-  {
     "code": "veterinary_preparations_for_dogs",
     "label-uk_UA": "Лікувальні препарати для собак",
     "attributes": "age_pets,article,barcode,brand,code,color,country_origin,description,designation,ean,external_id,features,for_whom,form,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,series,size_international,size_of_the_breed,sku,variation_name,vendor_code,weight_of_the_animal",
@@ -1178,8 +1172,8 @@
   {
     "code": "soft_places_for_dogs",
     "label-uk_UA": "Спальні місця для собак",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,ean,external_id,features,for_whom,full_weight,keywords,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,size_blanket,size_international,size_of_the_breed,sku,soft_places_for_dogs_breed_size,soft_places_for_dogs_features,soft_places_for_dogs_material,soft_places_for_dogs_type,type,variation_name,vendor_code",
-    "requirements-marketplace": "brand,code,color,country_origin,description,dimensions_wxhxd,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,sku,soft_places_for_dogs_breed_size,soft_places_for_dogs_features,soft_places_for_dogs_material,soft_places_for_dogs_type,variation_name"
+    "attributes": "article,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,size_international,sku,soft_places_for_dogs_breed_size,soft_places_for_dogs_features,soft_places_for_dogs_material,soft_places_for_dogs_type,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,color,country_origin,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,sku,soft_places_for_dogs_breed_size,soft_places_for_dogs_features,soft_places_for_dogs_material,soft_places_for_dogs_type,variation_name"
   },
   {
     "code": "soft_places_for_cats",
@@ -1596,12 +1590,6 @@
     "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
   },
   {
-    "code": "biziboards",
-    "label-uk_UA": "Бізіборди",
-    "attributes": "article,barcode,brand,code,description,ean,external_id,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,recommended_age,sku,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
-  },
-  {
     "code": "ironing_boards",
     "label-uk_UA": "Прасувальні дошки",
     "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,features,full_weight,height_adjustment,keywords,length_from_to,length_product,material_of_case,material_of_tabletop,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,product_width,rating,series,size,sku,type,variation_name,vendor_code,width_from_to",
@@ -1678,12 +1666,6 @@
     "label-uk_UA": "Ігрові набори",
     "attributes": "article,barcode,brand,code,description,ean,external_id,full_weight,gender,keywords,name,number_of_figures,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_toys_recommended_age_from,rating,recommended_age,scale_of_model,sku,subject,variation_name,vendor_code",
     "requirements-marketplace": "full_weight,package_height,package_length,package_width,range_toys_recommended_age_from,sku"
-  },
-  {
-    "code": "sorters_and_pyramids",
-    "label-uk_UA": "Сортери та пірамідки",
-    "attributes": "article,barcode,brand,code,description,ean,external_id,full_weight,keywords,name,number_of_parts,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,recommended_age,sku,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
   },
   {
     "code": "experiment_kits",
@@ -2580,12 +2562,6 @@
     "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
   },
   {
-    "code": "story_sets",
-    "label-uk_UA": "Сюжетні набори",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,gender,keywords,name,number_of_figures,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,recommended_age,sku,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
-  },
-  {
     "code": "graters_and_vegetable_cutters",
     "label-uk_UA": "Тертки та овочерізки",
     "attributes": "article,barcode,brand,code,color,country_origin,description,designation,ean,external_id,full_weight,keywords,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,type,variation_name,vendor_code",
@@ -2924,8 +2900,8 @@
   {
     "code": "infrared_obstacle_avoidance",
     "label-uk_UA": "Комплектуючі до кліматичної техніки",
-    "attributes": "article,barcode,brand,code,color,compatibility,country_origin,description,designation,ean,external_id,features,form,full_weight,keywords,length_product,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_height,product_status,product_weight,rating,series,size,sku,thickness,type,variation_name,vendor_code",
-    "requirements-marketplace": "brand,code,compatibility,description,designation,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,sku,type,variation_name"
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,features,full_weight,infrared_obstacle_avoidance_compatibility,infrared_obstacle_avoidance_designation,infrared_obstacle_avoidance_type,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,series,size,sku,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,description,external_id,full_weight,infrared_obstacle_avoidance_compatibility,infrared_obstacle_avoidance_designation,infrared_obstacle_avoidance_type,name,offer,package_height,package_length,package_width,partner_name,sku,variation_name"
   },
   {
     "code": "robots_for_swimming_pools",
@@ -2954,7 +2930,7 @@
   {
     "code": "rugs",
     "label-uk_UA": "Килимки",
-    "attributes": "article,barcode,brand,code,color,country_origin,depth_from_to,description,ean,external_id,full_weight,height_from_to,keywords,length_from_to,mat_size,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,rugs_type,series,sku,variation_name,vendor_code,width_from_to",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,height_from_to,keywords,length_from_to,mat_size,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,rugs_type,series,sku,variation_name,vendor_code,width_from_to",
     "requirements-marketplace": "brand,code,description,external_id,full_weight,length_from_to,mat_size,material,name,offer,package_height,package_length,package_width,partner_name,sku,variation_name,width_from_to"
   },
   {
@@ -3134,8 +3110,8 @@
   {
     "code": "insurance_systems",
     "label-uk_UA": "Системи страхування",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,gender,insurance_systems_size,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,type,variation_name,vendor_code",
-    "requirements-marketplace": "brand,code,description,external_id,full_weight,gender,insurance_systems_size,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,type,variation_name"
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,gender,insurance_systems_size,insurance_systems_size_text,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,type,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,description,external_id,full_weight,gender,insurance_systems_size,insurance_systems_size_text,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,type,variation_name"
   },
   {
     "code": "kayaks_and_canoes",
@@ -3219,7 +3195,7 @@
     "code": "multitools",
     "label-uk_UA": "Мультитули",
     "attributes": "article,barcode,brand,case,code,color,country_origin,cutting_edge_type,description,ean,external_id,full_weight,keywords,length_of_the_handle,model,name,number_of_functions,number_of_tools,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_length_of_the_handle,range_total_length,rating,series,sku,total_length,type,variation_name,vendor_code,weight_of_the_multitool,weight_product",
-    "requirements-marketplace": "brand,case,code,description,external_id,full_weight,length_of_the_handle,name,number_of_functions,number_of_tools,offer,package_height,package_length,package_width,partner_name,range_length_of_the_handle,range_total_length,sku,total_length,type,variation_name,weight_of_the_multitool,weight_product"
+    "requirements-marketplace": "brand,case,code,description,external_id,full_weight,length_of_the_handle,name,number_of_tools,offer,package_height,package_length,package_width,partner_name,range_length_of_the_handle,range_total_length,sku,total_length,type,variation_name,weight_of_the_multitool,weight_product"
   },
   {
     "code": "shovels_files",
@@ -3237,7 +3213,7 @@
     "code": "fixed_blade_knives",
     "label-uk_UA": "Ножі з фіксованим клинком",
     "attributes": "article,barcode,brand,code,color,country_origin,cutting_edge_type,description,ean,external_id,full_weight,handle_material,keywords,knife_weight,length_of_blade,length_of_the_handle,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_knife_weight,range_length_of_blade,range_length_of_the_handle,range_total_length,rating,series,sku,total_length,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "requirements-marketplace": "brand,code,color,cutting_edge_type,description,external_id,full_weight,handle_material,knife_weight,length_of_blade,length_of_the_handle,name,offer,package_height,package_length,package_width,partner_name,range_knife_weight,range_length_of_blade,range_length_of_the_handle,range_total_length,sku,total_length,variation_name"
   },
   {
     "code": "razors",
@@ -3254,8 +3230,8 @@
   {
     "code": "accessories_for_kitchen_appliances",
     "label-uk_UA": "Комплектуючі до кухонної техніки",
-    "attributes": "article,barcode,brand,code,color,compatibility,country_origin,description,designation,ean,external_id,features,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,type,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "accessories_for_kitchen_appliances_compatibility,accessories_for_kitchen_appliances_designation,accessories_for_kitchen_appliances_type,article,barcode,brand,code,color,country_origin,description,ean,external_id,features,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "accessories_for_kitchen_appliances_compatibility,accessories_for_kitchen_appliances_designation,accessories_for_kitchen_appliances_type,full_weight,package_height,package_length,package_width,sku"
   },
   {
     "code": "tourist_showers",
@@ -3614,7 +3590,7 @@
   {
     "code": "wheelchair_toys",
     "label-uk_UA": "Іграшки-каталки",
-    "attributes": "article,barcode,brand,code,description,ean,external_id,full_weight,gender,keywords,material,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,power_supply,product_status,range_toys_recommended_age_from,rating,recommended_age,sku,variation_name,vendor_code",
+    "attributes": "article,barcode,brand,code,description,ean,external_id,full_weight,gender,keywords,material,name,offer,package_height,package_length,package_width,part_number,partner_name,personages,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,power_supply,product_status,range_toys_recommended_age_from,rating,recommended_age,sku,variation_name,vendor_code",
     "requirements-marketplace": "full_weight,package_height,package_length,package_width,range_toys_recommended_age_from,sku"
   },
   {
@@ -3938,8 +3914,8 @@
   {
     "code": "accessories_for_action_cameras",
     "label-uk_UA": "Аксесуари для екшн-камер",
-    "attributes": "article,barcode,brand,code,color,compatibility,country_origin,description,ean,external_id,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,power_supply,product_status,product_weight,rating,sku,type,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "accessories_for_action_cameras_battery_capacity_mah,accessories_for_action_cameras_compatibility,accessories_for_action_cameras_place_of_attachment,accessories_for_action_cameras_power_supply,accessories_for_action_cameras_type,article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,sku,variation_name,vendor_code",
+    "requirements-marketplace": "accessories_for_action_cameras_battery_capacity_mah,accessories_for_action_cameras_compatibility,accessories_for_action_cameras_place_of_attachment,accessories_for_action_cameras_power_supply,accessories_for_action_cameras_type,brand,code,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,sku,variation_name"
   },
   {
     "code": "combination_amplifiers",
@@ -4106,8 +4082,8 @@
   {
     "code": "textile_kits",
     "label-uk_UA": "Текстильні набори",
-    "attributes": "article,barcode,bedspread_size,brand,code,color,country_origin,description,designation,dimensions_wxhxd,duvet_size,ean,exchanges_returns_terms_conditions_returning,external_id,features,fill_material,full_weight,keywords,length_from_to,material,material_density_g_m2,name,number_items,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,print,product_status,rating,seasonality,sku,sleeping_size,type,variation_name,vendor_code,width_from_to",
-    "requirements-marketplace": "brand,code,color,description,exchanges_returns_terms_conditions_returning,external_id,full_weight,length_from_to,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,type,variation_name,width_from_to"
+    "attributes": "article,barcode,bedspread_size,brand,code,color,country_origin,description,designation,dimensions_wxhxd,duvet_size,ean,exchanges_returns_terms_conditions_returning,external_id,features,fill_material,full_weight,keywords,length_from_to,material,material_density_g_m2,name,number_items,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,print,product_status,rating,seasonality,sku,sleeping_size,textile_kits_components,type,variation_name,vendor_code,width_from_to",
+    "requirements-marketplace": "brand,code,color,description,exchanges_returns_terms_conditions_returning,external_id,full_weight,length_from_to,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,textile_kits_components,type,variation_name,width_from_to"
   },
   {
     "code": "feeders_and_bowls_for_reptiles",
@@ -4173,43 +4149,43 @@
     "code": "fiction",
     "label-uk_UA": "Художня література",
     "attributes": "article,barcode,book_author,books_book_series,books_illustrations,books_language,books_number_of_pages,books_order_in_the_series,books_publisher,books_series,books_topic,books_view,books_year_of_publication,brand,code,cover,description,ean,external_id,full_weight,keywords,list_books__set,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,sku,variation_name,vendor_code",
-    "requirements-marketplace": "book_author,books_book_series,books_language,books_topic,books_view,brand,code,cover,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,variation_name"
+    "requirements-marketplace": "book_author,books_book_series,books_illustrations,books_language,books_number_of_pages,books_order_in_the_series,books_publisher,books_topic,books_view,books_year_of_publication,code,cover,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_weight,sku,variation_name"
   },
   {
     "code": "nonfiction",
     "label-uk_UA": "Нонфікшн",
     "attributes": "article,barcode,book_author,books_book_series,books_illustrations,books_language,books_number_of_pages,books_order_in_the_series,books_publisher,books_topic,books_view,books_year_of_publication,brand,code,cover,description,ean,external_id,full_weight,keywords,list_books__set,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,sku,variation_name,vendor_code",
-    "requirements-marketplace": "book_author,books_book_series,books_language,books_topic,books_view,brand,cover,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,variation_name"
+    "requirements-marketplace": "book_author,books_illustrations,books_language,books_number_of_pages,books_publisher,books_topic,books_view,books_year_of_publication,code,cover,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_weight,sku,variation_name"
   },
   {
     "code": "business_literature",
     "label-uk_UA": "Бізнес література",
     "attributes": "article,barcode,book_author,books_book_series,books_illustrations,books_language,books_number_of_pages,books_order_in_the_series,books_publisher,books_topic,books_view,books_year_of_publication,brand,code,cover,description,ean,external_id,full_weight,keywords,list_books__set,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,sku,variation_name,vendor_code",
-    "requirements-marketplace": "book_author,books_book_series,books_language,books_topic,books_view,brand,code,cover,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,variation_name"
+    "requirements-marketplace": "book_author,books_illustrations,books_language,books_number_of_pages,books_publisher,books_view,books_year_of_publication,code,cover,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_weight,sku,variation_name"
   },
   {
     "code": "reference_books_and_educational_literature",
     "label-uk_UA": "Довідники і навчальна література",
     "attributes": "article,barcode,book_author,books_book_series,books_class,books_illustrations,books_language,books_number_of_pages,books_order_in_the_series,books_publisher,books_topic,books_view,books_year_of_publication,brand,code,cover,description,ean,external_id,full_weight,keywords,list_books__set,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,sku,variation_name,vendor_code",
-    "requirements-marketplace": "books_book_series,books_order_in_the_series,books_topic,books_view,brand,code,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,variation_name"
+    "requirements-marketplace": "book_author,books_illustrations,books_language,books_number_of_pages,books_publisher,books_topic,books_view,books_year_of_publication,code,cover,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_weight,sku,variation_name"
   },
   {
     "code": "children_s_literature",
     "label-uk_UA": "Дитяча література",
     "attributes": "article,barcode,book_author,books_book_series,books_class,books_illustrations,books_language,books_number_of_pages,books_order_in_the_series,books_publisher,books_topic,books_view,books_year_of_publication,brand,code,cover,description,ean,external_id,full_weight,keywords,list_books__set,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,sku,variation_name,vendor_code",
-    "requirements-marketplace": "book_author,books_book_series,books_language,books_topic,books_view,cover,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,variation_name"
+    "requirements-marketplace": "book_author,books_class,books_illustrations,books_language,books_number_of_pages,books_publisher,books_topic,books_view,books_year_of_publication,code,cover,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_weight,sku,variation_name"
   },
   {
     "code": "comics",
     "label-uk_UA": "Комікси",
     "attributes": "article,barcode,book_author,books_book_series,books_illustrations,books_language,books_number_of_pages,books_order_in_the_series,books_publisher,books_topic,books_view,books_year_of_publication,brand,code,cover,description,ean,external_id,full_weight,keywords,list_books__set,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,sku,variation_name,vendor_code",
-    "requirements-marketplace": "book_author,books_book_series,books_language,books_topic,books_view,brand,cover,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,variation_name"
+    "requirements-marketplace": "book_author,books_illustrations,books_language,books_number_of_pages,books_publisher,books_topic,books_view,books_year_of_publication,brand,code,cover,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_weight,sku,variation_name"
   },
   {
     "code": "gift_editions",
     "label-uk_UA": "Подарункові видання",
     "attributes": "article,barcode,book_author,books_book_series,books_illustrations,books_language,books_number_of_pages,books_order_in_the_series,books_publisher,books_series,books_topic,books_view,books_year_of_publication,brand,code,cover,description,ean,external_id,full_weight,keywords,list_books__set,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,sku,variation_name,vendor_code",
-    "requirements-marketplace": "book_author,books_book_series,books_language,books_topic,books_view,brand,cover,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,variation_name"
+    "requirements-marketplace": "book_author,books_book_series,books_illustrations,books_language,books_number_of_pages,books_publisher,books_view,books_year_of_publication,code,cover,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_weight,sku,variation_name"
   },
   {
     "code": "books_accessory",
@@ -4467,7 +4443,7 @@
     "code": "literature_in_foreign_languages",
     "label-uk_UA": "Література іноземними мовами",
     "attributes": "article,barcode,book_author,books_book_series,books_illustrations,books_language,books_number_of_pages,books_order_in_the_series,books_publisher,books_series,books_topic,books_view,books_year_of_publication,brand,code,color,cover,description,ean,external_id,full_weight,keywords,list_books__set,name,number_of_books_the_set,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,sku,variation_name,vendor_code",
-    "requirements-marketplace": "sku"
+    "requirements-marketplace": "book_author,books_book_series,books_illustrations,books_language,books_number_of_pages,books_order_in_the_series,books_publisher,books_topic,books_view,books_year_of_publication,code,cover,description,external_id,name,offer,partner_name,sku,variation_name"
   },
   {
     "code": "safes",
@@ -4910,8 +4886,8 @@
   {
     "code": "tires",
     "label-uk_UA": "Шини",
-    "attributes": "always_visible,barcode,brand,code,color,country_origin,description,diameter_tires,ean,external_id,full_weight,keywords,load_index_tires,model,name,offer,package_height,package_length,package_width,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,profile_tires,rating,season_tires,sku,speed_index_tires,tread_type_tires,type_vehicle_tires,variation_name,vendor_code,width_tires,year_of_tire_production",
-    "requirements-marketplace": "brand,code,country_origin,diameter_tires,full_weight,load_index_tires,model,name,package_height,package_length,package_width,profile_tires,season_tires,sku,speed_index_tires,tread_type_tires,type_vehicle_tires,variation_name,vendor_code,width_tires,year_of_tire_production"
+    "attributes": "always_visible,barcode,brand,code,color,country_origin,description,diameter_tires,ean,external_id,full_weight,keywords,load_index_tires,model,name,offer,package_height,package_length,package_width,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,profile_tires,rating,season_tires,sku,speed_index_tires,studding,tires_width,tread_type_tires,type_vehicle_tires,variation_name,vendor_code,width_tires,year_of_tire_production",
+    "requirements-marketplace": "brand,code,country_origin,diameter_tires,full_weight,load_index_tires,model,name,package_height,package_length,package_width,profile_tires,season_tires,sku,speed_index_tires,studding,tread_type_tires,type_vehicle_tires,variation_name,vendor_code,width_tires,year_of_tire_production"
   },
   {
     "code": "milk_substitutes_for_cats",
@@ -4953,6 +4929,108 @@
     "code": "radio_set",
     "label-uk_UA": "Рації",
     "attributes": "always_visible,article,barcode,brand,brand_registration_country,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,model_for_reissue,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,radio_set_maximum_communication_distance,radio_set_maximum_communication_distance_km,radio_set_power_supply,radio_set_type,rating,restrictions,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "sku"
+  },
+  {
+    "code": "energy_storage_system",
+    "label-uk_UA": "Система зберігання енергії",
+    "attributes": "always_visible,article,barcode,brand,brand_registration_country,code,color,country_origin,description,ean,energy_storage_system_battery_pack_capacity_k_wh,energy_storage_system_battery_type,energy_storage_system_battery_voltage_v,energy_storage_system_features,energy_storage_system_installation_type,energy_storage_system_inverter_type,energy_storage_system_maximum_expansion_in_terms_of_capacity_k_wh,energy_storage_system_maximum_power_k_w,energy_storage_system_nominal_power_k_w,energy_storage_system_number_of_batteries_included_pcs,energy_storage_system_number_of_life_cycles,energy_storage_system_number_of_mppt_pcs,energy_storage_system_number_of_phases,energy_storage_system_protection,energy_storage_system_scalability,energy_storage_system_weight_kg,energy_storage_system_wireless_technologies,external_id,full_weight,keywords,model,model_for_reissue,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,restrictions,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "code,description,energy_storage_system_battery_pack_capacity_k_wh,energy_storage_system_battery_type,energy_storage_system_features,energy_storage_system_installation_type,energy_storage_system_inverter_type,energy_storage_system_maximum_expansion_in_terms_of_capacity_k_wh,energy_storage_system_maximum_power_k_w,energy_storage_system_nominal_power_k_w,energy_storage_system_number_of_phases,energy_storage_system_scalability,energy_storage_system_wireless_technologies,external_id,name,offer,partner_name,sku,variation_name"
+  },
+  {
+    "code": "learning_toys",
+    "label-uk_UA": "Навчальні іграшки",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,ean,educational_toys_type,external_id,features,full_weight,gender,keywords,language,lego_series,length_product,material,model,name,number_of_parts,number_of_parts_,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,power_supply,product_depth,product_height,product_status,product_weight,product_width,range_toys_recommended_age_from,rating,recommended_age,series,size,sku,subject,thickness,topics,toy_size,type_of_packaging,ukrainian_manufacturer,variation_name,vendor_code",
+    "requirements-marketplace": "sku"
+  },
+  {
+    "code": "dry_food_for_cats",
+    "label-uk_UA": "Сухий корм для котів",
+    "attributes": "article,barcode,brand,code,country_origin,description,dry_food_for_cats_age_pets,dry_food_for_cats_designation,dry_food_for_cats_feed_class,dry_food_for_cats_main_ingredient,dry_food_for_cats_packaging,dry_food_for_cats_type_of_feed,ean,external_id,features,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_dry_food_for_cats_packaging,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "brand,country_origin,description,dry_food_for_cats_age_pets,dry_food_for_cats_designation,dry_food_for_cats_feed_class,dry_food_for_cats_main_ingredient,dry_food_for_cats_packaging,dry_food_for_cats_type_of_feed,full_weight,name,package_height,package_length,package_width,range_dry_food_for_cats_packaging,sku"
+  },
+  {
+    "code": "athletic_belts",
+    "label-uk_UA": "Атлетичні пояси",
+    "attributes": "article,athletic_belts_designation,athletic_belts_size,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "sku"
+  },
+  {
+    "code": "cuffs_handles_and_slings",
+    "label-uk_UA": "Манжети, ручки, та стропи",
+    "attributes": "article,barcode,brand,code,color,country_origin,cuffs_handles_and_slings_designation,cuffs_handles_and_slings_maximum_load_kg,cuffs_handles_and_slings_type,cuffs_handles_and_slings_type_fixation,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "sku"
+  },
+  {
+    "code": "bodybars",
+    "label-uk_UA": "Бодібари",
+    "attributes": "article,barcode,bodybars_features,bodybars_length,bodybars_weight_product,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "sku"
+  },
+  {
+    "code": "trx",
+    "label-uk_UA": "TRX",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,trx_type,variation_name,vendor_code",
+    "requirements-marketplace": "sku"
+  },
+  {
+    "code": "tripods",
+    "label-uk_UA": "Штативи",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,tripod_body_material,tripod_supports,tripod_weight_kg,tripods_designation,tripods_features,tripods_folded_length_cm,tripods_head,tripods_head_type,tripods_maximum_height_cm,tripods_maximum_load,tripods_minimum_height_cm,tripods_number_of_sections_pcs,tripods_type,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,description,external_id,name,offer,partner_name,sku,tripod_body_material,tripod_supports,tripod_weight_kg,tripods_designation,tripods_features,tripods_folded_length_cm,tripods_head,tripods_head_type,tripods_maximum_height_cm,tripods_maximum_load,tripods_minimum_height_cm,tripods_number_of_sections_pcs,tripods_type,variation_name"
+  },
+  {
+    "code": "cross_fit",
+    "label-uk_UA": "Кросфіт",
+    "attributes": "article,barcode,brand,code,color,country_origin,cross_fit_type,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "sku"
+  },
+  {
+    "code": "boxing_bags_pears_mannequins",
+    "label-uk_UA": "Боксерські мішки, груші, манекени",
+    "attributes": "article,barcode,boxing_bags_pears_mannequins_type,boxing_bags_pears_mannequins_view,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "sku"
+  },
+  {
+    "code": "wet_food_for_cats",
+    "label-uk_UA": "Вологий корм для котів",
+    "attributes": "article,barcode,brand,code,country_origin,description,ean,external_id,features_additional,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_wet_food_for_cats_packaging,rating,series,sku,variation_name,vendor_code,wet_food_for_cats_age_pets,wet_food_for_cats_designation,wet_food_for_cats_feed_class,wet_food_for_cats_main_ingredient,wet_food_for_cats_packaging,wet_food_for_cats_quantity_package_pcs,wet_food_for_cats_type_of_feed,wet_food_for_cats_view_of_feed",
+    "requirements-marketplace": "brand,code,country_origin,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,range_wet_food_for_cats_packaging,sku,variation_name,wet_food_for_cats_age_pets,wet_food_for_cats_designation,wet_food_for_cats_feed_class,wet_food_for_cats_packaging,wet_food_for_cats_type_of_feed,wet_food_for_cats_view_of_feed"
+  },
+  {
+    "code": "griffey",
+    "label-uk_UA": "Грифи",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,griffey_type,griffey_view,griffey_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "sku"
+  },
+  {
+    "code": "veterinary_diets_for_cats",
+    "label-uk_UA": "Ветеринарні дієти для котів",
+    "attributes": "article,barcode,brand,code,country_origin,description,ean,external_id,features_additional,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_veterinary_diets_for_cats_packaging,rating,series,sku,variation_name,vendor_code,veterinary_diets_for_cats_age_pets,veterinary_diets_for_cats_designation,veterinary_diets_for_cats_feed_class,veterinary_diets_for_cats_main_ingredient,veterinary_diets_for_cats_packaging,veterinary_diets_for_cats_quantity_package_pcs,veterinary_diets_for_cats_type_of_feed,veterinary_diets_for_cats_view_of_feed",
+    "requirements-marketplace": "brand,country_origin,description,full_weight,name,package_height,package_length,package_width,range_veterinary_diets_for_cats_packaging,sku,veterinary_diets_for_cats_age_pets,veterinary_diets_for_cats_designation,veterinary_diets_for_cats_packaging,veterinary_diets_for_cats_view_of_feed"
+  },
+  {
+    "code": "massage_tables",
+    "label-uk_UA": "Масажні столи",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,massage_tables_construction,massage_tables_frame_material,massage_tables_maximum_weight,massage_tables_method_regulation,massage_tables_number_sections,massage_tables_type,massage_tables_upholstery_material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "sku"
+  },
+  {
+    "code": "antiflood_systems",
+    "label-uk_UA": "Системи антипотопу",
+    "attributes": "antiflood_systems_compatibility,antiflood_systems_data_transmission_technology,antiflood_systems_notification_type,antiflood_systems_number_of_sensors,antiflood_systems_type,antiflood_systems_type_of_connection,article,barcode,brand,code,color,country_origin,description,ean,equipment,external_id,features,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,product_status,product_weight,rating,size,sku,variation_name,vendor_code",
+    "requirements-marketplace": "antiflood_systems_compatibility,antiflood_systems_data_transmission_technology,antiflood_systems_type,antiflood_systems_type_of_connection,brand,code,color,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,variation_name"
+  },
+  {
+    "code": "gloves_for_boxing_and_martial_arts",
+    "label-uk_UA": "Рукавички для боксу та єдиноборств",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,gloves_for_boxing_and_martial_arts_designation,gloves_for_boxing_and_martial_arts_gender,gloves_for_boxing_and_martial_arts_material,gloves_for_boxing_and_martial_arts_size,gloves_for_boxing_and_martial_arts_weight_un,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "sku"
+  },
+  {
+    "code": "roller",
+    "label-uk_UA": "Ролики",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,roller_features,roller_maximum_load,roller_view,series,sku,variation_name,vendor_code",
     "requirements-marketplace": "sku"
   }
 ]

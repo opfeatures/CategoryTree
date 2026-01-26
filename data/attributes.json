@@ -810,12 +810,6 @@
     "group": "physical_characteristics"
   },
   {
-    "code": "cooling_type",
-    "label-uk_UA": "Тип охолодження",
-    "type": "pim_catalog_simpleselect",
-    "group": "additionally"
-  },
-  {
     "code": "force_feedback",
     "label-uk_UA": "Зворотній зв'язок",
     "type": "pim_catalog_boolean",
@@ -19009,7 +19003,7 @@
   },
   {
     "code": "range_material_density_g_m2",
-    "label-uk_UA": "Щільність матеріалу, г/м2",
+    "label-uk_UA": "Щільність матеріалу, г/м²",
     "type": "pim_catalog_simpleselect",
     "group": "range_from_to"
   },
@@ -20239,13 +20233,13 @@
   },
   {
     "code": "season_tires",
-    "label-uk_UA": "Сезон шини",
+    "label-uk_UA": "Сезонність",
     "type": "pim_catalog_simpleselect",
     "group": "main"
   },
   {
     "code": "diameter_tires",
-    "label-uk_UA": "Діаметр шини",
+    "label-uk_UA": "Діаметр",
     "type": "pim_catalog_simpleselect",
     "group": "main"
   },
@@ -20371,7 +20365,7 @@
   },
   {
     "code": "year_of_tire_production",
-    "label-uk_UA": "Рік випуску шини",
+    "label-uk_UA": "Рік випуску",
     "type": "pim_catalog_simpleselect",
     "group": "main"
   },
@@ -20506,5 +20500,647 @@
     "label-uk_UA": "Матеріал",
     "type": "pim_catalog_multiselect",
     "group": "main_characteristics"
+  },
+  {
+    "code": "accessories_for_kitchen_appliances_compatibility",
+    "label-uk_UA": "Сумісність",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "accessories_for_kitchen_appliances_designation",
+    "label-uk_UA": "Тип пристрою",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "accessories_for_kitchen_appliances_type",
+    "label-uk_UA": "Тип аксесуару",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "infrared_obstacle_avoidance_compatibility",
+    "label-uk_UA": "Сумісність",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "infrared_obstacle_avoidance_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "infrared_obstacle_avoidance_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "energy_storage_system_nominal_power_k_w",
+    "label-uk_UA": "Номінальна потужність, кВт",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "energy_storage_system_maximum_power_k_w",
+    "label-uk_UA": "Максимальна потужність, кВт",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "energy_storage_system_battery_pack_capacity_k_wh",
+    "label-uk_UA": "Ємність блоку батарей, кВт·год",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "energy_storage_system_battery_voltage_v",
+    "label-uk_UA": "Напруга акумулятора, В",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "energy_storage_system_battery_type",
+    "label-uk_UA": "Тип акумулятора",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "energy_storage_system_maximum_expansion_in_terms_of_capacity_k_wh",
+    "label-uk_UA": "Максимальне розширення по ємності, кВт·год",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "energy_storage_system_number_of_life_cycles",
+    "label-uk_UA": "Кількість циклів життя",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "energy_storage_system_inverter_type",
+    "label-uk_UA": "Тип інвертора",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "energy_storage_system_number_of_batteries_included_pcs",
+    "label-uk_UA": "Кількість батарей у комплекті, шт.",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "energy_storage_system_number_of_phases",
+    "label-uk_UA": "Кількість фаз",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "energy_storage_system_number_of_mppt_pcs",
+    "label-uk_UA": "Кількість MPPT, шт.",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs"
+  },
+  {
+    "code": "energy_storage_system_installation_type",
+    "label-uk_UA": "Тип встановлення",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "energy_storage_system_scalability",
+    "label-uk_UA": "Можливість масштабування",
+    "type": "pim_catalog_boolean",
+    "group": "additional_features"
+  },
+  {
+    "code": "energy_storage_system_wireless_technologies",
+    "label-uk_UA": "Бездротові технології",
+    "type": "pim_catalog_multiselect",
+    "group": "technology_communications"
+  },
+  {
+    "code": "energy_storage_system_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally"
+  },
+  {
+    "code": "energy_storage_system_protection",
+    "label-uk_UA": "Захист",
+    "type": "pim_catalog_multiselect",
+    "group": "security"
+  },
+  {
+    "code": "energy_storage_system_weight_kg",
+    "label-uk_UA": "Вага, кг",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "accessories_for_action_cameras_battery_capacity_mah",
+    "label-uk_UA": "Ємність акумулятора, мАг",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "accessories_for_action_cameras_place_of_attachment",
+    "label-uk_UA": "Місце кріплення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "accessories_for_action_cameras_compatibility",
+    "label-uk_UA": "Сумісність",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "accessories_for_action_cameras_power_supply",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "accessories_for_action_cameras_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "studding",
+    "label-uk_UA": "Шипування",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "dry_food_for_cats_age_pets",
+    "label-uk_UA": "Вік тварини",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "dry_food_for_cats_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "dry_food_for_cats_feed_class",
+    "label-uk_UA": "Клас корму",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "dry_food_for_cats_main_ingredient",
+    "label-uk_UA": "Основні інгредієнти",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "dry_food_for_cats_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "range_dry_food_for_cats_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "dry_food_for_cats_type_of_feed",
+    "label-uk_UA": "Харчові особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "athletic_belts_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "athletic_belts_size",
+    "label-uk_UA": "Розмір",
+    "type": "pim_catalog_multiselect",
+    "group": "size"
+  },
+  {
+    "code": "cuffs_handles_and_slings_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "cuffs_handles_and_slings_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "cuffs_handles_and_slings_type_fixation",
+    "label-uk_UA": "Вид фіксації",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "cuffs_handles_and_slings_maximum_load_kg",
+    "label-uk_UA": "Максимальне навантаження, кг",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "bodybars_length",
+    "label-uk_UA": "Довжина",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "bodybars_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "bodybars_weight_product",
+    "label-uk_UA": "Вага виробу",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "trx_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "tripods_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "cross_fit_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "tripods_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "tripods_head",
+    "label-uk_UA": "Головка",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "tripods_head_type",
+    "label-uk_UA": "Тип головки",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "tripods_number_of_sections_pcs",
+    "label-uk_UA": "Кількість секцій, шт.",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "tripods_maximum_height_cm",
+    "label-uk_UA": "Максимальна висота, см",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "tripods_minimum_height_cm",
+    "label-uk_UA": "Мінімальна висота, см",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "tripods_folded_length_cm",
+    "label-uk_UA": "Довжина у складеному вигляді, см",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "tripods_maximum_load",
+    "label-uk_UA": "Максимальне навантаження",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "tripods_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "tripod_body_material",
+    "label-uk_UA": "Матеріал корпуса",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "tripod_weight_kg",
+    "label-uk_UA": "Вага, кг",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "tripod_supports",
+    "label-uk_UA": "Опори",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "boxing_bags_pears_mannequins_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "boxing_bags_pears_mannequins_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "griffey_type",
+    "label-uk_UA": "Тип грифа",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "griffey_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "griffey_weight",
+    "label-uk_UA": "Вага",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "insurance_systems_size_text",
+    "label-uk_UA": "Розмір",
+    "type": "pim_catalog_text",
+    "group": "size"
+  },
+  {
+    "code": "wet_food_for_cats_quantity_package_pcs",
+    "label-uk_UA": "Кількість в упаковці, шт.",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "wet_food_for_cats_age_pets",
+    "label-uk_UA": "Вік тварини",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "wet_food_for_cats_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "wet_food_for_cats_feed_class",
+    "label-uk_UA": "Клас корму",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "wet_food_for_cats_main_ingredient",
+    "label-uk_UA": "Основні інгредієнти",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "wet_food_for_cats_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "wet_food_for_cats_type_of_feed",
+    "label-uk_UA": "Харчові особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "wet_food_for_cats_view_of_feed",
+    "label-uk_UA": "Вид корму",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "range_wet_food_for_cats_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "massage_tables_maximum_weight",
+    "label-uk_UA": "Максимальна вага",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "massage_tables_construction",
+    "label-uk_UA": "Конструкція",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "massage_tables_frame_material",
+    "label-uk_UA": "Матеріал рами",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "massage_tables_number_sections",
+    "label-uk_UA": "Кількість секцій",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "massage_tables_upholstery_material",
+    "label-uk_UA": "Матеріал оббивки",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "massage_tables_method_regulation",
+    "label-uk_UA": "Спосіб регулювання",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "massage_tables_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "veterinary_diets_for_cats_age_pets",
+    "label-uk_UA": "Вік кота",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "veterinary_diets_for_cats_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "veterinary_diets_for_cats_feed_class",
+    "label-uk_UA": "Клас корму",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "veterinary_diets_for_cats_main_ingredient",
+    "label-uk_UA": "Основні інгредієнти",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "veterinary_diets_for_cats_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "veterinary_diets_for_cats_quantity_package_pcs",
+    "label-uk_UA": "Кількість в упаковці, шт.",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "range_veterinary_diets_for_cats_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "veterinary_diets_for_cats_type_of_feed",
+    "label-uk_UA": "Харчові особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "veterinary_diets_for_cats_view_of_feed",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "antiflood_systems_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "antiflood_systems_type_of_connection",
+    "label-uk_UA": "Тип підключення",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "antiflood_systems_compatibility",
+    "label-uk_UA": "Сумісність",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally"
+  },
+  {
+    "code": "antiflood_systems_data_transmission_technology",
+    "label-uk_UA": "Технологія передачі даних",
+    "type": "pim_catalog_simpleselect",
+    "group": "technology_communications"
+  },
+  {
+    "code": "antiflood_systems_number_of_sensors",
+    "label-uk_UA": "Кількість датчиків",
+    "type": "pim_catalog_simpleselect",
+    "group": "additionally"
+  },
+  {
+    "code": "antiflood_systems_notification_type",
+    "label-uk_UA": "Тип сповіщення",
+    "type": "pim_catalog_multiselect",
+    "group": "technology_communications"
+  },
+  {
+    "code": "gloves_for_boxing_and_martial_arts_gender",
+    "label-uk_UA": "Стать",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "gloves_for_boxing_and_martial_arts_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "gloves_for_boxing_and_martial_arts_size",
+    "label-uk_UA": "Розмір",
+    "type": "pim_catalog_multiselect",
+    "group": "size"
+  },
+  {
+    "code": "gloves_for_boxing_and_martial_arts_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "gloves_for_boxing_and_martial_arts_weight_un",
+    "label-uk_UA": "Вага, ун.",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "textile_kits_components",
+    "label-uk_UA": "Комплектація",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "roller_maximum_load",
+    "label-uk_UA": "Максимальне навантаження",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "roller_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "roller_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "tires_width",
+    "label-uk_UA": "Ширина",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
   }
 ]
