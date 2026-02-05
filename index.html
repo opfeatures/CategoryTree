@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Конфігуратор дерева категорій</title>
+    <title>Дерево категорій</title>
     <style>
         * {
             margin: 0;
@@ -595,7 +595,7 @@
 <body>
     <div class="login-screen" id="loginScreen">
         <div class="login-card">
-            <div class="login-header">Конфігуратор категорій</div>
+            <div class="login-header">Дерево категорій</div>
             <form id="loginForm">
                 <label for="usernameInput">Логін</label>
                 <input type="text" id="usernameInput" autocomplete="username" placeholder="Введіть логін" required>
@@ -612,7 +612,7 @@
             <span class="profile-label">Профіль: <span class="profile-role" id="profileRole"></span></span>
             <button class="logout-btn" id="logoutBtn">Вихід</button>
         </div>
-        <h1>Конфігуратор дерева категорій</h1>
+        <h1>Дерево категорій</h1>
         <p class="subtitle">Сконфігуруйте та згенеруйте файли для вивантаження дерева категорій</p>
 
         <div id="uploadSectionContainer">
@@ -649,14 +649,14 @@
 
         <div class="control-grid">
             <div class="panel family-panel">
-                <h3>Фільтр категорій</h3>
+                <h3>Фільтр фемілі</h3>
                 <input type="text" id="familySearchInput" class="search-input" placeholder="Пошук за назвою або кодом"
                     disabled>
                 <div class="family-toolbar">
                     <button class="mini-btn primary" id="familySelectAllBtn" disabled>Обрати всі</button>
                     <button class="mini-btn" id="familyClearBtn" disabled>Очистити вибір</button>
                 </div>
-                <div class="info-text" id="familySelectionInfo">Завантажте файл категорій, щоб сформувати список.</div>
+                <div class="info-text" id="familySelectionInfo">Завантажте файл фемілі, щоб сформувати список.</div>
                 <div class="family-list" id="familyList">
                     <div class="empty-state">Список порожній</div>
                 </div>
@@ -693,7 +693,7 @@
             <div class="progress-bar">
                 <div class="progress-fill" id="progressFill"></div>
             </div>
-            <div class="progress-text" id="progressText">Обробка категорії 0...</div>
+            <div class="progress-text" id="progressText">Обробка фемілії 0...</div>
         </div>
 
         <div class="preview" id="preview">
@@ -734,11 +734,11 @@
             }
         ];
         const EMBEDDED_ATTRIBUTE_DATA = [
-            { code: 'brand', 'label-uk_UA': 'Бренд', type: 'pim_catalog_simpleselect', group: 'general' },
-            { code: 'smartphones_operating_system', 'label-uk_UA': 'Операційна система', type: 'pim_catalog_simpleselect', group: 'additionally' },
-            { code: 'smartphones_ram_amount', 'label-uk_UA': 'Оперативна памʼять, ГБ', type: 'pim_catalog_number', group: 'technical' },
-            { code: 'portable_capacity', 'label-uk_UA': 'Ємність батареї, Вт·год', type: 'pim_catalog_number', group: 'technical' },
-            { code: 'power_output', 'label-uk_UA': 'Пікова потужність, Вт', type: 'pim_catalog_number', group: 'technical' }
+            { code: 'brand', 'label-uk_UA': 'Бренд', type: 'pim_catalog_simpleselect', group: 'general', 'guidelines-ru_RU': 'Вкажіть виробника товару' },
+            { code: 'smartphones_operating_system', 'label-uk_UA': 'Операційна система', type: 'pim_catalog_simpleselect', group: 'additionally', 'guidelines-ru_RU': 'Без цифр – лише назва ОС' },
+            { code: 'smartphones_ram_amount', 'label-uk_UA': 'Оперативна памʼять, ГБ', type: 'pim_catalog_number', group: 'technical', 'guidelines-ru_RU': 'Тільки число, без одиниць виміру' },
+            { code: 'portable_capacity', 'label-uk_UA': 'Ємність батареї, Вт·год', type: 'pim_catalog_number', group: 'technical', 'guidelines-ru_RU': 'Використовуйте значення в Вт·год' },
+            { code: 'power_output', 'label-uk_UA': 'Пікова потужність, Вт', type: 'pim_catalog_number', group: 'technical', 'guidelines-ru_RU': 'Максимальна потужність пристрою' }
         ];
         const EMBEDDED_VALUE_DATA = [
             { code: 'apple', 'label-uk_UA': 'Apple', attribute: 'brand' },
@@ -764,6 +764,7 @@
             { key: 'attributeLabel', label: 'Назва атрибуту' },
             { key: 'attributeType', label: 'Тип атрибуту' },
             { key: 'attributeRequirement', label: 'Обовʼязковість атрибуту' },
+            { key: 'attributeGuidelines', label: 'Гайдлайни', adminOnly: true },
             { key: 'valueCode', label: 'Код значення' },
             { key: 'valueLabel', label: 'Значення' }
         ];
@@ -820,7 +821,7 @@
         let familySearchTerm = '';
         let activeFamilies = [];
         const exportSettings = EXPORT_COLUMNS.reduce((acc, col) => {
-            acc[col.key] = true;
+            acc[col.key] = !col.adminOnly;
             return acc;
         }, {});
 
@@ -964,13 +965,22 @@
         }
 
         function getActiveColumns() {
-            return EXPORT_COLUMNS.filter(col => exportSettings[col.key]);
+            return EXPORT_COLUMNS.filter(col => {
+                if (col.adminOnly && currentRole !== 'admin') {
+                    return false;
+                }
+                return !!exportSettings[col.key];
+            });
         }
 
         function renderSettingsControls() {
             if (!settingsGrid) return;
             settingsGrid.innerHTML = '';
             EXPORT_COLUMNS.forEach(column => {
+                if (column.adminOnly && currentRole !== 'admin') {
+                    exportSettings[column.key] = false;
+                    return;
+                }
                 const wrapper = document.createElement('label');
                 wrapper.className = 'settings-item';
                 const checkbox = document.createElement('input');
@@ -993,7 +1003,7 @@
             if (!familySelectionInfo) return;
             const total = familyListData.length;
             if (!total) {
-                familySelectionInfo.textContent = 'Завантажте файл категорії, щоб сформувати список.';
+                familySelectionInfo.textContent = 'Завантажте файл фемілі, щоб сформувати список.';
                 familySearchInput.disabled = true;
                 familySelectAllBtn.disabled = true;
                 familyClearBtn.disabled = true;
@@ -1003,7 +1013,7 @@
             familySelectAllBtn.disabled = false;
             familyClearBtn.disabled = false;
             const selected = selectedFamilyCodes.size;
-            familySelectionInfo.textContent = `Обрано ${selected} з ${total} категорій`;
+            familySelectionInfo.textContent = `Обрано ${selected} з ${total} фемілій`;
         }
 
         function renderFamilyList() {
@@ -1142,7 +1152,8 @@
                     code: cleanValue(attr.code || ''),
                     'label-uk_UA': attr['label-uk_UA'] || '',
                     type: attr.type || '',
-                    group: attr.group || ''
+                    group: attr.group || '',
+                    'guidelines-ru_RU': attr['guidelines-ru_RU'] || ''
                 }));
 
             const allowedAttributeCodes = new Set(attributes.map(attr => attr.code));
@@ -1248,6 +1259,10 @@
             const attributeTypeRaw = getAttributeType(attribute);
             const attributeType = getAttributeTypeLabel(attributeTypeRaw) || attributeTypeRaw || '';
             const requirementText = isRequired ? 'Обовʼязковий' : '';
+            const includeGuidelines = currentRole === 'admin' && !!exportSettings.attributeGuidelines;
+            const guidelineText = includeGuidelines
+                ? (attribute.guidelines || attribute['guidelines-ru_RU'] || '')
+                : '';
 
             if (includeValues && values && values.length > 0) {
                 for (const value of values) {
@@ -1258,6 +1273,7 @@
                         attributeLabel,
                         attributeType,
                         attributeRequirement: requirementText,
+                        attributeGuidelines: guidelineText,
                         valueCode: cleanValue(value.code || ''),
                         valueLabel: getValueLabel(value)
                     });
@@ -1270,6 +1286,7 @@
                     attributeLabel,
                     attributeType,
                     attributeRequirement: requirementText,
+                    attributeGuidelines: guidelineText,
                     valueCode: '',
                     valueLabel: ''
                 });
@@ -1502,7 +1519,7 @@
         function downloadEmbeddedDataFile() {
             const payload = buildEmbeddedPayload();
             if (!payload.families.length) {
-                showError('Оберіть категорії для формування даних');
+                showError('Оберіть фемілії для формування даних');
                 return;
             }
 
@@ -1524,7 +1541,7 @@
             }
 
             if (!downloaded) {
-                showError('Для вибраних категорій немає даних атрибутів або значень');
+                showError('Для вибраних фемілій немає даних атрибутів або значень');
                 return;
             }
 
@@ -1595,6 +1612,7 @@
                     label: cleanValue(getFieldValue(attr, 'label-uk_ua')),
                     type: cleanValue(getFieldValue(attr, 'type'), true),
                     group: cleanValue(getFieldValue(attr, 'group'), true),
+                    guidelines: cleanValue(getFieldValue(attr, 'guidelines-ru_RU')),
                     original: attr
                 };
 
@@ -1696,6 +1714,7 @@
                     const includeAttributeLabel = !!exportSettings.attributeLabel;
                     const includeAttributeType = !!exportSettings.attributeType;
                     const includeAttributeRequired = !!exportSettings.attributeRequirement;
+                    const includeAttributeGuidelines = currentRole === 'admin' && !!exportSettings.attributeGuidelines;
                     const includeValueCode = !!exportSettings.valueCode;
                     const includeValueLabel = !!exportSettings.valueLabel;
                     const includeValueFields = includeValueCode || includeValueLabel;
@@ -1758,6 +1777,7 @@
                                 const attrType = escapeXml(attrTypeLabel);
                                 const isRequired = requiredSet.has(attrCode);
                                 const requirementText = isRequired ? 'Обовʼязковий' : '';
+                                const attrGuidelines = attribute.guidelines || attribute['guidelines-ru_RU'] || '';
 
                                 let attributeOpen = '<attribute';
                                 if (includeAttributeCode) {
@@ -1776,6 +1796,9 @@
                                 }
                                 if (includeAttributeRequired && requirementText && !includeAttributeType) {
                                     addLine(xmlParts, 4, `<required>${requirementText}</required>`);
+                                }
+                                if (includeAttributeGuidelines && attrGuidelines) {
+                                    addLine(xmlParts, 4, `<guidelines>${escapeXml(attrGuidelines)}</guidelines>`);
                                 }
 
                                 const values = findValuesByAttributeCode(attrCode);
@@ -1812,7 +1835,7 @@
                             }
 
                             currentIndex++;
-                            updateProgress(currentIndex, totalFamilies, `Обробка категорії ${currentIndex} з ${totalFamilies}...`);
+                            updateProgress(currentIndex, totalFamilies, `Обробка фемілії ${currentIndex} з ${totalFamilies}...`);
                         }
 
                         if (currentIndex < totalFamilies) {
@@ -1824,7 +1847,7 @@
                         }
                     };
 
-                    updateProgress(0, totalFamilies, `Обробка категорії 0 з ${totalFamilies}...`);
+                    updateProgress(0, totalFamilies, `Обробка фемілії 0 з ${totalFamilies}...`);
                     processBatch();
                 } catch (error) {
                     reject(new Error('Помилка генерації XML: ' + error.message));
@@ -1839,6 +1862,7 @@
                     const includeAttributeLabel = !!exportSettings.attributeLabel;
                     const includeAttributeType = !!exportSettings.attributeType;
                     const includeAttributeRequired = !!exportSettings.attributeRequirement;
+                    const includeAttributeGuidelines = currentRole === 'admin' && !!exportSettings.attributeGuidelines;
                     const includeValueFields = exportSettings.valueCode || exportSettings.valueLabel;
                     const xmlParts = [];
                     addLine(xmlParts, 0, '<?xml version="1.0" encoding="UTF-8"?>');
@@ -1897,6 +1921,7 @@
                                 const values = findValuesByAttributeCode(attrCode);
                                 const isRequired = requiredSet.has(attrCode);
                                 const requirementText = isRequired ? 'Обовʼязковий' : '';
+                                const attrGuidelines = attribute.guidelines || attribute['guidelines-ru_RU'] || '';
                                 appendExportRows(family, attribute, values, isRequired, includeValueFields);
                                 let attributeLine = '<attribute';
                                 if (includeAttributeLabel) {
@@ -1907,6 +1932,9 @@
                                 }
                                 if (includeAttributeRequired && requirementText) {
                                     attributeLine += ` required="${requirementText}"`;
+                                }
+                                if (includeAttributeGuidelines && attrGuidelines) {
+                                    attributeLine += ` guidelines="${escapeXml(attrGuidelines)}"`;
                                 }
                                 attributeLine += ' />';
                                 addLine(xmlParts, 3, attributeLine);
@@ -1919,7 +1947,7 @@
                             }
 
                             currentIndex++;
-                            updateProgress(currentIndex, totalFamilies, `Обробка категорії ${currentIndex} з ${totalFamilies}...`);
+                            updateProgress(currentIndex, totalFamilies, `Обробка фемілії ${currentIndex} з ${totalFamilies}...`);
                         }
 
                         if (currentIndex < totalFamilies) {
@@ -1931,7 +1959,7 @@
                         }
                     };
 
-                    updateProgress(0, totalFamilies, `Обробка категорії 0 з ${totalFamilies}...`);
+                    updateProgress(0, totalFamilies, `Обробка фемілії 0 з ${totalFamilies}...`);
                     processBatch();
                 } catch (error) {
                     reject(new Error('Помилка генерації XML: ' + error.message));
@@ -1948,7 +1976,7 @@
             try {
                 const families = getFilteredFamilies();
                 if (!families.length) {
-                    showError('Оберіть щонайменше одну категорію для генерації');
+                    showError('Оберіть щонайменше одну фемілію для генерації');
                     return;
                 }
                 activeFamilies = families;
@@ -2018,7 +2046,11 @@
         if (settingsSelectAllBtn) {
             settingsSelectAllBtn.addEventListener('click', () => {
                 EXPORT_COLUMNS.forEach(col => {
-                    exportSettings[col.key] = true;
+                    if (col.adminOnly && currentRole !== 'admin') {
+                        exportSettings[col.key] = false;
+                    } else {
+                        exportSettings[col.key] = true;
+                    }
                 });
                 renderSettingsControls();
                 updateExportButtonsState();
@@ -2043,6 +2075,16 @@
             if (profileRoleText) {
                 profileRoleText.textContent = ROLE_NAMES[role] || role;
             }
+            EXPORT_COLUMNS.forEach(col => {
+                if (col.adminOnly && role !== 'admin') {
+                    exportSettings[col.key] = false;
+                }
+            });
+            if (role === 'admin' && Object.prototype.hasOwnProperty.call(exportSettings, 'attributeGuidelines')) {
+                exportSettings.attributeGuidelines = true;
+            }
+            renderSettingsControls();
+            updateExportButtonsState();
             localStorage.setItem(LOCAL_ROLE_KEY, role);
             initializeData();
         }
@@ -2086,7 +2128,7 @@
                 checkAllFilesLoaded();
                 prepareFamilySelection();
             } catch (error) {
-                showError('Помилка завантаження файлу категорії: ' + error.message);
+                showError('Помилка завантаження файлу фемілі: ' + error.message);
             }
         });
 
