@@ -2502,34 +2502,10 @@
     "group": "main_characteristics"
   },
   {
-    "code": "weight_of_the_animal",
-    "label-uk_UA": "Вага тварини",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics"
-  },
-  {
     "code": "age_group",
     "label-uk_UA": "Вікова група",
     "type": "pim_catalog_text",
     "group": "additionally"
-  },
-  {
-    "code": "back_length",
-    "label-uk_UA": "Довжина спини",
-    "type": "pim_catalog_simpleselect",
-    "group": "size"
-  },
-  {
-    "code": "chest_girth",
-    "label-uk_UA": "Обхват грудей",
-    "type": "pim_catalog_simpleselect",
-    "group": "size"
-  },
-  {
-    "code": "neck_girth",
-    "label-uk_UA": "Обхват шиї",
-    "type": "pim_catalog_simpleselect",
-    "group": "size"
   },
   {
     "code": "maximum_flow_rate",
@@ -2548,12 +2524,6 @@
     "label-uk_UA": "Максимальна вага улюбленця",
     "type": "pim_catalog_text",
     "group": "parametrs"
-  },
-  {
-    "code": "girth",
-    "label-uk_UA": "Обхват",
-    "type": "pim_catalog_simpleselect",
-    "group": "size"
   },
   {
     "code": "the_size_workspace",
@@ -6738,12 +6708,6 @@
     "group": "main_characteristics"
   },
   {
-    "code": "prescribingan_antiparasitic_drug_for_azoo",
-    "label-uk_UA": "Призначення",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics"
-  },
-  {
     "code": "surge_protectors_power_strips_type",
     "label-uk_UA": "Тип",
     "type": "pim_catalog_simpleselect",
@@ -10423,7 +10387,7 @@
   },
   {
     "code": "snowboard_skulls_size",
-    "label-uk_UA": "Розмір",
+    "label-uk_UA": "Розмір, см",
     "type": "pim_catalog_multiselect",
     "group": "size"
   },
@@ -18294,12 +18258,6 @@
     "group": "main"
   },
   {
-    "code": "antiparasitic_drugs_fordogs_breed_size",
-    "label-uk_UA": "Розмір породи",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics"
-  },
-  {
     "code": "printers_designation",
     "label-uk_UA": "Призначення",
     "type": "pim_catalog_multiselect",
@@ -19428,6 +19386,12 @@
     "group": "additional_features"
   },
   {
+    "code": "tourist_tableware_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
     "code": "trimmers_clothes_max_rotation_speed",
     "label-uk_UA": "Макс. швидкість обертання",
     "type": "pim_catalog_multiselect",
@@ -20244,38 +20208,8 @@
     "group": "main"
   },
   {
-    "code": "width_tires",
-    "label-uk_UA": "Ширина шини",
-    "type": "pim_catalog_simpleselect",
-    "group": "main"
-  },
-  {
-    "code": "profile_tires",
-    "label-uk_UA": "Профіль шини",
-    "type": "pim_catalog_simpleselect",
-    "group": "main"
-  },
-  {
-    "code": "speed_index_tires",
-    "label-uk_UA": "Індекс швидкості шини",
-    "type": "pim_catalog_simpleselect",
-    "group": "main"
-  },
-  {
     "code": "load_index_tires",
-    "label-uk_UA": "Індекс навантаження шини",
-    "type": "pim_catalog_simpleselect",
-    "group": "main"
-  },
-  {
-    "code": "tread_type_tires",
-    "label-uk_UA": "Тип протектору шини",
-    "type": "pim_catalog_simpleselect",
-    "group": "main"
-  },
-  {
-    "code": "type_vehicle_tires",
-    "label-uk_UA": "Тип Т/З шини",
+    "label-uk_UA": "Індекс навантаження",
     "type": "pim_catalog_simpleselect",
     "group": "main"
   },
@@ -20383,12 +20317,6 @@
   },
   {
     "code": "soft_places_for_cats_features",
-    "label-uk_UA": "Особливості",
-    "type": "pim_catalog_multiselect",
-    "group": "additional_features"
-  },
-  {
-    "code": "dishes_for_cats_features",
     "label-uk_UA": "Особливості",
     "type": "pim_catalog_multiselect",
     "group": "additional_features"
@@ -20850,12 +20778,6 @@
     "group": "physical_characteristics"
   },
   {
-    "code": "tripod_weight_kg",
-    "label-uk_UA": "Вага, кг",
-    "type": "pim_catalog_simpleselect",
-    "group": "size"
-  },
-  {
     "code": "tripod_supports",
     "label-uk_UA": "Опори",
     "type": "pim_catalog_multiselect",
@@ -21084,6 +21006,18 @@
     "group": "technology_communications"
   },
   {
+    "code": "scratching_posts_for_cats_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "scratching_posts_for_cats_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
     "code": "gloves_for_boxing_and_martial_arts_gender",
     "label-uk_UA": "Стать",
     "type": "pim_catalog_multiselect",
@@ -21142,5 +21076,1253 @@
     "label-uk_UA": "Ширина",
     "type": "pim_catalog_multiselect",
     "group": "main"
+  },
+  {
+    "code": "tires_profile",
+    "label-uk_UA": "Профіль",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "tires_type_vehicle",
+    "label-uk_UA": "Тип Т/З",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "tires_speed_index",
+    "label-uk_UA": "Індекс швидкості",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "range_tires_load_index",
+    "label-uk_UA": "Індекс навантаження",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "tires_tread_type",
+    "label-uk_UA": "Тип протектору",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "cat_treats_age_pets",
+    "label-uk_UA": "Вік тварини",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "cat_treats_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "cat_treats_main_ingredient",
+    "label-uk_UA": "Основні інгредієнти",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "cat_treats_type_of_delicacy",
+    "label-uk_UA": "Вид ласощів",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "cat_treats_type_of_feed",
+    "label-uk_UA": "Харчові особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "scratching_posts_for_cats_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "range_scratcher_height",
+    "label-uk_UA": "Висота",
+    "type": "pim_catalog_multiselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "bags_carriers_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "bags_carriers_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally"
+  },
+  {
+    "code": "range_max_pet_weight",
+    "label-uk_UA": "Максимальна вага улюбленця",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "dogs_size_of_the_breed",
+    "label-uk_UA": "Розмір породи",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "dry_food_for_dogs_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "dry_food_for_dogs_feed_class",
+    "label-uk_UA": "Клас корму",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "dry_food_for_dogs_main_ingredient",
+    "label-uk_UA": "Основні інгредієнти",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "dry_food_for_dogs_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "range_dry_food_for_dogs_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "dry_food_for_dogs_type_of_feed",
+    "label-uk_UA": "Харчові особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "age_pets_main",
+    "label-uk_UA": "Вік тварини",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "dog_clothes_back_length",
+    "label-uk_UA": "Довжина спини",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "dog_clothes_chest_girth",
+    "label-uk_UA": "Обхват грудей",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "dog_clothes_neck_girth",
+    "label-uk_UA": "Обхват шиї",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "dog_clothes_size",
+    "label-uk_UA": "Розмір одягу",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "dog_clothes_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "dishes_dogs_cats_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "range_dishes_dogs_cats_volume",
+    "label-uk_UA": "Об'єм",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "dishes_dogs_cats_number_of_bowls",
+    "label-uk_UA": "Кількість мисок",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "dishes_dogs_cats_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "dishes_dogs_cats_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "dog_clothes_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally"
+  },
+  {
+    "code": "range_dog_clothes_size",
+    "label-uk_UA": "Розмір одягу",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "car_batteries_capacity_akumuliator_ah",
+    "label-uk_UA": "Ємність акумулятора, Аг",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "car_batteries_starting_current",
+    "label-uk_UA": "Пусковий струм, А",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "car_batteries_battery_voltage",
+    "label-uk_UA": "Напруга акумулятора",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "car_batteries_type",
+    "label-uk_UA": "Тип акумулятора",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "car_batteries_vehicle_type",
+    "label-uk_UA": "Тип транспорту",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "car_batteries_terminal_placement",
+    "label-uk_UA": "Розташування клем",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "car_batteries_terminal_type",
+    "label-uk_UA": "Тип клем",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "car_batteries_case_design",
+    "label-uk_UA": "Виконання корпусу",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "car_batteries_level_of_service",
+    "label-uk_UA": "Ступінь обслуговування",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "wet_food_for_dogs_quantity_package_pcs",
+    "label-uk_UA": "Кількість в упаковці, шт.",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "wet_food_for_dogs_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "wet_food_for_dogs_feed_class",
+    "label-uk_UA": "Клас корму",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "wet_food_for_dogs_main_ingredient",
+    "label-uk_UA": "Основні інгредієнти",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "wet_food_for_dogs_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "wet_food_for_dogs_type_of_feed",
+    "label-uk_UA": "Харчові особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "wet_food_for_dogs_view_of_feed",
+    "label-uk_UA": "Вид корму",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "range_wet_food_for_dogs_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "car_batteries_type_fastening",
+    "label-uk_UA": "Тип кріплення",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "dogs_size_of_the_breed_main",
+    "label-uk_UA": "Розмір породи",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "switches_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "veterinary_diets_for_dogs_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "veterinary_diets_for_dogs_feed_class",
+    "label-uk_UA": "Клас корму",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "veterinary_diets_for_dogs_main_ingredient",
+    "label-uk_UA": "Основні інгредієнти",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "veterinary_diets_for_dogs_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "range_veterinary_diets_for_dogs_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "veterinary_diets_for_dogs_type_of_feed",
+    "label-uk_UA": "Харчові особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "veterinary_diets_for_dogs_view_of_feed",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "vitamins_supplements_dogs_cats_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "vitamins_supplements_dogs_cats_form",
+    "label-uk_UA": "Форма",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "switches_poe_support",
+    "label-uk_UA": "Підтримка POE",
+    "type": "pim_catalog_boolean",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "switches_number_of_lan_ports",
+    "label-uk_UA": "Кількість портів LAN",
+    "type": "pim_catalog_simpleselect",
+    "group": "ports_connectors"
+  },
+  {
+    "code": "switches_number_of_sfp_ports",
+    "label-uk_UA": "Кількість портів SFP",
+    "type": "pim_catalog_simpleselect",
+    "group": "ports_connectors"
+  },
+  {
+    "code": "switches_port_speed",
+    "label-uk_UA": "Швидкість портів",
+    "type": "pim_catalog_simpleselect",
+    "group": "ports_connectors"
+  },
+  {
+    "code": "switches_number_of_poe_ports",
+    "label-uk_UA": "Кількість портів POE",
+    "type": "pim_catalog_simpleselect",
+    "group": "ports_connectors"
+  },
+  {
+    "code": "switches_poe_budget",
+    "label-uk_UA": "Бюджет POE",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "switches_mac_address_table_size",
+    "label-uk_UA": "Розмір таблиці MAC-адрес",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "range_saddle_width",
+    "label-uk_UA": "Ширина сідла",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to"
+  },
+  {
+    "code": "dog_treats_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "dog_treats_main_ingredient",
+    "label-uk_UA": "Основні інгредієнти",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "dog_treats_size_international",
+    "label-uk_UA": "Розмір виробу",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "dog_treats_type_of_delicacy",
+    "label-uk_UA": "Вид ласощів",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "dog_treats_type_of_feed",
+    "label-uk_UA": "Харчові особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "screwdrivers_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "screwdrivers_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "screwdrivers_operating_mode",
+    "label-uk_UA": "Режим роботи",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "screwdrivers_engine_type",
+    "label-uk_UA": "Тип двигуна",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "screwdrivers_class",
+    "label-uk_UA": "Клас",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "screwdrivers_power_w",
+    "label-uk_UA": "Потужність, Вт",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "screwdrivers_max_torque_nm",
+    "label-uk_UA": "Макс. крутний момент, Нм",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "screwdrivers_number_of_revolutions_rpm",
+    "label-uk_UA": "Кількість обертів, об/хв",
+    "type": "pim_catalog_text",
+    "group": "main"
+  },
+  {
+    "code": "screwdrivers_stroke_rate_strokes_per_minute",
+    "label-uk_UA": "Швидкість ударів, уд/хв",
+    "type": "pim_catalog_text",
+    "group": "main"
+  },
+  {
+    "code": "screwdrivers_battery_type",
+    "label-uk_UA": "Тип акумулятора",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "screwdrivers_battery_voltage_v",
+    "label-uk_UA": "Напруга акумулятора, В",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "screwdrivers_number_of_batteries_pcs",
+    "label-uk_UA": "Кількість акумуляторів, шт",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "screwdrivers_number_of_speeds",
+    "label-uk_UA": "Кількість швидкостей",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "screwdrivers_chuck_type",
+    "label-uk_UA": "Тип патрона",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "screwdrivers_chuck_diameter",
+    "label-uk_UA": "Діаметр патрона",
+    "type": "pim_catalog_text",
+    "group": "additional_features"
+  },
+  {
+    "code": "screwdrivers_features_and_capabilities",
+    "label-uk_UA": "Функції та можливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "screwdrivers_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "screwdrivers_weight_kg",
+    "label-uk_UA": "Вага, кг",
+    "type": "pim_catalog_text",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "sketchbooks_format",
+    "label-uk_UA": "Формат",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "sketchbooks_ruling",
+    "label-uk_UA": "Лініювання",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "sketchbooks_cover",
+    "label-uk_UA": "Обкладинка",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "antiparasitic_drugs_fordog_and_cats_form",
+    "label-uk_UA": "Форма",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "antiparasitic_drugs_fordog_and_cats_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "switches_standard_ieee",
+    "label-uk_UA": "Стандарт IEEE",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters"
+  },
+  {
+    "code": "running_systems_shoe_size",
+    "label-uk_UA": "Розмір",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "accessories_for_coffee_makers_coffee_machines_accessory_type",
+    "label-uk_UA": "Тип акесесуару",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "accessories_for_coffee_makers_coffee_machines_appointment",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "accessories_for_coffee_makers_coffee_machines_quantity",
+    "label-uk_UA": "Кількість",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "accessories_for_coffee_makers_coffee_machines_volume",
+    "label-uk_UA": "Об'єм",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "veterinary_preparations_for_dogs_n_cats_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "veterinary_preparations_for_dogs_n_cats_form",
+    "label-uk_UA": "Форма",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "veterinary_preparations_for_dogs_n_cats_for_whom",
+    "label-uk_UA": "Для кого",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "veterinary_preparations_for_dogs_n_cats_size_international",
+    "label-uk_UA": "Розмір виробу",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "veterinary_preparations_for_dogs_n_cats_weight_of_the_animal",
+    "label-uk_UA": "Вага тварини",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "angle_grinder_class",
+    "label-uk_UA": "Клас",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "angle_grinder_motor_type",
+    "label-uk_UA": "Тип двигуна",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "angle_grinder_power_supply_type",
+    "label-uk_UA": "Тип живлення",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "angle_grinder_disc_diameter_mm",
+    "label-uk_UA": "Діаметр диска, мм",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "angle_grinder_power_w",
+    "label-uk_UA": "Потужність, Вт",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "angle_grinder_number_of_revolutions_rpm",
+    "label-uk_UA": "Кількість обертів, об/хв",
+    "type": "pim_catalog_text",
+    "group": "main"
+  },
+  {
+    "code": "angle_grinder_speed_control",
+    "label-uk_UA": "Регулювання обертів",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "angle_grinder_battery_type",
+    "label-uk_UA": "Тип акумулятора",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "pictures_behind_the_numbers_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "angle_grinder_battery_voltage_v",
+    "label-uk_UA": "Напруга акумулятора, В",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "angle_grinder_battery_capacity_ah",
+    "label-uk_UA": "Ємність акумулятора, А·год",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "angle_grinder_number_of_batteries_pcs",
+    "label-uk_UA": "Кількість акумуляторів, шт",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "angle_grinder_features_and_capabilities",
+    "label-uk_UA": "Функції та можливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "angle_grinder_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "angle_grinder_protection",
+    "label-uk_UA": "Захист",
+    "type": "pim_catalog_multiselect",
+    "group": "security"
+  },
+  {
+    "code": "angle_grinder_spindle_thread",
+    "label-uk_UA": "Різьба шпинделя",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "angle_grinder_weight_kg",
+    "label-uk_UA": "Вага, кг",
+    "type": "pim_catalog_text",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "dogs_ammunition_chest_girth",
+    "label-uk_UA": "Обхват грудей",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "dogs_ammunition_girth",
+    "label-uk_UA": "Обхват",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "dogs_ammunition_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "dogs_ammunition_size_international",
+    "label-uk_UA": "Розмір виробу",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "dogs_ammunition_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "dogs_ammunition_weight_of_the_animal",
+    "label-uk_UA": "Вага тварини",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "dogs_ammunition_for_whom",
+    "label-uk_UA": "Для кого",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "cat_ammunition_age_pets",
+    "label-uk_UA": "Вік тварини",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "cat_ammunition_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "cat_ammunition_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "board_games_adults_age_group",
+    "label-uk_UA": "Вікова група",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "board_games_adults_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "autoaxesuits_for_dogs_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "autoaxesuits_for_dogs_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "snowboard_skulls_size_shoes",
+    "label-uk_UA": "Розмір",
+    "type": "pim_catalog_multiselect",
+    "group": "size"
+  },
+  {
+    "code": "all_for_walking_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "all_for_walking_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "all_for_walking_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "punching_machines_operating_modes",
+    "label-uk_UA": "Режими роботи",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "punching_machines_class",
+    "label-uk_UA": "Клас",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "punching_machines_power_supply_type",
+    "label-uk_UA": "Тип живлення",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "punching_machines_construction",
+    "label-uk_UA": "Конструкція",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "punching_machines_power_w",
+    "label-uk_UA": "Потужність, Вт",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "punching_machines_impact_force_j",
+    "label-uk_UA": "Сила удару, Дж",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "punching_machines_number_of_revolutions_rpm",
+    "label-uk_UA": "Кількість обертів, об/хв",
+    "type": "pim_catalog_text",
+    "group": "main"
+  },
+  {
+    "code": "punching_machines_number_of_strokes_min",
+    "label-uk_UA": "Кількість ударів/хв",
+    "type": "pim_catalog_text",
+    "group": "main"
+  },
+  {
+    "code": "punching_machines_maximum_concrete_drilling_diameter",
+    "label-uk_UA": "Максимальний діаметр свердління бетону",
+    "type": "pim_catalog_text",
+    "group": "additional_features"
+  },
+  {
+    "code": "punching_machines_cartridge_type",
+    "label-uk_UA": "Тип патрона",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "punching_machines_battery_type",
+    "label-uk_UA": "Тип акумулятора",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "punching_machines_battery_voltage_v",
+    "label-uk_UA": "Напруга акумулятора, В",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "punching_machines_battery_capacity_ah",
+    "label-uk_UA": "Ємність акумулятора, А·год",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "punching_machines_number_of_batteries_pcs",
+    "label-uk_UA": "Кількість акумуляторів, шт",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "punching_machines_features_and_capabilities",
+    "label-uk_UA": "Функції та можливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "punching_machines_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "punching_machines_weight_kg",
+    "label-uk_UA": "Вага, кг",
+    "type": "pim_catalog_text",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "clothes_for_cats_season_pet",
+    "label-uk_UA": "Сезон",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "clothes_for_cats_sex_pets",
+    "label-uk_UA": "Стать",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "clothes_for_cats_size_international",
+    "label-uk_UA": "Розмір",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "clothes_for_cats_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "season_pet_main",
+    "label-uk_UA": "Сезон",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "sex_pets_main",
+    "label-uk_UA": "Стать",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "shoes_for_dogs_size",
+    "label-uk_UA": "Розмір взуття",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "shoes_for_dogs_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "dog_accessories_size_international",
+    "label-uk_UA": "Розмір виробу",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "dog_accessories_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main"
+  },
+  {
+    "code": "towels_and_robes_for_dogs_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "towels_and_robes_for_dogs_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "towels_and_robes_for_dogs_size_international",
+    "label-uk_UA": "Розмір виробу",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "towels_and_robes_for_dogs_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "repair_kits_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "repair_kits_purpose",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "for_whom_pets",
+    "label-uk_UA": "Для кого",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "dog_toys_features_pets",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "dog_toys_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "dog_toys_size_international",
+    "label-uk_UA": "Розмір виробу",
+    "type": "pim_catalog_simpleselect",
+    "group": "size"
+  },
+  {
+    "code": "dog_toys_type_pets",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "screwdrivers_battery_capacity",
+    "label-uk_UA": "Ємність акумулятора, А·год",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "drills_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "drills_power_supply_type",
+    "label-uk_UA": "Тип живлення",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "drills_class",
+    "label-uk_UA": "Клас",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "drills_power_w",
+    "label-uk_UA": "Потужність, Вт",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "drills_max_torque_nm",
+    "label-uk_UA": "Макс. крутний момент, Нм",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "drills_number_of_revolutions_rpm",
+    "label-uk_UA": "Кількість обертів, об/хв",
+    "type": "pim_catalog_text",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "drills_stroke_rate_strokes_per_minute",
+    "label-uk_UA": "Швидкість ударів, уд/хв",
+    "type": "pim_catalog_text",
+    "group": "main_characteristics"
+  },
+  {
+    "code": "drills_max_concrete_drilling_diameter",
+    "label-uk_UA": "Макс. діаметр свердління бетону",
+    "type": "pim_catalog_text",
+    "group": "additionally"
+  },
+  {
+    "code": "drills_max_wood_drilling_diameter",
+    "label-uk_UA": "Макс. діаметр свердління деревини",
+    "type": "pim_catalog_text",
+    "group": "additionally"
+  },
+  {
+    "code": "drills_max_drilling_diameter_in_metal",
+    "label-uk_UA": "Макс. діаметр свердління у металі",
+    "type": "pim_catalog_text",
+    "group": "additionally"
+  },
+  {
+    "code": "drills_battery_type",
+    "label-uk_UA": "Тип акумулятора",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "drills_battery_voltage_v",
+    "label-uk_UA": "Напруга акумулятора, В",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "drills_battery_capacity_ah",
+    "label-uk_UA": "Ємність акумулятора, А·год",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "drills_number_of_batteries_pcs",
+    "label-uk_UA": "Кількість акумуляторів, шт",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply"
+  },
+  {
+    "code": "drills_number_of_speeds",
+    "label-uk_UA": "Кількість швидкостей",
+    "type": "pim_catalog_simpleselect",
+    "group": "additionally"
+  },
+  {
+    "code": "drills_cartridge_type",
+    "label-uk_UA": "Тип патрона",
+    "type": "pim_catalog_simpleselect",
+    "group": "additionally"
+  },
+  {
+    "code": "toys_for_cats_features_pets",
+    "label-uk_UA": "Особливість іграшки",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features"
+  },
+  {
+    "code": "toys_for_cats_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics"
+  },
+  {
+    "code": "toys_for_cats_type_pets",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main"
+  },
+  {
+    "code": "drills_cartridge_diameter",
+    "label-uk_UA": "Діаметр патрона",
+    "type": "pim_catalog_text",
+    "group": "additionally"
+  },
+  {
+    "code": "drills_features_and_capabilities",
+    "label-uk_UA": "Функції та можливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally"
+  },
+  {
+    "code": "drills_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally"
+  },
+  {
+    "code": "drills_weight_kg",
+    "label-uk_UA": "Вага, кг",
+    "type": "pim_catalog_text",
+    "group": "physical_characteristics"
   }
 ]

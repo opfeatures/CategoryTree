@@ -320,7 +320,7 @@
   {
     "code": "thermoses",
     "label-uk_UA": "Термоси",
-    "attributes": "article,barcode,bowl_included,brand,code,cold_storage_time,color,description,external_id,features,full_weight,heat_retention_time,keywords,material,name,offer,package_height,package_length,package_width,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,size,sku,subject,the_volume_of_dishes,type,variation_name,vendor_code,volume_of_capacity",
+    "attributes": "article,barcode,bowl_included,brand,code,cold_storage_time,color,country_origin,description,external_id,features,full_weight,heat_retention_time,keywords,material,name,offer,package_height,package_length,package_width,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,size,sku,subject,the_volume_of_dishes,type,variation_name,vendor_code,volume_of_capacity",
     "requirements-marketplace": "brand,code,color,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,the_volume_of_dishes,type,variation_name,volume_of_capacity"
   },
   {
@@ -747,7 +747,7 @@
     "code": "sets_dishes",
     "label-uk_UA": "Набори посуду",
     "attributes": "article,barcode,brand,code,color,compatibility,cookware_material,country_origin,cover_material,description,diameter_pans_cm,dimensions_wxhxd,external_id,features,frying_pan_diameter_cm,full_weight,keywords,material,material_of_handle,name,number_items,number_of_pans_pcs,number_pans_pcs,number_stewpans_pcs,offer,package_height,package_length,package_width,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,sku,stewpans_diameter_cm,type,variation_name,vendor_code,volume_of_sets,volume_of_sets_of_dishes",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku,volume_of_sets"
+    "requirements-marketplace": "brand,code,description,external_id,full_weight,name,number_items,offer,package_height,package_length,package_width,partner_name,product_status,sku,type,variation_name,volume_of_sets,volume_of_sets_of_dishes"
   },
   {
     "code": "beakers",
@@ -1118,20 +1118,20 @@
   {
     "code": "dog_food",
     "label-uk_UA": "Корм для собак",
-    "attributes": "age_pets,article,barcode,brand,code,color,country_origin,description,designation,ean,external_id,features,feed_class,for_whom_zoo,full_weight,keywords,main_ingredient,model,name,offer,package_height,package_length,package_width,packaging,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,quantity_package_pcs,range_packaging,rating,series,size_of_the_breed,sku,type_of_feed,variation_name,vendor_code,view_of_feed",
+    "attributes": "age_pets,age_pets_main,article,barcode,brand,code,color,country_origin,description,designation,dogs_size_of_the_breed,dogs_size_of_the_breed_main,ean,external_id,features,feed_class,for_whom_zoo,full_weight,keywords,main_ingredient,model,name,offer,package_height,package_length,package_width,packaging,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,quantity_package_pcs,range_packaging,rating,series,size_of_the_breed,sku,type_of_feed,variation_name,vendor_code,view_of_feed",
     "requirements-marketplace": "age_pets,brand,country_origin,description,designation,feed_class,full_weight,main_ingredient,name,package_height,package_length,package_width,packaging,range_packaging,size_of_the_breed,sku,type_of_feed,variation_name"
   },
   {
     "code": "veterinary_preparations_for_dogs",
     "label-uk_UA": "Лікувальні препарати для собак",
-    "attributes": "age_pets,article,barcode,brand,code,color,country_origin,description,designation,ean,external_id,features,for_whom,form,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,series,size_international,size_of_the_breed,sku,variation_name,vendor_code,weight_of_the_animal",
-    "requirements-marketplace": "age_pets,brand,code,description,designation,external_id,for_whom,form,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,size_of_the_breed,sku,variation_name,weight_of_the_animal"
+    "attributes": "age_pets_main,article,barcode,brand,code,color,country_origin,description,dogs_size_of_the_breed_main,ean,external_id,features,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,series,sku,variation_name,vendor_code,veterinary_preparations_for_dogs_n_cats_designation,veterinary_preparations_for_dogs_n_cats_for_whom,veterinary_preparations_for_dogs_n_cats_form,veterinary_preparations_for_dogs_n_cats_size_international,veterinary_preparations_for_dogs_n_cats_weight_of_the_animal",
+    "requirements-marketplace": "age_pets_main,brand,code,country_origin,description,dogs_size_of_the_breed_main,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,variation_name,veterinary_preparations_for_dogs_n_cats_designation,veterinary_preparations_for_dogs_n_cats_form"
   },
   {
     "code": "veterinary_preparations_for_cats",
     "label-uk_UA": "Лікувальні препарати для котів",
-    "attributes": "age_pets,article,barcode,brand,code,color,country_origin,description,designation,ean,external_id,for_whom,form,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,quantity_package_pcs,rating,series,size_of_the_breed,sku,variation_name,vendor_code,weight_of_the_animal",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "age_pets_main,article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,quantity_package_pcs,rating,series,sku,variation_name,vendor_code,veterinary_preparations_for_dogs_n_cats_designation,veterinary_preparations_for_dogs_n_cats_for_whom,veterinary_preparations_for_dogs_n_cats_form,veterinary_preparations_for_dogs_n_cats_weight_of_the_animal",
+    "requirements-marketplace": "age_pets_main,brand,country_origin,full_weight,package_height,package_length,package_width,sku,veterinary_preparations_for_dogs_n_cats_designation,veterinary_preparations_for_dogs_n_cats_form"
   },
   {
     "code": "cat_litter",
@@ -1142,32 +1142,32 @@
   {
     "code": "vitamins_supplements_for_dogs",
     "label-uk_UA": "Вітаміни та добавки для собак",
-    "attributes": "age_pets,article,barcode,brand,code,country_origin,description,designation,ean,external_id,features,for_whom,form,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,series,size_of_the_breed,sku,variation_name,vendor_code,volume",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "age_pets_main,article,barcode,brand,code,country_origin,description,dogs_size_of_the_breed_main,ean,external_id,features,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,series,sku,variation_name,vendor_code,vitamins_supplements_dogs_cats_designation,vitamins_supplements_dogs_cats_form,volume",
+    "requirements-marketplace": "age_pets_main,brand,code,country_origin,external_id,full_weight,offer,package_height,package_length,package_width,partner_name,sku,vitamins_supplements_dogs_cats_designation,vitamins_supplements_dogs_cats_form"
   },
   {
     "code": "vitamins_supplements_cats",
     "label-uk_UA": "Вітаміни та добавки для котів",
-    "attributes": "age_pets,article,barcode,brand,code,color,country_origin,description,designation,ean,external_id,for_whom,form,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,restrictions,series,sku,variation_name,vendor_code,volume",
-    "requirements-marketplace": "age_pets,brand,code,country_origin,description,designation,external_id,form,full_weight,name,offer,package_height,package_length,package_width,partner_name,sku,variation_name"
+    "attributes": "age_pets_main,article,barcode,brand,code,color,country_origin,description,ean,external_id,features,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,restrictions,series,sku,variation_name,vendor_code,vitamins_supplements_dogs_cats_designation,vitamins_supplements_dogs_cats_form,volume",
+    "requirements-marketplace": "age_pets_main,brand,code,country_origin,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,sku,variation_name,vitamins_supplements_dogs_cats_designation,vitamins_supplements_dogs_cats_form"
   },
   {
     "code": "dog_treats",
     "label-uk_UA": "Ласощі для собак",
-    "attributes": "age_pets,article,barcode,brand,code,country_origin,description,designation,ean,external_id,features,for_whom,form,full_weight,keywords,main_ingredient,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,series,size_international,size_of_the_breed,sku,type_of_delicacy,type_of_feed,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "age_pets_main,article,barcode,brand,code,country_origin,description,dog_treats_designation,dog_treats_main_ingredient,dog_treats_size_international,dog_treats_type_of_delicacy,dog_treats_type_of_feed,dogs_size_of_the_breed_main,ean,external_id,features,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "age_pets_main,brand,country_origin,dog_treats_designation,dog_treats_type_of_delicacy,dog_treats_type_of_feed,dogs_size_of_the_breed_main,full_weight,package_height,package_length,package_width,sku"
   },
   {
     "code": "cat_treats",
     "label-uk_UA": "Ласощі для котів",
-    "attributes": "age_pets,always_visible,article,barcode,brand,code,color,country_origin,description,designation,ean,external_id,for_whom,form,full_weight,keywords,main_ingredient,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,series,sku,type_of_delicacy,type_of_feed,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "always_visible,article,barcode,brand,cat_treats_age_pets,cat_treats_designation,cat_treats_main_ingredient,cat_treats_type_of_delicacy,cat_treats_type_of_feed,code,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "brand,cat_treats_age_pets,cat_treats_designation,cat_treats_type_of_delicacy,cat_treats_type_of_feed,country_origin,full_weight,package_height,package_length,package_width,sku"
   },
   {
     "code": "dog_toys",
     "label-uk_UA": "Іграшки для собак",
-    "attributes": "age_pets,article,barcode,brand,code,color,country_origin,description,ean,external_id,features_pets,for_whom,full_weight,keywords,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,size_international,sku,type_pets,variation_name,vendor_code",
-    "requirements-marketplace": "age_pets,features_pets,for_whom,full_weight,package_height,package_length,package_width,sku,type_pets"
+    "attributes": "age_pets_main,article,barcode,brand,code,color,country_origin,description,dog_toys_features_pets,dog_toys_material,dog_toys_size_international,dog_toys_type_pets,ean,external_id,for_whom_pets,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "age_pets_main,brand,color,country_origin,dog_toys_features_pets,dog_toys_material,dog_toys_type_pets,full_weight,package_height,package_length,package_width,sku"
   },
   {
     "code": "soft_places_for_dogs",
@@ -1208,32 +1208,32 @@
   {
     "code": "dog_dishes",
     "label-uk_UA": "Посуд для собак",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,ean,external_id,features,for_whom,full_weight,keywords,material,model,name,number_of_bowls,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_volume_ml_l,rating,series,sku,type,variation_name,vendor_code,volume",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "article,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,dishes_dogs_cats_features,dishes_dogs_cats_material,dishes_dogs_cats_number_of_bowls,dishes_dogs_cats_type,dogs_size_of_the_breed,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_dishes_dogs_cats_volume,rating,series,sku,variation_name,vendor_code,volume",
+    "requirements-marketplace": "brand,code,country_origin,description,dishes_dogs_cats_features,dishes_dogs_cats_material,dishes_dogs_cats_number_of_bowls,dishes_dogs_cats_type,dogs_size_of_the_breed,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,range_dishes_dogs_cats_volume,sku,variation_name"
   },
   {
     "code": "dishes_for_cats",
     "label-uk_UA": "Посуд для котів",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,dishes_for_cats_features,ean,external_id,features,for_whom,full_weight,keywords,material,model,name,number_of_bowls,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_volume_ml_l,rating,series,sku,type,variation_name,vendor_code,volume",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "article,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,dishes_dogs_cats_features,dishes_dogs_cats_material,dishes_dogs_cats_number_of_bowls,dishes_dogs_cats_type,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_dishes_dogs_cats_volume,rating,series,sku,variation_name,vendor_code,volume",
+    "requirements-marketplace": "brand,code,country_origin,description,dishes_dogs_cats_features,dishes_dogs_cats_material,dishes_dogs_cats_number_of_bowls,dishes_dogs_cats_type,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,range_dishes_dogs_cats_volume,sku,variation_name"
   },
   {
     "code": "scratching_posts_for_cats",
     "label-uk_UA": "Кігтеточки для котів",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,features,for_whom,full_weight,keywords,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,size_international,sku,variation_name,vendor_code,view",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "article,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_scratcher_height,rating,scratching_posts_for_cats_features,scratching_posts_for_cats_material,scratching_posts_for_cats_view,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,country_origin,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,range_scratcher_height,scratching_posts_for_cats_features,scratching_posts_for_cats_material,scratching_posts_for_cats_view,sku,variation_name"
   },
   {
     "code": "toys_for_cats",
     "label-uk_UA": "Іграшки для котів",
-    "attributes": "age_pets,article,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,ean,external_id,features,features_pets,for_whom,full_weight,keywords,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,type_pets,variation_name,vendor_code",
-    "requirements-marketplace": "brand,code,color,country_origin,description,external_id,features_pets,full_weight,material,name,offer,package_height,package_length,package_width,partner_name,sku,type_pets,variation_name"
+    "attributes": "age_pets,age_pets_main,article,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,ean,external_id,for_whom,for_whom_pets,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,toys_for_cats_features_pets,toys_for_cats_material,toys_for_cats_type_pets,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,color,country_origin,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,sku,toys_for_cats_features_pets,toys_for_cats_material,toys_for_cats_type_pets,variation_name"
   },
   {
     "code": "dog_accessories",
     "label-uk_UA": "Аксесуари для собак",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,designation,ean,external_id,features,for_whom,full_weight,keywords,length_of_wool,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,size_international,size_of_the_breed,sku,type,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "article,barcode,brand,code,color,country_origin,description,dog_accessories_size_international,dog_accessories_type,dogs_size_of_the_breed_main,ean,external_id,features,full_weight,keywords,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sex_pets_main,sku,variation_name,vendor_code",
+    "requirements-marketplace": "brand,color,country_origin,dog_accessories_size_international,dog_accessories_type,dogs_size_of_the_breed_main,full_weight,package_height,package_length,package_width,sex_pets_main,sku"
   },
   {
     "code": "accessories_for_cats",
@@ -1243,15 +1243,15 @@
   },
   {
     "code": "dog_clothes_and_shoes",
-    "label-uk_UA": "Одяг та взуття для собак",
-    "attributes": "article,back_length,barcode,brand,chest_girth,code,color,country_origin,description,ean,external_id,features,for_whom,full_weight,keywords,model,name,neck_girth,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,season_pet,series,sex_pets,size_international,size_of_the_breed,sku,type,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,season_pet,sex_pets,sku"
+    "label-uk_UA": "Одяг для собак",
+    "attributes": "additionally_text,article,barcode,brand,code,color,country_origin,description,dog_clothes_back_length,dog_clothes_chest_girth,dog_clothes_features,dog_clothes_neck_girth,dog_clothes_size,dog_clothes_type,dogs_size_of_the_breed,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_dog_clothes_size,rating,season_pet,series,sex_pets,sku,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,color,country_origin,description,dog_clothes_features,dog_clothes_size,dog_clothes_type,dogs_size_of_the_breed,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,range_dog_clothes_size,season_pet,sex_pets,sku,variation_name"
   },
   {
     "code": "clothes_for_cats",
     "label-uk_UA": "Одяг для котів",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,features,for_whom,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,season_pet,series,sex_pets,size_international,size_of_the_breed,sku,type,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,season_pet,sex_pets,sku"
+    "attributes": "article,barcode,brand,clothes_for_cats_season_pet,clothes_for_cats_sex_pets,clothes_for_cats_size_international,clothes_for_cats_type,code,color,country_origin,description,ean,external_id,features,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "clothes_for_cats_season_pet,clothes_for_cats_sex_pets,clothes_for_cats_size_international,clothes_for_cats_type,full_weight,package_height,package_length,package_width,sku"
   },
   {
     "code": "trimmers_clothes",
@@ -1322,26 +1322,26 @@
   {
     "code": "bags_carriers_for_dogs",
     "label-uk_UA": "Переноски для собак",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,ean,external_id,features,for_whom,full_weight,keywords,maximum_weight_pet,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,size_of_the_breed,sku,type,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "additionally_text,article,bags_carriers_features,bags_carriers_type,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,dogs_size_of_the_breed,ean,external_id,full_weight,keywords,maximum_weight_pet,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_max_pet_weight,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "bags_carriers_features,bags_carriers_type,brand,code,color,country_origin,description,dogs_size_of_the_breed,external_id,full_weight,maximum_weight_pet,name,offer,package_height,package_length,package_width,partner_name,range_max_pet_weight,sku,variation_name"
   },
   {
     "code": "bags_carriers_for_cats",
     "label-uk_UA": "Переноски для котів",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,ean,external_id,features,for_whom,full_weight,keywords,maximum_weight_pet,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,type,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "additionally_text,article,bags_carriers_features,bags_carriers_type,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,ean,external_id,full_weight,keywords,maximum_weight_pet,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_max_pet_weight,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "bags_carriers_features,bags_carriers_type,brand,code,color,country_origin,description,external_id,full_weight,maximum_weight_pet,name,offer,package_height,package_length,package_width,partner_name,range_max_pet_weight,sku,variation_name"
   },
   {
     "code": "cat_ammunition",
     "label-uk_UA": "Амуніція для котів",
-    "attributes": "age_pets,article,barcode,brand,code,color,country_origin,description,ean,external_id,feature,for_whom,full_weight,keywords,length_product,material,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,size_international,sku,type,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "article,barcode,brand,cat_ammunition_age_pets,cat_ammunition_material,cat_ammunition_type,code,color,country_origin,description,ean,external_id,features,full_weight,keywords,length_product,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,sku,variation_name,vendor_code",
+    "requirements-marketplace": "brand,cat_ammunition_material,cat_ammunition_type,country_origin,full_weight,package_height,package_length,package_width,sku"
   },
   {
     "code": "dogs_ammunition",
     "label-uk_UA": "Амуніція для собак",
-    "attributes": "age_pets,article,barcode,brand,chest_girth,code,color,country_origin,description,ean,external_id,for_whom,full_weight,girth,keywords,length_product,material,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_width,rating,size_international,size_of_the_breed,sku,type,variation_name,vendor_code,weight_of_the_animal",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "age_pets_main,article,barcode,brand,code,color,country_origin,description,dogs_ammunition_chest_girth,dogs_ammunition_for_whom,dogs_ammunition_girth,dogs_ammunition_material,dogs_ammunition_size_international,dogs_ammunition_type,dogs_ammunition_weight_of_the_animal,dogs_size_of_the_breed_main,ean,external_id,features,for_whom,full_weight,keywords,length_product,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_width,rating,sku,variation_name,vendor_code",
+    "requirements-marketplace": "brand,country_origin,dogs_ammunition_material,dogs_ammunition_type,dogs_size_of_the_breed_main,full_weight,package_height,package_length,package_width,sku"
   },
   {
     "code": "cages_for_rodents",
@@ -1971,7 +1971,7 @@
     "code": "notepads",
     "label-uk_UA": "Блокноти",
     "attributes": "article,barcode,books_number_of_pages,books_publisher,books_view,brand,code,color,cover,description,ean,external_id,format,full_weight,gender,keywords,lineation,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,sku,subject,type_of_page_attachment,variation_name,vendor_code",
-    "requirements-marketplace": "brand,code,color,cover,description,external_id,format,full_weight,lineation,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,type_of_page_attachment,variation_name"
+    "requirements-marketplace": "brand,code,color,cover,description,external_id,format,full_weight,lineation,name,offer,package_height,package_length,package_width,partner_name,sku,type_of_page_attachment,variation_name"
   },
   {
     "code": "freezers",
@@ -2493,13 +2493,13 @@
     "code": "gliders",
     "label-uk_UA": "Планери",
     "attributes": "article,barcode,brand,code,color,country_origin,cover,dated,density_g_m2,description,ean,external_id,format,full_weight,keywords,language,lineation,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,size,sku,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "requirements-marketplace": "brand,code,color,cover,dated,description,external_id,format,full_weight,lineation,name,offer,package_height,package_length,package_width,partner_name,sku,variation_name"
   },
   {
     "code": "board_games_adults",
     "label-uk_UA": "Ігри",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,length_product,material,name,number_of_figures,number_of_players,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_height,product_status,product_weight,rating,recommended_age,restrictions,sku,subject,thickness,type,variation_name,vendor_code",
-    "requirements-marketplace": "brand,code,description,external_id,full_weight,name,number_of_players,offer,package_height,package_length,package_width,partner_name,product_status,recommended_age,sku,type,variation_name"
+    "attributes": "article,barcode,board_games_adults_age_group,board_games_adults_type,brand,code,color,country_origin,cover,description,ean,external_id,full_weight,keywords,language,length_product,material,name,number_of_figures,number_of_players,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_height,product_status,product_weight,rating,restrictions,sku,subject,thickness,variation_name,vendor_code",
+    "requirements-marketplace": "board_games_adults_age_group,board_games_adults_type,brand,code,description,external_id,full_weight,name,number_of_players,offer,package_height,package_length,package_width,partner_name,sku,variation_name"
   },
   {
     "code": "spinner",
@@ -2691,7 +2691,7 @@
     "code": "rugs_for_the_bathroom",
     "label-uk_UA": "Килимки для ванної кімнати",
     "attributes": "article,barcode,brand,code,color,country_origin,depth_from_to,description,ean,external_id,form,full_weight,height_from_to,keywords,length_from_to,length_product,mat_size,material,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,print,product_status,product_width,rating,sku,type,variation_name,vendor_code,width_from_to",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "requirements-marketplace": "brand,code,color,depth_from_to,description,external_id,form,full_weight,height_from_to,length_from_to,mat_size,material,name,offer,package_height,package_length,package_width,partner_name,sku,type,variation_name,width_from_to"
   },
   {
     "code": "breadbaskets",
@@ -2942,8 +2942,8 @@
   {
     "code": "sketchbooks",
     "label-uk_UA": "Скетчбуки",
-    "attributes": "article,barcode,brand,code,color,country_origin,depth_from_to,description,ean,external_id,full_weight,height_from_to,keywords,length_from_to,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,type_of_page_attachment,variation_name,vendor_code,width_from_to",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "article,barcode,brand,code,color,country_origin,depth_from_to,description,ean,external_id,full_weight,height_from_to,keywords,length_from_to,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sketchbooks_cover,sketchbooks_format,sketchbooks_ruling,sku,type_of_page_attachment,variation_name,vendor_code,width_from_to",
+    "requirements-marketplace": "brand,code,color,depth_from_to,description,external_id,full_weight,height_from_to,length_from_to,name,offer,package_height,package_length,package_width,partner_name,sku,type_of_page_attachment,variation_name,width_from_to"
   },
   {
     "code": "kits_for_embroidery",
@@ -2965,9 +2965,9 @@
   },
   {
     "code": "pictures_behind_the_numbers",
-    "label-uk_UA": "Картини за номерами",
-    "attributes": "article,barcode,brand,code,color,complexity,country_origin,depth_from_to,description,ean,external_id,full_weight,height_from_to,keywords,length_from_to,model,name,offer,orientation,package_height,package_length,package_width,paints_in_the_set,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,specifics,the_size_of_the_draw,variation_name,vendor_code,width_from_to",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "label-uk_UA": "Картини за номерами та розмальовки",
+    "attributes": "article,barcode,brand,code,color,complexity,country_origin,depth_from_to,description,ean,external_id,full_weight,height_from_to,keywords,length_from_to,model,name,offer,orientation,package_height,package_length,package_width,paints_in_the_set,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,pictures_behind_the_numbers_type,product_status,rating,series,sku,specifics,the_size_of_the_draw,variation_name,vendor_code,width_from_to",
+    "requirements-marketplace": "brand,code,complexity,depth_from_to,description,external_id,full_weight,height_from_to,length_from_to,name,offer,orientation,package_height,package_length,package_width,paints_in_the_set,partner_name,pictures_behind_the_numbers_type,sku,specifics,the_size_of_the_draw,variation_name,width_from_to"
   },
   {
     "code": "stickers",
@@ -2990,8 +2990,8 @@
   {
     "code": "awnings_terraces_tents",
     "label-uk_UA": "Тенти, тераси, шатри",
-    "attributes": "article,barcode,brand,capacity,code,color,construction,country_origin,description,ean,external_id,folded_size,frame_material,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
-    "requirements-marketplace": "brand,capacity,code,color,construction,description,external_id,frame_material,full_weight,name,offer,package_height,package_length,package_width,partner_name,sku,variation_name"
+    "attributes": "arc_material,article,barcode,brand,capacity,code,color,construction,country_origin,description,ean,external_id,folded_size,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "arc_material,brand,capacity,code,color,construction,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,sku,variation_name"
   },
   {
     "code": "sleeping_bags_and_blankets",
@@ -3056,8 +3056,8 @@
   {
     "code": "tourist_tableware",
     "label-uk_UA": "Туристичний посуд",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,possibility_of_folding,product_status,product_volume,range_the_volume_of_dishes,rating,series,sku,the_volume_of_dishes,type,variation_name,vendor_code",
-    "requirements-marketplace": "brand,code,color,description,external_id,full_weight,material,name,offer,package_height,package_length,package_width,partner_name,possibility_of_folding,product_status,range_the_volume_of_dishes,sku,the_volume_of_dishes,type,variation_name"
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,possibility_of_folding,product_status,product_volume,range_the_volume_of_dishes,rating,series,sku,the_volume_of_dishes,tourist_tableware_type,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,color,description,external_id,full_weight,material,name,offer,package_height,package_length,package_width,partner_name,possibility_of_folding,product_status,range_the_volume_of_dishes,sku,the_volume_of_dishes,tourist_tableware_type,variation_name"
   },
   {
     "code": "water_filters",
@@ -3075,7 +3075,7 @@
     "code": "water_canisters_and_containers",
     "label-uk_UA": "Каністри та ємності для води",
     "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,possibility_of_folding,product_status,product_weight,range_weight_of_product,rating,series,sku,the_volume_of_dishes,type,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,range_weight_of_product,sku"
+    "requirements-marketplace": "brand,code,color,description,external_id,full_weight,material,name,offer,package_height,package_length,package_width,partner_name,product_status,range_weight_of_product,sku,the_volume_of_dishes,type,variation_name"
   },
   {
     "code": "thermo_bags_and_thermo_boxes",
@@ -3230,8 +3230,8 @@
   {
     "code": "accessories_for_kitchen_appliances",
     "label-uk_UA": "Комплектуючі до кухонної техніки",
-    "attributes": "accessories_for_kitchen_appliances_compatibility,accessories_for_kitchen_appliances_designation,accessories_for_kitchen_appliances_type,article,barcode,brand,code,color,country_origin,description,ean,external_id,features,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
-    "requirements-marketplace": "accessories_for_kitchen_appliances_compatibility,accessories_for_kitchen_appliances_designation,accessories_for_kitchen_appliances_type,full_weight,package_height,package_length,package_width,sku"
+    "attributes": "accessories_for_kitchen_appliances_compatibility,accessories_for_kitchen_appliances_designation,accessories_for_kitchen_appliances_type,article,barcode,brand,code,color,country_origin,description,ean,external_id,features,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,sku,variation_name,vendor_code",
+    "requirements-marketplace": "accessories_for_kitchen_appliances_compatibility,accessories_for_kitchen_appliances_designation,accessories_for_kitchen_appliances_type,brand,code,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,variation_name"
   },
   {
     "code": "tourist_showers",
@@ -3284,8 +3284,8 @@
   {
     "code": "saddles",
     "label-uk_UA": "Сідла",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,saddle_width,series,sku,variation_name,vendor_code",
-    "requirements-marketplace": "brand,code,color,description,external_id,full_weight,material,name,offer,package_height,package_length,package_width,partner_name,saddle_width,sku,variation_name"
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_saddle_width,rating,saddle_width,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,color,description,external_id,full_weight,material,name,offer,package_height,package_length,package_width,partner_name,range_saddle_width,saddle_width,sku,variation_name"
   },
   {
     "code": "care",
@@ -3824,20 +3824,20 @@
   {
     "code": "autoaxesuits_for_dogs",
     "label-uk_UA": "Автоаксесуари для собак",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,designation,dimensions_wxhxd,ean,external_id,for_whom,full_weight,keywords,material,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,size_of_the_breed,sku,variation_name,vendor_code,view",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "article,autoaxesuits_for_dogs_designation,autoaxesuits_for_dogs_view,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,dogs_size_of_the_breed_main,ean,external_id,features,full_weight,keywords,material,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,sku,variation_name,vendor_code",
+    "requirements-marketplace": "autoaxesuits_for_dogs_designation,autoaxesuits_for_dogs_view,brand,color,country_origin,dogs_size_of_the_breed_main,full_weight,package_height,package_length,package_width,sku"
   },
   {
     "code": "all_for_walking",
     "label-uk_UA": "Все для вигулу",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,designation,dimensions_wxhxd,ean,external_id,for_whom,full_weight,keywords,material,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_volume_ml_l,rating,sku,variation_name,vendor_code,view,volume",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "all_for_walking_designation,all_for_walking_material,all_for_walking_view,article,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,ean,external_id,features,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_volume_ml_l,rating,sku,variation_name,vendor_code,volume",
+    "requirements-marketplace": "all_for_walking_material,all_for_walking_view,brand,color,country_origin,full_weight,package_height,package_length,package_width,sku"
   },
   {
     "code": "cages_aviaries_dog_barriers",
     "label-uk_UA": "Клітки, вольєри, бар'єри для собак",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,feature,for_whom,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,size_international,size_of_the_breed,sku,type,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "article,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,dogs_size_of_the_breed_main,ean,external_id,feature,for_whom,for_whom_pets,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,size_international,sku,type,variation_name,vendor_code",
+    "requirements-marketplace": "brand,country_origin,dogs_size_of_the_breed_main,full_weight,package_height,package_length,package_width,sku"
   },
   {
     "code": "special_machinery",
@@ -4070,8 +4070,8 @@
   {
     "code": "running_systems",
     "label-uk_UA": "Ходові системи",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,sku,type,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,running_systems_shoe_size,size_international,sku,type,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,color,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,running_systems_shoe_size,size_international,sku,type,variation_name"
   },
   {
     "code": "bags",
@@ -4202,8 +4202,8 @@
   {
     "code": "antiparasitic_drugs_fordogs",
     "label-uk_UA": "Протипаразитарні засоби для собак",
-    "attributes": "age_pets,antiparasitic_drugs_fordogs_breed_size,article,barcode,brand,code,country_origin,description,ean,external_id,form_of_tool_zoo,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,prescribingan_antiparasitic_drug_for_azoo,product_status,product_weight,rating,sku,variation_name,vendor_code",
-    "requirements-marketplace": "age_pets,antiparasitic_drugs_fordogs_breed_size,brand,code,description,external_id,form_of_tool_zoo,full_weight,name,offer,package_height,package_length,package_width,partner_name,prescribingan_antiparasitic_drug_for_azoo,product_status,sku,variation_name"
+    "attributes": "age_pets_main,antiparasitic_drugs_fordog_and_cats_designation,antiparasitic_drugs_fordog_and_cats_form,article,barcode,brand,code,country_origin,description,dogs_size_of_the_breed_main,ean,external_id,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,product_status,product_weight,rating,sku,variation_name,vendor_code",
+    "requirements-marketplace": "age_pets_main,antiparasitic_drugs_fordog_and_cats_designation,antiparasitic_drugs_fordog_and_cats_form,brand,code,country_origin,description,dogs_size_of_the_breed_main,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,variation_name"
   },
   {
     "code": "voltage_relay",
@@ -4214,8 +4214,8 @@
   {
     "code": "antiparasitic_drugs_forcat",
     "label-uk_UA": "Протипаразитарні засоби для котів",
-    "attributes": "age_pets,article,barcode,brand,code,country_origin,description,ean,external_id,form_of_tool_zoo,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,prescribingan_antiparasitic_drug_for_azoo,product_status,product_weight,rating,sku,variation_name,vendor_code",
-    "requirements-marketplace": "age_pets,brand,code,description,external_id,form_of_tool_zoo,full_weight,name,offer,package_height,package_length,package_width,partner_name,prescribingan_antiparasitic_drug_for_azoo,product_status,sku,variation_name"
+    "attributes": "age_pets_main,antiparasitic_drugs_fordog_and_cats_designation,antiparasitic_drugs_fordog_and_cats_form,article,barcode,brand,code,country_origin,description,ean,external_id,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,product_status,product_weight,rating,sku,variation_name,vendor_code",
+    "requirements-marketplace": "age_pets_main,antiparasitic_drugs_fordog_and_cats_designation,antiparasitic_drugs_fordog_and_cats_form,brand,code,country_origin,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,variation_name"
   },
   {
     "code": "teethers",
@@ -4412,8 +4412,8 @@
   {
     "code": "snowboard_skulls",
     "label-uk_UA": "Черевики для сноуборду",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,gender,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,snowboard_skulls_flex,snowboard_skulls_size,variation_name,vendor_code",
-    "requirements-marketplace": "sku"
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,gender,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,snowboard_skulls_flex,snowboard_skulls_size,snowboard_skulls_size_shoes,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,color,description,external_id,gender,name,offer,partner_name,product_status,sku,snowboard_skulls_size,snowboard_skulls_size_shoes,variation_name"
   },
   {
     "code": "accessories_and_fastener",
@@ -4425,7 +4425,7 @@
     "code": "ski_boots",
     "label-uk_UA": "Лижні черевики",
     "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,gender,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,ski_boots_size,ski_boots_size_cm,sku,variation_name,vendor_code",
-    "requirements-marketplace": "sku"
+    "requirements-marketplace": "brand,code,color,description,external_id,full_weight,gender,name,offer,package_height,package_length,package_width,partner_name,product_status,ski_boots_size,ski_boots_size_cm,sku,variation_name"
   },
   {
     "code": "intercoms",
@@ -4437,13 +4437,13 @@
     "code": "periodicals",
     "label-uk_UA": "Періодичні видання",
     "attributes": "article,barcode,book_author,books_book_series,books_illustrations,books_language,books_number_of_pages,books_order_in_the_series,books_publisher,books_series,books_topic,books_view,books_year_of_publication,brand,code,color,cover,description,ean,external_id,full_weight,keywords,list_books__set,name,number_of_books_the_set,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,sku,variation_name,vendor_code",
-    "requirements-marketplace": "sku"
+    "requirements-marketplace": "books_illustrations,books_language,books_number_of_pages,books_publisher,books_view,books_year_of_publication,code,cover,description,external_id,name,offer,partner_name,product_weight,sku,variation_name"
   },
   {
     "code": "literature_in_foreign_languages",
     "label-uk_UA": "Література іноземними мовами",
-    "attributes": "article,barcode,book_author,books_book_series,books_illustrations,books_language,books_number_of_pages,books_order_in_the_series,books_publisher,books_series,books_topic,books_view,books_year_of_publication,brand,code,color,cover,description,ean,external_id,full_weight,keywords,list_books__set,name,number_of_books_the_set,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,sku,variation_name,vendor_code",
-    "requirements-marketplace": "book_author,books_book_series,books_illustrations,books_language,books_number_of_pages,books_order_in_the_series,books_publisher,books_topic,books_view,books_year_of_publication,code,cover,description,external_id,name,offer,partner_name,sku,variation_name"
+    "attributes": "article,barcode,book_author,books_book_series,books_illustrations,books_language,books_number_of_pages,books_order_in_the_series,books_publisher,books_series,books_topic,books_view,books_year_of_publication,brand,code,color,cover,description,ean,external_id,full_weight,keywords,list_books__set,name,number_of_books_the_set,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,sku,variation_name,vendor_code",
+    "requirements-marketplace": "book_author,books_book_series,books_illustrations,books_language,books_number_of_pages,books_publisher,books_year_of_publication,code,cover,description,external_id,name,offer,partner_name,product_weight,sku,variation_name"
   },
   {
     "code": "safes",
@@ -4886,8 +4886,8 @@
   {
     "code": "tires",
     "label-uk_UA": "Шини",
-    "attributes": "always_visible,barcode,brand,code,color,country_origin,description,diameter_tires,ean,external_id,full_weight,keywords,load_index_tires,model,name,offer,package_height,package_length,package_width,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,profile_tires,rating,season_tires,sku,speed_index_tires,studding,tires_width,tread_type_tires,type_vehicle_tires,variation_name,vendor_code,width_tires,year_of_tire_production",
-    "requirements-marketplace": "brand,code,country_origin,diameter_tires,full_weight,load_index_tires,model,name,package_height,package_length,package_width,profile_tires,season_tires,sku,speed_index_tires,studding,tread_type_tires,type_vehicle_tires,variation_name,vendor_code,width_tires,year_of_tire_production"
+    "attributes": "always_visible,barcode,brand,code,color,country_origin,description,diameter_tires,ean,external_id,full_weight,keywords,load_index_tires,model,name,offer,package_height,package_length,package_width,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_tires_load_index,rating,season_tires,sku,studding,tires_profile,tires_speed_index,tires_tread_type,tires_type_vehicle,tires_width,variation_name,vendor_code,year_of_tire_production",
+    "requirements-marketplace": "brand,code,country_origin,diameter_tires,full_weight,load_index_tires,model,name,package_height,package_length,package_width,range_tires_load_index,season_tires,sku,studding,tires_profile,tires_speed_index,tires_tread_type,tires_type_vehicle,tires_width,variation_name,vendor_code,year_of_tire_production"
   },
   {
     "code": "milk_substitutes_for_cats",
@@ -4976,8 +4976,8 @@
   {
     "code": "tripods",
     "label-uk_UA": "Штативи",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,tripod_body_material,tripod_supports,tripod_weight_kg,tripods_designation,tripods_features,tripods_folded_length_cm,tripods_head,tripods_head_type,tripods_maximum_height_cm,tripods_maximum_load,tripods_minimum_height_cm,tripods_number_of_sections_pcs,tripods_type,variation_name,vendor_code",
-    "requirements-marketplace": "brand,code,description,external_id,name,offer,partner_name,sku,tripod_body_material,tripod_supports,tripod_weight_kg,tripods_designation,tripods_features,tripods_folded_length_cm,tripods_head,tripods_head_type,tripods_maximum_height_cm,tripods_maximum_load,tripods_minimum_height_cm,tripods_number_of_sections_pcs,tripods_type,variation_name"
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,series,sku,tripod_body_material,tripod_supports,tripods_designation,tripods_features,tripods_folded_length_cm,tripods_head,tripods_head_type,tripods_maximum_height_cm,tripods_maximum_load,tripods_minimum_height_cm,tripods_number_of_sections_pcs,tripods_type,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,description,external_id,name,offer,partner_name,product_weight,sku,tripod_body_material,tripod_supports,tripods_designation,tripods_features,tripods_folded_length_cm,tripods_head,tripods_head_type,tripods_maximum_height_cm,tripods_maximum_load,tripods_minimum_height_cm,tripods_number_of_sections_pcs,tripods_type,variation_name"
   },
   {
     "code": "cross_fit",
@@ -5032,5 +5032,89 @@
     "label-uk_UA": "Ролики",
     "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,roller_features,roller_maximum_load,roller_view,series,sku,variation_name,vendor_code",
     "requirements-marketplace": "sku"
+  },
+  {
+    "code": "dry_food_for_dogs",
+    "label-uk_UA": "Сухий корм для собак",
+    "attributes": "age_pets_main,article,barcode,brand,code,color,country_origin,description,dogs_size_of_the_breed_main,dry_food_for_dogs_designation,dry_food_for_dogs_feed_class,dry_food_for_dogs_main_ingredient,dry_food_for_dogs_packaging,dry_food_for_dogs_type_of_feed,ean,external_id,features,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_dry_food_for_dogs_packaging,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "age_pets_main,brand,country_origin,dogs_size_of_the_breed_main,dry_food_for_dogs_designation,dry_food_for_dogs_feed_class,dry_food_for_dogs_main_ingredient,dry_food_for_dogs_packaging,dry_food_for_dogs_type_of_feed,sku"
+  },
+  {
+    "code": "wet_food_for_dogs",
+    "label-uk_UA": "Вологий корм для собак",
+    "attributes": "age_pets_main,article,barcode,brand,code,color,country_origin,description,dogs_size_of_the_breed_main,ean,external_id,features,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_wet_food_for_dogs_packaging,rating,series,sku,variation_name,vendor_code,wet_food_for_dogs_designation,wet_food_for_dogs_feed_class,wet_food_for_dogs_main_ingredient,wet_food_for_dogs_packaging,wet_food_for_dogs_quantity_package_pcs,wet_food_for_dogs_type_of_feed,wet_food_for_dogs_view_of_feed",
+    "requirements-marketplace": "age_pets_main,brand,code,country_origin,description,dogs_size_of_the_breed_main,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,range_wet_food_for_dogs_packaging,sku,variation_name,wet_food_for_dogs_designation,wet_food_for_dogs_feed_class,wet_food_for_dogs_packaging,wet_food_for_dogs_type_of_feed,wet_food_for_dogs_view_of_feed"
+  },
+  {
+    "code": "car_batteries",
+    "label-uk_UA": "Автомобільні акумулятори",
+    "attributes": "article,barcode,brand,car_batteries_battery_voltage,car_batteries_capacity_akumuliator_ah,car_batteries_case_design,car_batteries_level_of_service,car_batteries_starting_current,car_batteries_terminal_placement,car_batteries_terminal_type,car_batteries_type,car_batteries_type_fastening,car_batteries_vehicle_type,code,color,country_origin,description,ean,external_id,full_weight,keywords,length_product,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_height,product_status,product_weight,product_width,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "sku"
+  },
+  {
+    "code": "veterinary_diets_for_dogs",
+    "label-uk_UA": "Ветеринарні дієти для собак",
+    "attributes": "age_pets_main,article,barcode,brand,code,color,country_origin,description,dogs_size_of_the_breed_main,ean,external_id,features,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,range_veterinary_diets_for_dogs_packaging,rating,series,sku,variation_name,vendor_code,veterinary_diets_for_dogs_designation,veterinary_diets_for_dogs_feed_class,veterinary_diets_for_dogs_main_ingredient,veterinary_diets_for_dogs_packaging,veterinary_diets_for_dogs_type_of_feed,veterinary_diets_for_dogs_view_of_feed",
+    "requirements-marketplace": "age_pets_main,brand,country_origin,description,full_weight,name,package_height,package_length,package_width,range_veterinary_diets_for_dogs_packaging,sku,variation_name,veterinary_diets_for_dogs_designation,veterinary_diets_for_dogs_packaging,veterinary_diets_for_dogs_view_of_feed"
+  },
+  {
+    "code": "switches",
+    "label-uk_UA": "Комутатори",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,features,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,sku,switches_mac_address_table_size,switches_number_of_lan_ports,switches_number_of_poe_ports,switches_number_of_sfp_ports,switches_poe_budget,switches_poe_support,switches_port_speed,switches_standard_ieee,switches_view,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,color,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,switches_mac_address_table_size,switches_number_of_lan_ports,switches_number_of_poe_ports,switches_number_of_sfp_ports,switches_poe_budget,switches_poe_support,switches_port_speed,switches_standard_ieee,switches_view,variation_name"
+  },
+  {
+    "code": "screwdrivers",
+    "label-uk_UA": "Шурупокрути",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,screwdrivers_battery_capacity,screwdrivers_battery_type,screwdrivers_battery_voltage_v,screwdrivers_chuck_diameter,screwdrivers_chuck_type,screwdrivers_class,screwdrivers_engine_type,screwdrivers_features,screwdrivers_features_and_capabilities,screwdrivers_max_torque_nm,screwdrivers_number_of_batteries_pcs,screwdrivers_number_of_revolutions_rpm,screwdrivers_number_of_speeds,screwdrivers_operating_mode,screwdrivers_power_w,screwdrivers_stroke_rate_strokes_per_minute,screwdrivers_type,screwdrivers_view,screwdrivers_weight_kg,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "code,description,external_id,name,offer,partner_name,screwdrivers_battery_capacity,screwdrivers_battery_type,screwdrivers_battery_voltage_v,screwdrivers_chuck_type,screwdrivers_engine_type,screwdrivers_features,screwdrivers_features_and_capabilities,screwdrivers_max_torque_nm,screwdrivers_number_of_batteries_pcs,screwdrivers_number_of_revolutions_rpm,screwdrivers_number_of_speeds,screwdrivers_operating_mode,screwdrivers_type,screwdrivers_view,screwdrivers_weight_kg,sku,variation_name"
+  },
+  {
+    "code": "accessories_for_coffee_makers_coffee_machines",
+    "label-uk_UA": "Комплектуючі для кавоварок та кавомашин",
+    "attributes": "accessories_for_coffee_makers_coffee_machines_accessory_type,accessories_for_coffee_makers_coffee_machines_appointment,accessories_for_coffee_makers_coffee_machines_quantity,accessories_for_coffee_makers_coffee_machines_volume,article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,product_status,rating,sku,variation_name,vendor_code",
+    "requirements-marketplace": "accessories_for_coffee_makers_coffee_machines_accessory_type,accessories_for_coffee_makers_coffee_machines_appointment,accessories_for_coffee_makers_coffee_machines_quantity,accessories_for_coffee_makers_coffee_machines_volume,brand,code,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,variation_name"
+  },
+  {
+    "code": "angle_grinder",
+    "label-uk_UA": "Болгарки (КШМ)",
+    "attributes": "angle_grinder_battery_capacity_ah,angle_grinder_battery_type,angle_grinder_battery_voltage_v,angle_grinder_class,angle_grinder_disc_diameter_mm,angle_grinder_features,angle_grinder_features_and_capabilities,angle_grinder_motor_type,angle_grinder_number_of_batteries_pcs,angle_grinder_number_of_revolutions_rpm,angle_grinder_power_supply_type,angle_grinder_power_w,angle_grinder_protection,angle_grinder_speed_control,angle_grinder_spindle_thread,angle_grinder_weight_kg,article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "angle_grinder_battery_capacity_ah,angle_grinder_battery_type,angle_grinder_battery_voltage_v,angle_grinder_disc_diameter_mm,angle_grinder_features,angle_grinder_features_and_capabilities,angle_grinder_motor_type,angle_grinder_number_of_batteries_pcs,angle_grinder_number_of_revolutions_rpm,angle_grinder_power_supply_type,angle_grinder_power_w,angle_grinder_protection,angle_grinder_speed_control,angle_grinder_spindle_thread,angle_grinder_weight_kg,sku"
+  },
+  {
+    "code": "punching_machines",
+    "label-uk_UA": "Перфоратори",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,punching_machines_battery_capacity_ah,punching_machines_battery_type,punching_machines_battery_voltage_v,punching_machines_cartridge_type,punching_machines_class,punching_machines_construction,punching_machines_features,punching_machines_features_and_capabilities,punching_machines_impact_force_j,punching_machines_maximum_concrete_drilling_diameter,punching_machines_number_of_batteries_pcs,punching_machines_number_of_revolutions_rpm,punching_machines_number_of_strokes_min,punching_machines_operating_modes,punching_machines_power_supply_type,punching_machines_power_w,punching_machines_weight_kg,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,description,external_id,name,offer,partner_name,punching_machines_battery_capacity_ah,punching_machines_battery_type,punching_machines_battery_voltage_v,punching_machines_cartridge_type,punching_machines_features,punching_machines_features_and_capabilities,punching_machines_impact_force_j,punching_machines_number_of_batteries_pcs,punching_machines_number_of_revolutions_rpm,punching_machines_operating_modes,punching_machines_power_supply_type,punching_machines_power_w,punching_machines_weight_kg,sku,variation_name"
+  },
+  {
+    "code": "shoes_for_dogs",
+    "label-uk_UA": "Взуття для собак",
+    "attributes": "additionally_text,article,barcode,brand,code,color,country_origin,description,dogs_size_of_the_breed_main,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,season_pet_main,series,sex_pets_main,shoes_for_dogs_size,shoes_for_dogs_type,sku,variation_name,vendor_code",
+    "requirements-marketplace": "brand,color,country_origin,dogs_size_of_the_breed_main,season_pet_main,sex_pets_main,shoes_for_dogs_size,shoes_for_dogs_type,sku"
+  },
+  {
+    "code": "towels_and_robes_for_dogs",
+    "label-uk_UA": "Рушники та халати для собак",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,dogs_ammunition_for_whom,dogs_size_of_the_breed_main,ean,external_id,features,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,series,sex_pets_main,sku,towels_and_robes_for_dogs_designation,towels_and_robes_for_dogs_material,towels_and_robes_for_dogs_size_international,towels_and_robes_for_dogs_type,variation_name,vendor_code,volume",
+    "requirements-marketplace": "brand,color,country_origin,full_weight,package_height,package_length,package_width,sex_pets_main,sku,towels_and_robes_for_dogs_designation,towels_and_robes_for_dogs_material,towels_and_robes_for_dogs_size_international,towels_and_robes_for_dogs_type"
+  },
+  {
+    "code": "repair_kits",
+    "label-uk_UA": "Ремкомплекти",
+    "attributes": "always_visible,article,barcode,brand,brand_registration_country,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,model_for_reissue,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,repair_kits_purpose,repair_kits_type,restrictions,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "sku"
+  },
+  {
+    "code": "towels_for_cats",
+    "label-uk_UA": "Рушники для котів",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,dogs_ammunition_for_whom,ean,external_id,features,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,series,sex_pets_main,sku,towels_and_robes_for_dogs_designation,towels_and_robes_for_dogs_material,towels_and_robes_for_dogs_type,variation_name,vendor_code,volume",
+    "requirements-marketplace": "brand,color,country_origin,sku,towels_and_robes_for_dogs_designation,towels_and_robes_for_dogs_material,towels_and_robes_for_dogs_type"
+  },
+  {
+    "code": "drills",
+    "label-uk_UA": "Дрилі",
+    "attributes": "always_visible,article,barcode,brand,brand_registration_country,code,color,country_origin,description,drills_battery_capacity_ah,drills_battery_type,drills_battery_voltage_v,drills_cartridge_diameter,drills_cartridge_type,drills_class,drills_features,drills_features_and_capabilities,drills_max_concrete_drilling_diameter,drills_max_drilling_diameter_in_metal,drills_max_torque_nm,drills_max_wood_drilling_diameter,drills_number_of_batteries_pcs,drills_number_of_revolutions_rpm,drills_number_of_speeds,drills_power_supply_type,drills_power_w,drills_stroke_rate_strokes_per_minute,drills_type,drills_weight_kg,ean,external_id,full_weight,keywords,model,model_for_reissue,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,restrictions,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "drills_battery_capacity_ah,drills_battery_type,drills_battery_voltage_v,drills_cartridge_type,drills_features,drills_features_and_capabilities,drills_max_torque_nm,drills_number_of_batteries_pcs,drills_number_of_revolutions_rpm,drills_power_supply_type,drills_power_w,drills_type,drills_weight_kg,sku"
   }
 ]
