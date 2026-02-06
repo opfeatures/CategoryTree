@@ -15,7 +15,7 @@
     "code": "portable_powerplants",
     "label-uk_UA": "Зарядні станції",
     "attributes": "ability_connect_additional_battery,article,barcode,brand,code,color,country_origin,description,external_id,features,full_weight,keywords,length_product,model,name,offer,package_height,package_length,package_width,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,portable_powerplants_akumuliator_capacity_wh,portable_powerplants_designation,portable_powerplants_full_charging_time,portable_powerplants_input_interfaces,portable_powerplants_maximum_power_w,portable_powerplants_methods_charging,portable_powerplants_number_life_cycles,portable_powerplants_output_interfaces,portable_powerplants_output_signal_waveform,portable_powerplants_protections,portable_powerplants_rated_power_w_s,portable_powerplants_simultaneously_charging_devices,portable_powerplants_type_akumuliator,product_height,product_status,product_weight,product_width,range_portable_powerplants_akumuliator_capacity_wh,range_portable_powerplants_rated_power_w_s,rating,sku,variation_name,vendor_code,wireless_charging",
-    "requirements-marketplace": "brand,code,color,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,portable_powerplants_akumuliator_capacity_wh,portable_powerplants_input_interfaces,portable_powerplants_maximum_power_w,portable_powerplants_output_interfaces,portable_powerplants_output_signal_waveform,portable_powerplants_rated_power_w_s,portable_powerplants_type_akumuliator,range_portable_powerplants_akumuliator_capacity_wh,range_portable_powerplants_rated_power_w_s,sku,variation_name"
+    "requirements-marketplace": "brand,code,color,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,portable_powerplants_akumuliator_capacity_wh,portable_powerplants_input_interfaces,portable_powerplants_maximum_power_w,portable_powerplants_output_interfaces,portable_powerplants_output_signal_waveform,portable_powerplants_rated_power_w_s,portable_powerplants_type_akumuliator,product_status,range_portable_powerplants_akumuliator_capacity_wh,range_portable_powerplants_rated_power_w_s,sku,variation_name"
   },
   {
     "code": "powerbanks",
@@ -45,7 +45,7 @@
     "code": "laptops",
     "label-uk_UA": "Ноутбуки",
     "attributes": "acoustics_manufacturer,article,barcode,body_material,brand,code,color,cooling_system,country_origin,description,dimensions_wxhxd,external_id,features,full_weight,keywords,laptops_accumulator_battery,laptops_backlight_type,laptops_builtin_camera,laptops_class,laptops_displ_resolution,laptops_emmc_volume,laptops_hdd_volume,laptops_keyboard_layout,laptops_operating_system,laptops_ports_connectors,laptops_proc_manufacturer,laptops_proc_number_cores_thrds,laptops_processor,laptops_processor_series,laptops_ram_amount,laptops_ram_number_slot,laptops_ram_type,laptops_safety,laptops_screen_coverage,laptops_screen_diagonal,laptops_screen_refresh_rate,laptops_screen_type,laptops_slot_memorycards,laptops_ssd_volume,laptops_ufs_volume,laptops_videocard_amount_memory,laptops_videocard_discrete,laptops_videocard_integrated,laptops_videocard_type,laptops_wireless_technologies,length_product,model,model_for_reissue,model_range,name,offer,optical_drive,package_height,package_length,package_width,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,power_supply_unit,product_depth,product_height,product_status,product_weight,product_width,range_laptops_accumulator_battery,range_screen_diagonal,range_screen_refresh_rate,rating,rechargeable_battery,sku,touch_screen,variation_name,vendor_code",
-    "requirements-marketplace": "brand,code,description,external_id,full_weight,laptops_backlight_type,laptops_displ_resolution,laptops_hdd_volume,laptops_operating_system,laptops_proc_manufacturer,laptops_processor_series,laptops_ram_amount,laptops_ram_type,laptops_screen_diagonal,laptops_screen_refresh_rate,laptops_screen_type,laptops_ssd_volume,laptops_videocard_discrete,laptops_videocard_integrated,laptops_videocard_type,name,offer,package_height,package_length,package_width,partner_name,range_screen_diagonal,range_screen_refresh_rate,sku,variation_name"
+    "requirements-marketplace": "brand,code,description,external_id,full_weight,laptops_backlight_type,laptops_displ_resolution,laptops_hdd_volume,laptops_operating_system,laptops_proc_manufacturer,laptops_processor_series,laptops_ram_amount,laptops_ram_type,laptops_screen_diagonal,laptops_screen_refresh_rate,laptops_screen_type,laptops_ssd_volume,laptops_videocard_discrete,laptops_videocard_integrated,laptops_videocard_type,name,offer,package_height,package_length,package_width,partner_name,range_laptops_accumulator_battery,range_screen_diagonal,range_screen_refresh_rate,sku,variation_name"
   },
   {
     "code": "tablets",
@@ -403,9 +403,9 @@
   },
   {
     "code": "steadicam",
-    "label-uk_UA": "Стедіками та моноподи",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,external_id,full_weight,keywords,material,name,offer,package_height,package_length,package_width,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,range_battery_life,rating,sku,steadicam_battery_capacity_mah,steadicam_battery_life,steadicam_designation,steadicam_operating_modes,steadicam_stabilization,steadicam_type,steadicam_wireless_technologies,variation_name,vendor_code",
-    "requirements-marketplace": "brand,code,color,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,range_battery_life,sku,steadicam_battery_life,steadicam_operating_modes,steadicam_stabilization,variation_name"
+    "label-uk_UA": "Стедіками",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,external_id,full_weight,keywords,material,name,offer,package_height,package_length,package_width,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,range_battery_life,rating,sku,steadicam_battery_capacity_mah,steadicam_battery_life,steadicam_connection_type,steadicam_control_type,steadicam_designation,steadicam_operating_modes,steadicam_stabilization,steadicam_wireless_technologies,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,color,description,external_id,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,range_battery_life,sku,steadicam_battery_life,steadicam_connection_type,steadicam_control_type,steadicam_operating_modes,steadicam_stabilization,variation_name"
   },
   {
     "code": "accessories_mobile_devices",
@@ -1183,9 +1183,9 @@
   },
   {
     "code": "Diapers_toilets_accessories_for_dogs",
-    "label-uk_UA": "Пелюшки та аксесуари для собак",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,designation,dimensions_wxhxd,ean,external_id,for_whom,full_weight,keywords,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,size_of_diapers,size_of_diapers_and_panties,sku,type,variation_name,vendor_code",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "label-uk_UA": "Пелюшки та підгузки для собак",
+    "attributes": "Diapers_toilets_accessories_for_dogs_designation,Diapers_toilets_accessories_for_dogs_size_of_diapers,Diapers_toilets_accessories_for_dogs_size_of_diapers_and_panties,Diapers_toilets_accessories_for_dogs_type,age_pets_main,article,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,dogs_size_of_the_breed_main,ean,external_id,for_whom_pets,full_weight,keywords,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "age_pets_main,brand,country_origin,Diapers_toilets_accessories_for_dogs_size_of_diapers,Diapers_toilets_accessories_for_dogs_size_of_diapers_and_panties,Diapers_toilets_accessories_for_dogs_type,dogs_size_of_the_breed_main,full_weight,package_height,package_length,package_width,sku"
   },
   {
     "code": "food_for_rodents",
@@ -3381,7 +3381,7 @@
     "code": "roller_skates",
     "label-uk_UA": "Роликові ковзани",
     "attributes": "article,barcode,boot,brand,code,color,country_origin,description,ean,external_id,fixation_of_the_leg,full_weight,gender,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,skate_size,skating_level,sku,type,variation_name,vendor_code,wheel_arrangement,wheel_diameter",
-    "requirements-marketplace": "boot,brand,code,color,description,external_id,fixation_of_the_leg,full_weight,gender,name,offer,package_height,package_length,package_width,partner_name,skate_size,skating_level,sku,type,variation_name,wheel_arrangement,wheel_diameter"
+    "requirements-marketplace": "boot,brand,code,color,description,external_id,fixation_of_the_leg,full_weight,gender,name,offer,package_height,package_length,package_width,partner_name,product_status,skate_size,skating_level,sku,type,variation_name,wheel_arrangement,wheel_diameter"
   },
   {
     "code": "barbecue_kits",
@@ -3836,8 +3836,8 @@
   {
     "code": "cages_aviaries_dog_barriers",
     "label-uk_UA": "Клітки, вольєри, бар'єри для собак",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,dogs_size_of_the_breed_main,ean,external_id,feature,for_whom,for_whom_pets,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,size_international,sku,type,variation_name,vendor_code",
-    "requirements-marketplace": "brand,country_origin,dogs_size_of_the_breed_main,full_weight,package_height,package_length,package_width,sku"
+    "attributes": "article,barcode,brand,cages_aviaries_dog_barriers_feature,cages_aviaries_dog_barriers_size_international,cages_aviaries_dog_barriers_type,code,color,country_origin,description,dimensions_wxhxd,dogs_size_of_the_breed_main,ean,external_id,for_whom_pets,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,sku,variation_name,vendor_code",
+    "requirements-marketplace": "brand,cages_aviaries_dog_barriers_feature,cages_aviaries_dog_barriers_type,country_origin,dogs_size_of_the_breed_main,full_weight,package_height,package_length,package_width,sku"
   },
   {
     "code": "special_machinery",
@@ -3884,8 +3884,8 @@
   {
     "code": "dog_toilets",
     "label-uk_UA": "Туалети для собак",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,designation,ean,external_id,for_whom,full_weight,keywords,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,size_of_toilet,sku,variation_name,vendor_code,view",
-    "requirements-marketplace": "full_weight,package_height,package_length,package_width,sku"
+    "attributes": "article,barcode,brand,code,color,country_origin,description,dog_toilets_size_of_toilet,dog_toilets_view,ean,external_id,full_weight,keywords,material,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "brand,color,country_origin,dog_toilets_size_of_toilet,dog_toilets_view,full_weight,package_height,package_length,package_width,sku"
   },
   {
     "code": "electricalappliances_electricmops",
@@ -4976,8 +4976,8 @@
   {
     "code": "tripods",
     "label-uk_UA": "Штативи",
-    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,series,sku,tripod_body_material,tripod_supports,tripods_designation,tripods_features,tripods_folded_length_cm,tripods_head,tripods_head_type,tripods_maximum_height_cm,tripods_maximum_load,tripods_minimum_height_cm,tripods_number_of_sections_pcs,tripods_type,variation_name,vendor_code",
-    "requirements-marketplace": "brand,code,description,external_id,name,offer,partner_name,product_weight,sku,tripod_body_material,tripod_supports,tripods_designation,tripods_features,tripods_folded_length_cm,tripods_head,tripods_head_type,tripods_maximum_height_cm,tripods_maximum_load,tripods_minimum_height_cm,tripods_number_of_sections_pcs,tripods_type,variation_name"
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,product_weight,rating,series,sku,tripod_body_material,tripod_supports,tripods_designation,tripods_features,tripods_folded_length_cm,tripods_head,tripods_head_type,tripods_maximum_height_cm,tripods_maximum_load,tripods_minimum_height_cm,tripods_number_of_sections_pcs,tripods_type,variation_name,vendor_code,wireless_technology_tripods",
+    "requirements-marketplace": "brand,code,description,external_id,name,offer,partner_name,product_status,product_weight,sku,tripod_body_material,tripod_supports,tripods_designation,tripods_features,tripods_folded_length_cm,tripods_head,tripods_head_type,tripods_maximum_height_cm,tripods_maximum_load,tripods_minimum_height_cm,tripods_number_of_sections_pcs,tripods_type,variation_name"
   },
   {
     "code": "cross_fit",
@@ -5116,5 +5116,53 @@
     "label-uk_UA": "Дрилі",
     "attributes": "always_visible,article,barcode,brand,brand_registration_country,code,color,country_origin,description,drills_battery_capacity_ah,drills_battery_type,drills_battery_voltage_v,drills_cartridge_diameter,drills_cartridge_type,drills_class,drills_features,drills_features_and_capabilities,drills_max_concrete_drilling_diameter,drills_max_drilling_diameter_in_metal,drills_max_torque_nm,drills_max_wood_drilling_diameter,drills_number_of_batteries_pcs,drills_number_of_revolutions_rpm,drills_number_of_speeds,drills_power_supply_type,drills_power_w,drills_stroke_rate_strokes_per_minute,drills_type,drills_weight_kg,ean,external_id,full_weight,keywords,model,model_for_reissue,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,restrictions,series,sku,variation_name,vendor_code",
     "requirements-marketplace": "drills_battery_capacity_ah,drills_battery_type,drills_battery_voltage_v,drills_cartridge_type,drills_features,drills_features_and_capabilities,drills_max_torque_nm,drills_number_of_batteries_pcs,drills_number_of_revolutions_rpm,drills_power_supply_type,drills_power_w,drills_type,drills_weight_kg,sku"
+  },
+  {
+    "code": "construction_mixers",
+    "label-uk_UA": "Міксери будівельні",
+    "attributes": "always_visible,article,barcode,brand,brand_registration_country,code,color,construction_mixers_agitator_diameter_mm,construction_mixers_battery_capacity_h,construction_mixers_battery_type,construction_mixers_battery_voltage_v,construction_mixers_cartridge_diameter,construction_mixers_cartridge_type,construction_mixers_features,construction_mixers_features_and_capabilities,construction_mixers_max_torque_nm,construction_mixers_number_of_batteries_pcs,construction_mixers_number_of_revolutions_rpm,construction_mixers_power_supply_type,construction_mixers_power_w,construction_mixers_spindle_thread,construction_mixers_type,construction_mixers_weight_kg,country_origin,description,ean,external_id,full_weight,keywords,model,model_for_reissue,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,restrictions,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "construction_mixers_agitator_diameter_mm,construction_mixers_battery_capacity_h,construction_mixers_battery_type,construction_mixers_battery_voltage_v,construction_mixers_cartridge_type,construction_mixers_features,construction_mixers_features_and_capabilities,construction_mixers_max_torque_nm,construction_mixers_number_of_batteries_pcs,construction_mixers_number_of_revolutions_rpm,construction_mixers_power_supply_type,construction_mixers_power_w,construction_mixers_spindle_thread,construction_mixers_type,construction_mixers_weight_kg,sku"
+  },
+  {
+    "code": "doors_and_grates_for_cats",
+    "label-uk_UA": "Дверцята та решітки для котів",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,dimensions_wxhxd,doors_and_grates_for_cats_feature,doors_and_grates_for_cats_type,ean,external_id,for_whom_pets,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,sku,variation_name,vendor_code",
+    "requirements-marketplace": "brand,color,country_origin,doors_and_grates_for_cats_feature,doors_and_grates_for_cats_type,sku"
+  },
+  {
+    "code": "wheel_parts",
+    "label-uk_UA": "Колісні частини",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code,wheel_parts_diameter,wheel_parts_material,wheel_parts_purpose,wheel_parts_type,wheel_parts_tyre_tread_type,wheel_parts_width",
+    "requirements-marketplace": "sku"
+  },
+  {
+    "code": "steering",
+    "label-uk_UA": "Рульове управління",
+    "attributes": "article,barcode,brand,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,steering_handle_length,steering_handlebar_width,steering_material,steering_raising_steering_wheel,steering_type,variation_name,vendor_code",
+    "requirements-marketplace": "sku"
+  },
+  {
+    "code": "bicycles_spare_parts_components",
+    "label-uk_UA": "Комплектуючі",
+    "attributes": "article,barcode,bicycles_spare_parts_components_type,brand,brand_registration_country,code,color,country_origin,description,ean,external_id,full_weight,keywords,model,model_for_reissue,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "sku"
+  },
+  {
+    "code": "electric_jigsaws",
+    "label-uk_UA": "Електролобзики",
+    "attributes": "always_visible,article,barcode,brand,brand_registration_country,code,color,country_origin,description,ean,electric_jigsaws_battery_capacity_ah,electric_jigsaws_battery_type,electric_jigsaws_battery_voltage_v,electric_jigsaws_class,electric_jigsaws_cutting_depth_of_aluminium_mm,electric_jigsaws_features,electric_jigsaws_features_and_capabilities,electric_jigsaws_handle_type,electric_jigsaws_iron_cutting_depth_mm,electric_jigsaws_maximum_slope_of_the_cut,electric_jigsaws_number_of_batteries_pcs,electric_jigsaws_power_supply_type,electric_jigsaws_power_w,electric_jigsaws_steel_cutting_depth_mm,electric_jigsaws_stroke_frequency_strokes_min,electric_jigsaws_weight_kg,electric_jigsaws_wood_cutting_depth_mm,external_id,full_weight,keywords,model,model_for_reissue,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,photo_model_1,product_status,rating,restrictions,series,sku,variation_name,vendor_code",
+    "requirements-marketplace": "electric_jigsaws_battery_capacity_ah,electric_jigsaws_battery_type,electric_jigsaws_battery_voltage_v,electric_jigsaws_class,electric_jigsaws_features,electric_jigsaws_features_and_capabilities,electric_jigsaws_handle_type,electric_jigsaws_maximum_slope_of_the_cut,electric_jigsaws_number_of_batteries_pcs,electric_jigsaws_power_supply_type,electric_jigsaws_power_w,electric_jigsaws_stroke_frequency_strokes_min,electric_jigsaws_weight_kg,electric_jigsaws_wood_cutting_depth_mm,sku"
+  },
+  {
+    "code": "grooming_tools_for_dogs",
+    "label-uk_UA": "Інструменти грумінгу для собак",
+    "attributes": "article,barcode,brand,code,color,country_origin,decoration_material_zoo,description,dogs_size_of_the_breed_main,ean,external_id,features,for_whom_pets,full_weight,grooming_tools_for_dogs_grooming_tool_purpose,grooming_tools_for_dogs_length_of_wool,grooming_tools_for_dogs_size_international,grooming_tools_for_dogs_type_of_grooming_zoo,keywords,model,name,nutrition_zoo,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,product_status,product_weight,rating,series,size,sku,variation_name,vendor_code",
+    "requirements-marketplace": "brand,code,color,country_origin,description,dogs_size_of_the_breed_main,external_id,full_weight,grooming_tools_for_dogs_grooming_tool_purpose,grooming_tools_for_dogs_length_of_wool,grooming_tools_for_dogs_type_of_grooming_zoo,name,offer,package_height,package_length,package_width,partner_name,product_status,sku,variation_name"
+  },
+  {
+    "code": "behavior_correction_of_dogs",
+    "label-uk_UA": "Корекція поведінки собак",
+    "attributes": "age_pets_main,article,barcode,brand,code,country_origin,description,ean,external_id,for_whom_pets,form_of_tool_zoo,full_weight,keywords,name,offer,package_height,package_length,package_width,part_number,partner_name,photo_1,photo_10,photo_11,photo_12,photo_13,photo_14,photo_15,photo_2,photo_3,photo_4,photo_5,photo_6,photo_7,photo_8,photo_9,product_status,product_weight,purpose_of_behavior_correction_zoo,range_volume_ml_l,rating,sku,variation_name,vendor_code,volume",
+    "requirements-marketplace": "brand,code,description,external_id,form_of_tool_zoo,full_weight,name,offer,package_height,package_length,package_width,partner_name,product_status,purpose_of_behavior_correction_zoo,range_volume_ml_l,sku,variation_name"
   }
 ]
