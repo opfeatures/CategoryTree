@@ -994,13 +994,6 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "genre",
-    "label-uk_UA": "Жанр",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "number_of_players",
     "label-uk_UA": "Кількість гравців",
     "type": "pim_catalog_multiselect",
@@ -2215,13 +2208,6 @@
     "code": "number_of_books_the_set",
     "label-uk_UA": "Кількість книг у комплекті",
     "type": "pim_catalog_simpleselect",
-    "group": "additionally",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "isbn",
-    "label-uk_UA": "ISBN",
-    "type": "pim_catalog_text",
     "group": "additionally",
     "guidelines-ru_RU": ""
   },
@@ -3560,13 +3546,6 @@
     "label-uk_UA": "Висота вази",
     "type": "pim_catalog_simpleselect",
     "group": "size",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "publishers",
-    "label-uk_UA": "Видавництво",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
     "guidelines-ru_RU": ""
   },
   {
@@ -14798,13 +14777,6 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "filler_properties",
-    "label-uk_UA": "Властивості наповнювача",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "vacuumator_controls",
     "label-uk_UA": "Керування",
     "type": "pim_catalog_multiselect",
@@ -16667,20 +16639,6 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "zoo_house_cleanliness_designation",
-    "label-uk_UA": "Призначення",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "feature_of_the_cleanliness_of_the_zoo",
-    "label-uk_UA": "Особливість",
-    "type": "pim_catalog_multiselect",
-    "group": "additionally",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "width_mm",
     "label-uk_UA": "Ширина, мм",
     "type": "pim_catalog_text",
@@ -17939,13 +17897,6 @@
     "type": "pim_catalog_boolean",
     "group": "main",
     "guidelines-ru_RU": "Наявність пари для ручного збивання молока теж являється можливістю готувати напої з молоком"
-  },
-  {
-    "code": "purpose_of_behavior_correction_zoo",
-    "label-uk_UA": "Призначення",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
   },
   {
     "code": "additionally_text",
@@ -23957,7 +23908,7 @@
     "code": "energy_storage_system_features",
     "label-uk_UA": "Особливості",
     "type": "pim_catalog_multiselect",
-    "group": "additionally",
+    "group": "additional_features",
     "guidelines-ru_RU": ""
   },
   {
@@ -23971,7 +23922,7 @@
     "code": "energy_storage_system_weight_kg",
     "label-uk_UA": "Вага, кг",
     "type": "pim_catalog_simpleselect",
-    "group": "technical_parameters",
+    "group": "physical_characteristics",
     "guidelines-ru_RU": ""
   },
   {
@@ -25133,7 +25084,7 @@
     "code": "screwdrivers_engine_type",
     "label-uk_UA": "Тип двигуна",
     "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
+    "group": "main",
     "guidelines-ru_RU": ""
   },
   {
@@ -26351,7 +26302,7 @@
     "code": "electric_jigsaws_features_and_capabilities",
     "label-uk_UA": "Функції та можливості",
     "type": "pim_catalog_multiselect",
-    "group": "additionally",
+    "group": "additional_features",
     "guidelines-ru_RU": ""
   },
   {
@@ -26365,7 +26316,7 @@
     "code": "electric_jigsaws_features",
     "label-uk_UA": "Особливості",
     "type": "pim_catalog_multiselect",
-    "group": "additionally",
+    "group": "additional_features",
     "guidelines-ru_RU": ""
   },
   {
@@ -26464,6 +26415,398 @@
     "label-uk_UA": "Кількість акумуляторів, шт",
     "type": "pim_catalog_simpleselect",
     "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "pots_and_planters_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "pots_and_planters_volume",
+    "label-uk_UA": "Об'єм",
+    "type": "pim_catalog_textarea",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "behavior_correction_of_dogs_n_cats_form_of_tool_zoo",
+    "label-uk_UA": "Форма",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "behavior_correction_of_dogs_n_cats_purpose_of_behavior_correction_zoo",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_behavior_correction_of_dogs_n_cats_volume_ml_l",
+    "label-uk_UA": "Об'єм, мл/л",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "cleanliness_of_the_dogs_n_cats_feature",
+    "label-uk_UA": "Особливість",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "cleanliness_of_the_dogs_n_cats_form",
+    "label-uk_UA": "Форма",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_cleanliness_of_the_dogs_n_cats_volume_ml_l",
+    "label-uk_UA": "Об'єм, мл/л",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "cleanliness_of_the_dogs_n_cats_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "veterinary_diets_for_dogs_quantity_package_pcs",
+    "label-uk_UA": "Кількість в упаковці, шт.",
+    "type": "pim_catalog_simpleselect",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "tonometers_pressure_measurement_zone",
+    "label-uk_UA": "Зона вимірювання тиску",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "tonometers_power_supply",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "tonometers_pressure_measurement_type",
+    "label-uk_UA": "Тип вимірювання тиску",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "tonometers_cuff_size_cm",
+    "label-uk_UA": "Розмір манжету, см",
+    "type": "pim_catalog_simpleselect",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "tonometers_functions",
+    "label-uk_UA": "Функції",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "medical_thermometers_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "medical_thermometers_measurement_area",
+    "label-uk_UA": "Зона вимірювання",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "cat_litter_filler_properties",
+    "label-uk_UA": "Властивості наповнювача",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "cat_litter_filler_scent_zoo",
+    "label-uk_UA": "Аромат",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_cat_litter_packaging_kg",
+    "label-uk_UA": "Фасування, кг",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_cat_litter_packaging_l",
+    "label-uk_UA": "Фасування, л",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "cat_litter_type_of_filler",
+    "label-uk_UA": "Вид наповнювача",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "medical_thermometers_additional_features",
+    "label-uk_UA": "Додаткові функції",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "inhalers_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "inhalers_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "inhalers_additionally",
+    "label-uk_UA": "Додатково",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "inhalers_power_supply",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "inhalers_size",
+    "label-uk_UA": "Розмір",
+    "type": "pim_catalog_simpleselect",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "pulse_oximeter_measured_parameters",
+    "label-uk_UA": "Вимірювані параметри",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "pulse_oximeter_application",
+    "label-uk_UA": "Застосування",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "pulse_oximeter_device_category",
+    "label-uk_UA": "Категорія приладу",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "pulse_oximeter_audible_alerts",
+    "label-uk_UA": "Звукові оповіщення",
+    "type": "pim_catalog_boolean",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "pulse_oximeter_battery_charge_indicator",
+    "label-uk_UA": "Індикація заряду батарей",
+    "type": "pim_catalog_boolean",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bandages_corsets_part_of_the_body",
+    "label-uk_UA": "Частина тіла",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bandages_corsets_function",
+    "label-uk_UA": "Функція",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bandages_corsets_purpose",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bandages_corsets_age_group",
+    "label-uk_UA": "Вікова група",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bandages_corsets_degree_of_fixation",
+    "label-uk_UA": "Ступінь фіксації",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bandages_corsets_fastener",
+    "label-uk_UA": "Застібка",
+    "type": "pim_catalog_simpleselect",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bandages_corsets_construction",
+    "label-uk_UA": "Конструкція",
+    "type": "pim_catalog_simpleselect",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bandages_corsets_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "heart_rate_monitors_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "heart_rate_monitors_purpose",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "heart_rate_monitors_connection_type",
+    "label-uk_UA": "Тип підключення",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "toilets_and_accessories_for_cats_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "components_for_healthcare_equipment_component_type",
+    "label-uk_UA": "Тип комплектуючого",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "components_for_healthcare_equipment_compatibility_with_device_type",
+    "label-uk_UA": "Сумісність з типом пристрою",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_jack_type",
+    "label-uk_UA": "Тип домкрата",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_jack_product_type",
+    "label-uk_UA": "Вид виробу",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_jack_load_capacity_kg",
+    "label-uk_UA": "Вантажопідйомність, кг",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_jack_maximum_lifting_height_cm",
+    "label-uk_UA": "Максимальна висота підйому, см",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_car_jack_load_capacity_kg",
+    "label-uk_UA": "Вантажопідйомність, кг",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_car_jack_maximum_lifting_height_cm",
+    "label-uk_UA": "Максимальна висота підйому, см",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_assistance_kits_type",
+    "label-uk_UA": "Тип обладнання",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_assistance_kits_designation",
+    "label-uk_UA": "Призначення набору",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_assistance_kits_composition",
+    "label-uk_UA": "Склад набору",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters",
     "guidelines-ru_RU": ""
   }
 ]
