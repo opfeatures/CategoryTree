@@ -49,95 +49,11 @@
     "guidelines-ru_RU": "Поле для аналітиків. АЛЕ за відсутності партномеру в Variation name (якщо поле заповнене) - додаємо код в Variation name в дужках, приклад: (PN6435). ВАЖЛИВО! Штрихкод не використовуємо."
   },
   {
-    "code": "name",
-    "label-uk_UA": "Назва",
-    "type": "pim_catalog_text",
-    "group": "marketing",
-    "guidelines-ru_RU": "Тип товару ↔ Особливість + Бренд + Модель + Інші характеристики + Колір. З \"Назви\" ми прибираємо артикул/вендор код і стараємось скоротити її, щоб залишити коротку просту назву товару, вона використовується в назві моделі."
-  },
-  {
     "code": "photo_model_1",
     "label-uk_UA": "Фото моделі",
     "type": "pim_catalog_image",
     "group": "model_photos",
     "guidelines-ru_RU": "НЕ ВИКОРИСТОВУЄТЬСЯ!"
-  },
-  {
-    "code": "photo_1",
-    "label-uk_UA": "Фото 1",
-    "type": "pim_catalog_image",
-    "group": "photo_gallery",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "photo_2",
-    "label-uk_UA": "Фото 2",
-    "type": "pim_catalog_image",
-    "group": "photo_gallery",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "photo_3",
-    "label-uk_UA": "Фото 3",
-    "type": "pim_catalog_image",
-    "group": "photo_gallery",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "photo_4",
-    "label-uk_UA": "Фото 4",
-    "type": "pim_catalog_image",
-    "group": "photo_gallery",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "photo_5",
-    "label-uk_UA": "Фото 5",
-    "type": "pim_catalog_image",
-    "group": "photo_gallery",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "photo_6",
-    "label-uk_UA": "Фото 6",
-    "type": "pim_catalog_image",
-    "group": "photo_gallery",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "photo_7",
-    "label-uk_UA": "Фото 7",
-    "type": "pim_catalog_image",
-    "group": "photo_gallery",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "photo_8",
-    "label-uk_UA": "Фото 8",
-    "type": "pim_catalog_image",
-    "group": "photo_gallery",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "photo_9",
-    "label-uk_UA": "Фото 9",
-    "type": "pim_catalog_image",
-    "group": "photo_gallery",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "description",
-    "label-uk_UA": "Опис",
-    "type": "pim_catalog_textarea",
-    "group": "marketing",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "variation_name",
-    "label-uk_UA": "Variation_name",
-    "type": "pim_catalog_text",
-    "group": "marketing",
-    "guidelines-ru_RU": "Тип товару ↔ Особливість + Бренд + Модель + Інші характеристики + Колір + Артикул (артикул/вендор‑код у дужках наприкінці)"
   },
   {
     "code": "package_height",
@@ -280,13 +196,6 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "country_origin",
-    "label-uk_UA": "Країна-виробник",
-    "type": "pim_catalog_simpleselect",
-    "group": "other",
-    "guidelines-ru_RU": "Проставляємо коли є інформація на мерчанті, або коли є 100% впевненість, що данний товар має певну країну збірки."
-  },
-  {
     "code": "games_included",
     "label-uk_UA": "Ігри в комплекті",
     "type": "pim_catalog_simpleselect",
@@ -299,13 +208,6 @@
     "type": "pim_catalog_simpleselect",
     "group": "display",
     "guidelines-ru_RU": ""
-  },
-  {
-    "code": "brand",
-    "label-uk_UA": "Бренд",
-    "type": "pim_catalog_simpleselect",
-    "group": "other",
-    "guidelines-ru_RU": "За відсутності бренду в списку або якщо некоректне написання (помилки, регістр) - звертатися до SV."
   },
   {
     "code": "type_of_connection",
@@ -355,20 +257,6 @@
     "type": "pim_catalog_simpleselect",
     "group": "physical_characteristics",
     "guidelines-ru_RU": ""
-  },
-  {
-    "code": "strap_color",
-    "label-uk_UA": "Колір ремінця",
-    "type": "pim_catalog_simpleselect",
-    "group": "other",
-    "guidelines-ru_RU": "Використовуємо для проставлення гугл док по кольорам, вкладка \"Колір ремінця\". Звертаємо увагу що для брендів Samsung і Apple використовуються забрендовані кольори (дивитися вкладки в документі)."
-  },
-  {
-    "code": "color",
-    "label-uk_UA": "Колір",
-    "type": "pim_catalog_simpleselect",
-    "group": "other",
-    "guidelines-ru_RU": "Використовуємо для проставлення гугл док по кольорам. Звертаємо увагу що для брендів Samsung і Apple використовуються забрендовані кольори (дивитися вкладки в документі)."
   },
   {
     "code": "proc_number_cores",
@@ -448,20 +336,6 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "model",
-    "label-uk_UA": "Модель",
-    "type": "pim_catalog_text",
-    "group": "other",
-    "guidelines-ru_RU": "Заповнюємо лише по запиту категорійних."
-  },
-  {
-    "code": "series",
-    "label-uk_UA": "Серія",
-    "type": "pim_catalog_text",
-    "group": "other",
-    "guidelines-ru_RU": "Заповнюємо лише по запиту категорійних."
-  },
-  {
     "code": "model_range",
     "label-uk_UA": "Модельний ряд",
     "type": "pim_catalog_text",
@@ -507,7 +381,7 @@
     "code": "cooling_system",
     "label-uk_UA": "Система охолодження",
     "type": "pim_catalog_text",
-    "group": "parametrs",
+    "group": "additionally",
     "guidelines-ru_RU": ""
   },
   {
@@ -595,48 +469,6 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "photo_10",
-    "label-uk_UA": "Фото 10",
-    "type": "pim_catalog_image",
-    "group": "photo_gallery",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "photo_11",
-    "label-uk_UA": "Фото 11",
-    "type": "pim_catalog_image",
-    "group": "photo_gallery",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "photo_12",
-    "label-uk_UA": "Фото 12",
-    "type": "pim_catalog_image",
-    "group": "photo_gallery",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "photo_13",
-    "label-uk_UA": "Фото 13",
-    "type": "pim_catalog_image",
-    "group": "photo_gallery",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "photo_14",
-    "label-uk_UA": "Фото 14",
-    "type": "pim_catalog_image",
-    "group": "photo_gallery",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "photo_15",
-    "label-uk_UA": "Фото 15",
-    "type": "pim_catalog_image",
-    "group": "photo_gallery",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "features",
     "label-uk_UA": "Особливості",
     "type": "pim_catalog_textarea",
@@ -649,13 +481,6 @@
     "type": "pim_catalog_textarea",
     "group": "additionally",
     "guidelines-ru_RU": ""
-  },
-  {
-    "code": "rating",
-    "label-uk_UA": "Рейтинг",
-    "type": "pim_catalog_number",
-    "group": "marketing",
-    "guidelines-ru_RU": "Контенти поле не використовують."
   },
   {
     "code": "functions",
@@ -858,13 +683,6 @@
     "label-uk_UA": "Фірмові технології",
     "type": "pim_catalog_text",
     "group": "additionally",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "recommended_floor_space_m2",
-    "label-uk_UA": "Рекомендована площа приміщення, м²",
-    "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
     "guidelines-ru_RU": ""
   },
   {
@@ -1501,8 +1319,8 @@
     "code": "efficiency",
     "label-uk_UA": "ККД (%)",
     "type": "pim_catalog_text",
-    "group": "power_supply",
-    "guidelines-ru_RU": ""
+    "group": "main",
+    "guidelines-ru_RU": "Для всіх типів інверторів"
   },
   {
     "code": "modular_cable_connection",
@@ -1813,20 +1631,6 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "type_heating_element",
-    "label-uk_UA": "Тип нагрівального елемента",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "type_heater",
-    "label-uk_UA": "Тип обігрівача",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "optical_zoom",
     "label-uk_UA": "Оптичне збільшення",
     "type": "pim_catalog_text",
@@ -2023,13 +1827,6 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "keywords",
-    "label-uk_UA": "Keywords",
-    "type": "pim_catalog_textarea",
-    "group": "marketing",
-    "guidelines-ru_RU": "Контенти поле не використовують. Лише переносимо інформацію, якщо є, при створенні моделей."
-  },
-  {
     "code": "number_of_haircut_length_settings",
     "label-uk_UA": "Кількість установок довжини стрижки",
     "type": "pim_catalog_simpleselect",
@@ -2100,13 +1897,6 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "restrictions",
-    "label-uk_UA": "Обмеження",
-    "type": "pim_catalog_multiselect",
-    "group": "other",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "armrest",
     "label-uk_UA": "Підлокітник",
     "type": "pim_catalog_boolean",
@@ -2153,13 +1943,6 @@
     "label-uk_UA": "Матеріал каркасу",
     "type": "pim_catalog_multiselect",
     "group": "physical_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "always_visible",
-    "label-uk_UA": "Завжди відображати на вітрині",
-    "type": "pim_catalog_boolean",
-    "group": "other",
     "guidelines-ru_RU": ""
   },
   {
@@ -2667,13 +2450,6 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "scan_format",
-    "label-uk_UA": "Формат сканування",
-    "type": "pim_catalog_simpleselect",
-    "group": "parametrs",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "color_cartridge_life",
     "label-uk_UA": "Ресурс кольорового картриджа",
     "type": "pim_catalog_text",
@@ -2877,30 +2653,9 @@
     "guidelines-ru_RU": "Одиниці виміру: кВт"
   },
   {
-    "code": "feed_class",
-    "label-uk_UA": "Клас корму",
-    "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "main_ingredient",
-    "label-uk_UA": "Основні інгредієнти",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "size_of_the_breed",
     "label-uk_UA": "Розмір породи",
     "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "packaging",
-    "label-uk_UA": "Фасування",
-    "type": "pim_catalog_simpleselect",
     "group": "main_characteristics",
     "guidelines-ru_RU": ""
   },
@@ -2916,13 +2671,6 @@
     "label-uk_UA": "Максимальна швидкість потоку",
     "type": "pim_catalog_simpleselect",
     "group": "physical_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "swimming_area",
-    "label-uk_UA": "Зона плавання",
-    "type": "pim_catalog_text",
-    "group": "additionally",
     "guidelines-ru_RU": ""
   },
   {
@@ -3306,13 +3054,6 @@
   {
     "code": "tablecloths_size",
     "label-uk_UA": "Розмір скатертини",
-    "type": "pim_catalog_simpleselect",
-    "group": "size",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "napkin_size",
-    "label-uk_UA": "Розмір серветки",
     "type": "pim_catalog_simpleselect",
     "group": "size",
     "guidelines-ru_RU": ""
@@ -4578,34 +4319,6 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "bird_species",
-    "label-uk_UA": "Вид птахів",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "age_pets",
-    "label-uk_UA": "Вік тварини",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": "Допускаються лише ці ти значення"
-  },
-  {
-    "code": "features_pets",
-    "label-uk_UA": "Особливість іграшки",
-    "type": "pim_catalog_multiselect",
-    "group": "additionally",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "type_pets",
-    "label-uk_UA": "Тип іграшки",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "range_diagonal_displ",
     "label-uk_UA": "Діагональ дисплея",
     "type": "pim_catalog_simpleselect",
@@ -4858,34 +4571,6 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "type_of_feed",
-    "label-uk_UA": "Харчові особливості",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "range_packaging",
-    "label-uk_UA": "Фасування",
-    "type": "pim_catalog_simpleselect",
-    "group": "range_from_to",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "view_of_feed",
-    "label-uk_UA": "Вид корму",
-    "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "type_of_delicacy",
-    "label-uk_UA": "Вид ласощів",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "hdr_support",
     "label-uk_UA": "Підтримка HDR",
     "type": "pim_catalog_boolean",
@@ -4895,13 +4580,6 @@
   {
     "code": "range_packaging_kg",
     "label-uk_UA": "Фасування, кг",
-    "type": "pim_catalog_simpleselect",
-    "group": "range_from_to",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "range_packaging_l",
-    "label-uk_UA": "Фасування, л",
     "type": "pim_catalog_simpleselect",
     "group": "range_from_to",
     "guidelines-ru_RU": ""
@@ -4939,13 +4617,6 @@
     "label-uk_UA": "Розмір ляльки",
     "type": "pim_catalog_simpleselect",
     "group": "range_from_to",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "brand_registration_country",
-    "label-uk_UA": "Країна реєстрації бренду",
-    "type": "pim_catalog_simpleselect",
-    "group": "other",
     "guidelines-ru_RU": ""
   },
   {
@@ -5023,13 +4694,6 @@
     "label-uk_UA": "Модель ЦАП",
     "type": "pim_catalog_text",
     "group": "technology_communications",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "number_of_bowls",
-    "label-uk_UA": "Кількість мисок",
-    "type": "pim_catalog_simpleselect",
-    "group": "physical_characteristics",
     "guidelines-ru_RU": ""
   },
   {
@@ -5117,13 +4781,6 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "type_of_reptiles",
-    "label-uk_UA": "Вид рептилії",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "speed_txt",
     "label-uk_UA": "Швидкість",
     "type": "pim_catalog_text",
@@ -5131,17 +4788,10 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "method_of_starting",
-    "label-uk_UA": "Спосіб запускання",
-    "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "number_of_lanes_of_auto_track",
     "label-uk_UA": "Кількість смуг автотрека",
     "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
+    "group": "main",
     "guidelines-ru_RU": ""
   },
   {
@@ -5313,13 +4963,6 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "type_of_filler",
-    "label-uk_UA": "Вид наповнювача",
-    "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "type_of_designer_connection",
     "label-uk_UA": "Тип з'єднання конструктора",
     "type": "pim_catalog_simpleselect",
@@ -5411,13 +5054,6 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "type_offiller_zoo",
-    "label-uk_UA": "Тип наповнювача",
-    "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "cartridge_type",
     "label-uk_UA": "Тип картриджа",
     "type": "pim_catalog_multiselect",
@@ -5432,31 +5068,10 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "range_feed_volume_ml_l",
-    "label-uk_UA": "Об'єм корму, мл/л",
-    "type": "pim_catalog_simpleselect",
-    "group": "range_from_to",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "filler_scent_zoo",
-    "label-uk_UA": "Аромат наповнювача",
-    "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "for_whom_zoo",
-    "label-uk_UA": "Для",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "type_smart_gadget_zoo",
-    "label-uk_UA": "Тип Smart-гаджету",
+    "label-uk_UA": "Тип",
     "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
+    "group": "main",
     "guidelines-ru_RU": ""
   },
   {
@@ -5478,20 +5093,6 @@
     "label-uk_UA": "Призначення засобу",
     "type": "pim_catalog_multiselect",
     "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "type_of_assignment_zoo",
-    "label-uk_UA": "Тип призначення",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "aquarium_form",
-    "label-uk_UA": "Форма акваріума",
-    "type": "pim_catalog_simpleselect",
-    "group": "physical_characteristics",
     "guidelines-ru_RU": ""
   },
   {
@@ -5519,19 +5120,12 @@
     "code": "decoration_material_zoo",
     "label-uk_UA": "Матеріал",
     "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
+    "group": "physical_characteristics",
     "guidelines-ru_RU": ""
   },
   {
     "code": "type_of_equipment_zoo",
     "label-uk_UA": "Тип обладнання",
-    "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "device_type_zoo",
-    "label-uk_UA": "Тип приладу",
     "type": "pim_catalog_simpleselect",
     "group": "main_characteristics",
     "guidelines-ru_RU": ""
@@ -5547,35 +5141,7 @@
     "code": "number_of_tiers_zoo",
     "label-uk_UA": "Кількість ярусів",
     "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "type_of_arrangement",
-    "label-uk_UA": "Тип облаштування",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "purpose_of_device_zoo",
-    "label-uk_UA": "Призначення приладу",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "device_the_type_zoo",
-    "label-uk_UA": "Тип апарату",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "type_of_cage",
-    "label-uk_UA": "Тип клітки",
-    "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
+    "group": "main",
     "guidelines-ru_RU": ""
   },
   {
@@ -7449,164 +7015,94 @@
   },
   {
     "code": "solar_inverters_battery_voltage",
-    "label-uk_UA": "Напруга акумулятора",
+    "label-uk_UA": "Напруга акумулятора, В",
     "type": "pim_catalog_simpleselect",
-    "group": "parametrs",
-    "guidelines-ru_RU": "Номінальна напруга, з якою сумісний інвертор при підключенні акумулятора\nФормат: тільки числове значення + \" В\""
+    "group": "power_supply",
+    "guidelines-ru_RU": "Номінальна напруга, з якою сумісний інвертор при підключенні акумулятора\nФормат: тільки числове значення + \" В\"\nТільки для гібридних (on-grid) і автономних (off-grid)"
   },
   {
     "code": "solar_inverters_charging_current_from_mains_a",
     "label-uk_UA": "Струм заряду від мережі, А",
     "type": "pim_catalog_simpleselect",
-    "group": "parametrs",
-    "guidelines-ru_RU": ""
+    "group": "power_supply",
+    "guidelines-ru_RU": "Тільки для гібридних (on-grid) і автономних (off-grid) інверторів"
   },
   {
     "code": "solar_inverters_charging_current_from_pv_modules_a",
     "label-uk_UA": "Струм заряду від фотомодулів, А",
     "type": "pim_catalog_simpleselect",
-    "group": "parametrs",
-    "guidelines-ru_RU": ""
+    "group": "power_supply",
+    "guidelines-ru_RU": "Тільки для гібридних (hybrid) і автономних (off-grid)"
   },
   {
     "code": "solar_inverters_controls",
     "label-uk_UA": "Керування",
     "type": "pim_catalog_multiselect",
     "group": "parametrs",
-    "guidelines-ru_RU": "Тип керування роботою інвертора"
+    "guidelines-ru_RU": "Тип керування роботою інвертора\nДля всіх типів інверторів"
   },
   {
     "code": "solar_inverters_degree_protection",
     "label-uk_UA": "Ступінь захисту",
     "type": "pim_catalog_simpleselect",
     "group": "security",
-    "guidelines-ru_RU": ""
+    "guidelines-ru_RU": "Для всіх типів інверторів"
   },
   {
     "code": "solar_inverters_maximum_charging_current_a",
-    "label-uk_UA": "Максимальний струм зарядки, А",
+    "label-uk_UA": "Максимальний струм заряду, А",
     "type": "pim_catalog_simpleselect",
-    "group": "parametrs",
-    "guidelines-ru_RU": ""
+    "group": "power_supply",
+    "guidelines-ru_RU": "Тільки для гібридних (hybrid) і автономних (off-grid)"
   },
   {
     "code": "solar_inverters_maximum_power_kw",
     "label-uk_UA": "Максимальна потужність, кВт",
     "type": "pim_catalog_simpleselect",
-    "group": "parametrs",
-    "guidelines-ru_RU": "Пікове навантаження, яке інвертор може витримати на короткий час\nФормат: тільки числове значення з крапкою як роздільником"
+    "group": "main",
+    "guidelines-ru_RU": "Пікове навантаження, яке інвертор може витримати на короткий час\nФормат: тільки числове значення з крапкою як роздільником\nДля всіх типів інверторів\nЩе може називатись \"Пікова потужність\""
   },
   {
     "code": "solar_inverters_number_phases",
     "label-uk_UA": "Кількість фаз",
     "type": "pim_catalog_simpleselect",
-    "group": "parametrs",
-    "guidelines-ru_RU": "Тип підключення інвертора.\nФормат: тільки число: 1 або 3"
+    "group": "main",
+    "guidelines-ru_RU": "Тип підключення інвертора.\nФормат: тільки число: 1 або 3\nДля всіх типів інверторів"
   },
   {
     "code": "solar_inverters_number_trackers",
-    "label-uk_UA": "Кількість трекерів",
+    "label-uk_UA": "Кількість MPPT трекерів",
     "type": "pim_catalog_simpleselect",
     "group": "parametrs",
-    "guidelines-ru_RU": ""
+    "guidelines-ru_RU": "Для всіх типів інверторів"
   },
   {
     "code": "solar_inverters_output_signal_waveform",
     "label-uk_UA": "Форма вихідного сигналу",
     "type": "pim_catalog_simpleselect",
     "group": "parametrs",
-    "guidelines-ru_RU": ""
+    "guidelines-ru_RU": "Для всіх типів інверторів"
   },
   {
     "code": "solar_inverters_rated_power_kw",
     "label-uk_UA": "Номінальна потужність, кВт",
     "type": "pim_catalog_simpleselect",
-    "group": "parametrs",
-    "guidelines-ru_RU": ""
+    "group": "main",
+    "guidelines-ru_RU": "Для всіх типів інверторів"
   },
   {
     "code": "solar_inverters_type",
     "label-uk_UA": "Тип",
     "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
+    "group": "main",
     "guidelines-ru_RU": "Тип інвертора за принципом роботи\nЯкщо інвертор працює лише із мережею без акумулятора — Мережевий\nЯкщо підтримує роботу з мережею та акумулятором — Гібридний\nЯкщо працює без підключення до мережі — Автономний"
   },
   {
     "code": "solar_inverters_type_of_controller",
     "label-uk_UA": "Тип контролера",
     "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "starting_device_booster_features",
-    "label-uk_UA": "Особливості",
-    "type": "pim_catalog_multiselect",
-    "group": "additionally",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "starting_device_booster_battery_capacity_mah",
-    "label-uk_UA": "Ємність акумулятора, мАг",
-    "type": "pim_catalog_simpleselect",
-    "group": "power_supply",
-    "guidelines-ru_RU": "Можливі інші варіанти значень. Значення лише цифрове (роздільник КРАПКА, наприклад 12.5)"
-  },
-  {
-    "code": "starting_device_booster_connection_interfaces",
-    "label-uk_UA": "Інтерфейси підключення",
-    "type": "pim_catalog_multiselect",
-    "group": "ports_connectors",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "starting_device_booster_inrush_current",
-    "label-uk_UA": "Пусковий струм, A",
-    "type": "pim_catalog_simpleselect",
-    "group": "power_supply",
-    "guidelines-ru_RU": "Можливі інші варіанти значень. Значення лише цифрове (роздільник КРАПКА, наприклад 12.5)"
-  },
-  {
-    "code": "starting_device_booster_maximum_current_a",
-    "label-uk_UA": "Максимальний струм, А",
-    "type": "pim_catalog_simpleselect",
-    "group": "power_supply",
-    "guidelines-ru_RU": "Можливі інші варіанти значень. Значення лише цифрове (роздільник КРАПКА, наприклад 12.5)"
-  },
-  {
-    "code": "starting_device_booster_output_voltage_v",
-    "label-uk_UA": "Вихідна напруга, В",
-    "type": "pim_catalog_simpleselect",
     "group": "parametrs",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "starting_device_booster_power_supply",
-    "label-uk_UA": "Живлення",
-    "type": "pim_catalog_multiselect",
-    "group": "power_supply",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "starting_device_booster_protections",
-    "label-uk_UA": "Захист",
-    "type": "pim_catalog_multiselect",
-    "group": "security",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "starting_device_booster_type",
-    "label-uk_UA": "Тип",
-    "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "starting_device_booster_type_work",
-    "label-uk_UA": "Тип роботи",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
+    "guidelines-ru_RU": "Для всіх типів інверторів"
   },
   {
     "code": "chargers_aa_aaa_batteries_indication",
@@ -7743,14 +7239,14 @@
   },
   {
     "code": "solar_panels_connection_interfaces",
-    "label-uk_UA": "Інтерфейси підключення",
+    "label-uk_UA": "Порти і роз'єми",
     "type": "pim_catalog_multiselect",
     "group": "ports_connectors",
     "guidelines-ru_RU": ""
   },
   {
     "code": "solar_panels_degree_protection",
-    "label-uk_UA": "Ступінь захисту",
+    "label-uk_UA": "Захист",
     "type": "pim_catalog_simpleselect",
     "group": "security",
     "guidelines-ru_RU": ""
@@ -7777,24 +7273,10 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "solar_panels_rated_power_w_s",
-    "label-uk_UA": "Номінальна потужність, Вт",
-    "type": "pim_catalog_simpleselect",
-    "group": "parametrs",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "solar_panels_type",
     "label-uk_UA": "Тип",
     "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "prescription_ofthedrug_zoo",
-    "label-uk_UA": "Призначення",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
+    "group": "main",
     "guidelines-ru_RU": ""
   },
   {
@@ -8019,13 +7501,6 @@
     "label-uk_UA": "Бездротові технології",
     "type": "pim_catalog_multiselect",
     "group": "technology_communications",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "model_for_reissue",
-    "label-uk_UA": "Модель на перестворення",
-    "type": "pim_catalog_simpleselect",
-    "group": "other",
     "guidelines-ru_RU": ""
   },
   {
@@ -11791,21 +11266,14 @@
     "code": "accessories_for_health_and_beauty_equipment_designation",
     "label-uk_UA": "Призначення",
     "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
+    "group": "main",
     "guidelines-ru_RU": ""
   },
   {
     "code": "accessories_for_health_and_beauty_equipment_type",
     "label-uk_UA": "Тип",
     "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "accessories_for_health_and_beauty_equipment_compatibility",
-    "label-uk_UA": "Сумісність",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
+    "group": "main",
     "guidelines-ru_RU": ""
   },
   {
@@ -12415,7 +11883,7 @@
     "label-uk_UA": "Тип відеокарти",
     "type": "pim_catalog_simpleselect",
     "group": "videocard",
-    "guidelines-ru_RU": ""
+    "guidelines-ru_RU": "Якщо ноутбук має ДИСКРЕТНУ і ІНТЕГРОВАНУ відеоркату одночасно - “Дискретна” (подвійне значення в атрибут не додавати)"
   },
   {
     "code": "laptops_wireless_technologies",
@@ -14858,13 +14326,6 @@
     "label-uk_UA": "Максимальна потужність, Вт",
     "type": "pim_catalog_simpleselect",
     "group": "parametrs",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "type_of_grooming_zoo",
-    "label-uk_UA": "Тип",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
     "guidelines-ru_RU": ""
   },
   {
@@ -18456,13 +17917,6 @@
     "label-uk_UA": "Номінальна потужність, Вт",
     "type": "pim_catalog_simpleselect",
     "group": "range_from_to",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "grooming_tool_purpose",
-    "label-uk_UA": "Призначення",
-    "type": "pim_catalog_multiselect",
-    "group": "main_characteristics",
     "guidelines-ru_RU": ""
   },
   {
@@ -23339,7 +22793,7 @@
   },
   {
     "code": "electricalappliances_electricmops_type_vacuum_cleaner",
-    "label-uk_UA": "Тип пилососа",
+    "label-uk_UA": "Тип",
     "type": "pim_catalog_multiselect",
     "group": "main",
     "guidelines-ru_RU": ""
@@ -23482,7 +22936,7 @@
     "label-uk_UA": "Призначення",
     "type": "pim_catalog_multiselect",
     "group": "main",
-    "guidelines-ru_RU": ""
+    "guidelines-ru_RU": "Тут лише акси з блоку категорій \"Прибирання\"\nНаявні існуючі категорії:\nКомплектуючі для кавоварок та кавомашин\nКомплектуючі для кліматичної техніки\nКомплектуючі для кухонної техніки (блок \"Готування страв\")\nКомплектуючі для прасок\nАксесуари до техніки для дому (велика побутова+вбудована)"
   },
   {
     "code": "accessories_for_vacuum_cleaners_type",
@@ -23776,7 +23230,7 @@
     "label-uk_UA": "Тип пристрою",
     "type": "pim_catalog_multiselect",
     "group": "main",
-    "guidelines-ru_RU": ""
+    "guidelines-ru_RU": "Тут лише акси з блоку категорій \"Готування страв\"\nНаявні існуючі категорії:\nКомплектуючі для кавоварок та кавомашин\nКомплектуючі для кліматичної техніки\nКомплектуючі для прибиральної техніки\nКомплектуючі для прасок\nАксесуари до техніки для дому (велика побутова+вбудована)"
   },
   {
     "code": "accessories_for_kitchen_appliances_type",
@@ -23797,7 +23251,7 @@
     "label-uk_UA": "Призначення",
     "type": "pim_catalog_multiselect",
     "group": "main",
-    "guidelines-ru_RU": ""
+    "guidelines-ru_RU": "Тут лише акси з блоку категорій \"Клімат\"\nНаявні існуючі категорії:\nКомплектуючі для кавоварок та кавомашин\nКомплектуючі для кухонної техніки (блок \"Готування страв\")\nКомплектуючі для прибиральної техніки\nКомплектуючі для прасок\nАксесуари до техніки для дому (велика побутова+вбудована)"
   },
   {
     "code": "infrared_obstacle_avoidance_type",
@@ -23842,13 +23296,6 @@
     "guidelines-ru_RU": ""
   },
   {
-    "code": "energy_storage_system_maximum_expansion_in_terms_of_capacity_k_wh",
-    "label-uk_UA": "Максимальне розширення по ємності, кВт·год",
-    "type": "pim_catalog_simpleselect",
-    "group": "parametrs",
-    "guidelines-ru_RU": ""
-  },
-  {
     "code": "energy_storage_system_number_of_life_cycles",
     "label-uk_UA": "Кількість циклів життя",
     "type": "pim_catalog_simpleselect",
@@ -23881,20 +23328,6 @@
     "label-uk_UA": "Кількість MPPT, шт.",
     "type": "pim_catalog_simpleselect",
     "group": "parametrs",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "energy_storage_system_installation_type",
-    "label-uk_UA": "Тип встановлення",
-    "type": "pim_catalog_simpleselect",
-    "group": "main_characteristics",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "energy_storage_system_scalability",
-    "label-uk_UA": "Можливість масштабування",
-    "type": "pim_catalog_boolean",
-    "group": "additional_features",
     "guidelines-ru_RU": ""
   },
   {
@@ -25236,14 +24669,7 @@
   },
   {
     "code": "accessories_for_coffee_makers_coffee_machines_accessory_type",
-    "label-uk_UA": "Тип акесесуару",
-    "type": "pim_catalog_simpleselect",
-    "group": "main",
-    "guidelines-ru_RU": ""
-  },
-  {
-    "code": "accessories_for_coffee_makers_coffee_machines_appointment",
-    "label-uk_UA": "Призначення",
+    "label-uk_UA": "Тип аксесуару",
     "type": "pim_catalog_simpleselect",
     "group": "main",
     "guidelines-ru_RU": ""
@@ -26807,6 +26233,2274 @@
     "label-uk_UA": "Склад набору",
     "type": "pim_catalog_multiselect",
     "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "racks_benches_load_type",
+    "label-uk_UA": "Тип навантаження",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "kettlebells_type",
+    "label-uk_UA": "Тип гирі",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "kettlebells_weight",
+    "label-uk_UA": "Вага",
+    "type": "pim_catalog_simpleselect",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_kettlebells_weight",
+    "label-uk_UA": "Вага",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "kettlebells_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "multi_stations_load_type",
+    "label-uk_UA": "Тип навантаження",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "winches_cables_belts_equipment_type",
+    "label-uk_UA": "Тип обладнання",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "winches_cables_belts_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_winches_cables_belts_permissible_load",
+    "label-uk_UA": "Допустиме навантаження, т",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "winches_cables_belts_mounting_type",
+    "label-uk_UA": "Тип кріплення",
+    "type": "pim_catalog_simpleselect",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "batteries_for_power_tools_battery_type",
+    "label-uk_UA": "Тип акумулятора",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "winches_cables_belts_cable_type",
+    "label-uk_UA": "Вид троса",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "batteries_for_power_tools_battery_voltage_v",
+    "label-uk_UA": "Напруга акумулятора, В",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "batteries_for_power_tools_battery_capacity_ah",
+    "label-uk_UA": "Ємність акумулятора, А·год",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "winches_cables_belts_cable_material",
+    "label-uk_UA": "Матеріал троса",
+    "type": "pim_catalog_simpleselect",
+    "group": "additionally",
+    "guidelines-ru_RU": "Якщо кевларова нитка - це НЕ СТАЛЬ, відносити до стальних не можна. Перевіряйте інформацію, можливо помилка."
+  },
+  {
+    "code": "batteries_for_power_tools_number_of_batteries_pcs",
+    "label-uk_UA": "Кількість акумуляторів, шт",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "batteries_for_power_tools_charging_time_min",
+    "label-uk_UA": "Час заряджання, хв",
+    "type": "pim_catalog_text",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "batteries_for_power_tools_features_and_capabilities",
+    "label-uk_UA": "Функції та можливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "batteries_for_power_tools_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "batteries_for_power_tools_weight_kg",
+    "label-uk_UA": "Вага, кг",
+    "type": "pim_catalog_text",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_fire_extinguishers_type_of_equipment",
+    "label-uk_UA": "Тип обладнання",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_fire_extinguishers_type_of_fire_extinguisher",
+    "label-uk_UA": "Вид вогнегасника",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_fire_extinguishers_extinguishing_class",
+    "label-uk_UA": "Клас гасіння",
+    "type": "pim_catalog_multiselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_fire_extinguishers_mass_of_fire_extinguishing_agent",
+    "label-uk_UA": "Маса вогнегасної речовини",
+    "type": "pim_catalog_text",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_fire_extinguishers_fire_extinguisher_capacity",
+    "label-uk_UA": "Об'єм вогнегасника",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_fire_extinguishers_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_text",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_fire_extinguishers_operating_temperature",
+    "label-uk_UA": "Робоча температура",
+    "type": "pim_catalog_simpleselect",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "chargers_for_power_tools_battery_type",
+    "label-uk_UA": "Тип акумулятора",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "chargers_for_power_tools_battery_voltage_v",
+    "label-uk_UA": "Напруга акумулятора, В",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "chargers_for_power_tools_number_of_batteries_pcs",
+    "label-uk_UA": "Кількість акумуляторів, шт",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "chargers_for_power_tools_charge_current_a",
+    "label-uk_UA": "Струм заряду, А",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "chargers_for_power_tools_protection",
+    "label-uk_UA": "Захист",
+    "type": "pim_catalog_multiselect",
+    "group": "security",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "chargers_for_power_tools_features_and_capabilities",
+    "label-uk_UA": "Функції та можливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "chargers_for_power_tools_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "chargers_for_power_tools_weight_kg",
+    "label-uk_UA": "Вага, кг",
+    "type": "pim_catalog_text",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "pet_care_products_length_of_wool",
+    "label-uk_UA": "Довжина шерсті",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "pet_care_products_purpose_of_tool_zoo",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_pet_care_products_volume_ml_l",
+    "label-uk_UA": "Об'єм, мл/л",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "pet_care_products_form_of_tool_zoo",
+    "label-uk_UA": "Форма",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "pet_care_products_size_international",
+    "label-uk_UA": "Розмір виробу",
+    "type": "pim_catalog_simpleselect",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "cat_care_products_form_of_tool_zoo",
+    "label-uk_UA": "Форма",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "smart_gadgets_zoo_compatibility",
+    "label-uk_UA": "Сумісність",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "smart_gadgets_zoo_connection_interfaces",
+    "label-uk_UA": "Інтерфейси підключення",
+    "type": "pim_catalog_multiselect",
+    "group": "ports_connectors",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "smart_gadgets_zoo_number_of_bowls",
+    "label-uk_UA": "Кількість мисок",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "smart_gadgets_zoo_power_supply",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "battery_and_charger_kits_battery_type",
+    "label-uk_UA": "Тип акумулятора",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "battery_and_charger_kits_battery_voltage_v",
+    "label-uk_UA": "Напруга акумулятора, В",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "battery_and_charger_kits_battery_capacity_ah",
+    "label-uk_UA": "Ємність акумулятора, А·год",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "battery_and_charger_kits_number_of_batteries_pcs",
+    "label-uk_UA": "Кількість акумуляторів, шт",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "battery_and_charger_kits_charging_time_min",
+    "label-uk_UA": "Час заряджання, хв",
+    "type": "pim_catalog_text",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "battery_and_charger_kits_protection",
+    "label-uk_UA": "Захист",
+    "type": "pim_catalog_multiselect",
+    "group": "security",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "battery_and_charger_kits_features_and_capabilities",
+    "label-uk_UA": "Функції та можливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "battery_and_charger_kits_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "battery_and_charger_kits_weight_kg",
+    "label-uk_UA": "Вага, кг",
+    "type": "pim_catalog_text",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "battery_and_charger_kits_charge_current_a",
+    "label-uk_UA": "Струм заряду, А",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "food_for_rodents_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "food_for_rodents_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "food_for_rodents_rodent_species",
+    "label-uk_UA": "Вид гризунів",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "food_for_rodents_view",
+    "label-uk_UA": "Вид корму",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_food_for_rodents_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "kids_recommended_age",
+    "label-uk_UA": "Рекомендований вік",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "kids_gender",
+    "label-uk_UA": "Стать",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "accessories_for_health_and_beauty_equipment_compatible",
+    "label-uk_UA": "Сумісність",
+    "type": "pim_catalog_textarea",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "treats_for_rodents_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "treats_for_rodents_main_ingredient",
+    "label-uk_UA": "Основні інгредієнти",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "treats_for_rodents_rodent_species",
+    "label-uk_UA": "Вид гризунів",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "treats_for_rodents_type_of_delicacy",
+    "label-uk_UA": "Вид ласощів",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "treats_for_rodents_form",
+    "label-uk_UA": "Форма",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "kids_number_of_parts",
+    "label-uk_UA": "Кількість деталей (Від-До)",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "kids_power_supply",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "constructors_subject",
+    "label-uk_UA": "Тематика",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "prescription_ofthedrug_zoo_main",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "ammunition_for_rodents_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "ammunition_for_rodents_rodent_species",
+    "label-uk_UA": "Вид гризунів",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "ammunition_for_rodents_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "camping_lanterns_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "cages_for_rodents_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "cages_for_rodents_rodent_species",
+    "label-uk_UA": "Вид гризунів",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "cages_for_rodents_zoo_type_m",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "energy_storage_system_capacity_of_the_battery_pack_ah",
+    "label-uk_UA": "Ємність блоку батарей, Аг",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "energy_storage_system_maximum_stack_charge_current",
+    "label-uk_UA": "Максимальний струм заряду стеку батарей, А",
+    "type": "pim_catalog_text",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "energy_storage_system_maximum_input_power_pv",
+    "label-uk_UA": "Максимальна  вхідна потужність PV, кВт",
+    "type": "pim_catalog_text",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "energy_storage_system_maximum_charging_current_inverter_output",
+    "label-uk_UA": "Максимальний струм заряду (вихід інвертора), А",
+    "type": "pim_catalog_text",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "energy_storage_system_battery_stack_charging_time",
+    "label-uk_UA": "Час заряду стеку батарей",
+    "type": "pim_catalog_text",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "toys_for_rodents_features_pets",
+    "label-uk_UA": "Особливість іграшки",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "toys_for_rodents_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "toys_for_rodents_rodent_species",
+    "label-uk_UA": "Вид гризуна",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "toys_for_rodents_type_pets",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "rodent_equipment_rodent_species",
+    "label-uk_UA": "Вид гризунів",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "rodent_equipment_type_of_arrangement",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_first_aid_kits_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_first_aid_kits_type_of_packaging",
+    "label-uk_UA": "Вид упаковки",
+    "type": "pim_catalog_simpleselect",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "feeders_for_rodents_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_feeders_for_rodents_volume_ml_l",
+    "label-uk_UA": "Об'єм, мл",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "feeders_for_rodents_rodent_species",
+    "label-uk_UA": "Вид гризунів",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "feeders_for_rodents_the_volume_of_dishes",
+    "label-uk_UA": "Об'єм",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "feeders_for_rodents_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_levels_levellers_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_levels_levellers_range_m",
+    "label-uk_UA": "Дальність,м",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_levels_levellers_accuracy_mm_m",
+    "label-uk_UA": "Точність, мм/м",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_levels_levellers_laser_wavelength_nm",
+    "label-uk_UA": "Довжина хвилі лазера, нм",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_levels_levellers_number_of_rays",
+    "label-uk_UA": "Кількість променів",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_levels_levellers_self_levelling_range",
+    "label-uk_UA": "Діапазон самовирівнювання, ±",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_levels_levellerslaser_class",
+    "label-uk_UA": "Клас лазера",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_levels_levellers_laser_colour",
+    "label-uk_UA": "Колір лазера",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_levels_levellers_features_and_capabilities",
+    "label-uk_UA": "Функції та можливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_levels_levellers_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_levels_levellers_power_supply",
+    "label-uk_UA": "Джерело живлення",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_levels_levellers_protection",
+    "label-uk_UA": "Захист",
+    "type": "pim_catalog_simpleselect",
+    "group": "security",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_levels_levellers_weight_kg",
+    "label-uk_UA": "Вага, кг",
+    "type": "pim_catalog_text",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "toilets_litter_boxes_accessories_rodents_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "toilets_litter_boxes_accessories_rodents_filler_scent_zoo",
+    "label-uk_UA": "Аромат наповнювача",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "toilets_litter_boxes_accessories_rodents_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_toilets_litter_boxes_accessories_rodents_packaging_kg",
+    "label-uk_UA": "Фасування, кг",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_toilets_litter_boxes_accessories_rodents_packaging_l",
+    "label-uk_UA": "Фасування, л",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "toilets_litter_boxes_accessories_rodents_rodent_species",
+    "label-uk_UA": "Вид гризунів",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "toilets_litter_boxes_accessories_rodents_type_of_filler",
+    "label-uk_UA": "Вид наповнювача",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "lego_personages",
+    "label-uk_UA": "Персонажі",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "lego_subject",
+    "label-uk_UA": "Тематика",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "home_remedies_and_cages_form_of_tool_zoo",
+    "label-uk_UA": "Форма",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "home_remedies_and_cages_zoo_house_cleanliness_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "lego_feature",
+    "label-uk_UA": "Особливість",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "jump_leads_maximum_current",
+    "label-uk_UA": "Максимальний струм, А",
+    "type": "pim_catalog_text",
+    "group": "main",
+    "guidelines-ru_RU": "Цифрове значення"
+  },
+  {
+    "code": "jump_leads_wire_length",
+    "label-uk_UA": "Довжина дротів, м",
+    "type": "pim_catalog_text",
+    "group": "main",
+    "guidelines-ru_RU": "Цифрове значення"
+  },
+  {
+    "code": "tripods_flexible_tripod",
+    "label-uk_UA": "Гнучкий штатив",
+    "type": "pim_catalog_boolean",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "tripods_width_of_compatible_devices",
+    "label-uk_UA": "Ширина сумісних пристроїв",
+    "type": "pim_catalog_text",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "tripods_carving",
+    "label-uk_UA": "Різьба",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_rangefinders_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_rangefinders_range_m",
+    "label-uk_UA": "Дальність, м",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_rangefinders_accuracy_mm",
+    "label-uk_UA": "Точність, мм",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_rangefinders_reference_points",
+    "label-uk_UA": "Точки відліку",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_rangefinders_laser_class",
+    "label-uk_UA": "Клас лазера",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_rangefinders_laser_colour",
+    "label-uk_UA": "Колір лазера",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_rangefinders_features_and_capabilities",
+    "label-uk_UA": "Функції та можливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_rangefinders_feature",
+    "label-uk_UA": "Особливість",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_rangefinders_power_supply",
+    "label-uk_UA": "Джерело живлення",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_rangefinders_protection",
+    "label-uk_UA": "Захист",
+    "type": "pim_catalog_simpleselect",
+    "group": "security",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "laser_rangefinders_weight_kg",
+    "label-uk_UA": "Вага, кг",
+    "type": "pim_catalog_text",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "battery_chargers_starters_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additionally",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "battery_chargers_starters_connection_interfaces",
+    "label-uk_UA": "Інтерфейси підключення",
+    "type": "pim_catalog_multiselect",
+    "group": "ports_connectors",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bird_species_main",
+    "label-uk_UA": "Вид птахів",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "food_for_birds_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_food_for_birds_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "electric_boilers_heating_area",
+    "label-uk_UA": "Площа опалення м²",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_electric_boilers_heating_area",
+    "label-uk_UA": "Площа опалення м²",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "electric_boilers_power",
+    "label-uk_UA": "Потужність",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solar_inverters_mppt_operating_range",
+    "label-uk_UA": "Діапазон роботи MPPT",
+    "type": "pim_catalog_text",
+    "group": "parametrs",
+    "guidelines-ru_RU": "Для всіх типів інверторів"
+  },
+  {
+    "code": "solar_inverters_number_of_inputs_per_1_mppt",
+    "label-uk_UA": "Кількість входів на 1 MPPT",
+    "type": "pim_catalog_text",
+    "group": "parametrs",
+    "guidelines-ru_RU": "Для всіх типів інверторів"
+  },
+  {
+    "code": "solar_inverters_Input_voltage_range",
+    "label-uk_UA": "Діапазон вхідної напруги",
+    "type": "pim_catalog_text",
+    "group": "parametrs",
+    "guidelines-ru_RU": "Тльки для гібридних (hybrid) і мережевих (on-grid) інверторів"
+  },
+  {
+    "code": "bird_treats_packaging",
+    "label-uk_UA": "Фасування",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bird_treats_type_of_delicacy",
+    "label-uk_UA": "Вид ласощів",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solar_inverters_start_voltage_field_pv",
+    "label-uk_UA": "Стартова напруга поля PV",
+    "type": "pim_catalog_text",
+    "group": "parametrs",
+    "guidelines-ru_RU": "Для всіх типів інверторів"
+  },
+  {
+    "code": "solar_inverters_maximum_pv_input_current",
+    "label-uk_UA": "Максимальний вхідний струм PV",
+    "type": "pim_catalog_text",
+    "group": "parametrs",
+    "guidelines-ru_RU": "Для всіх типів інверторів"
+  },
+  {
+    "code": "solar_inverters_maximum_pv_input_power",
+    "label-uk_UA": "Максимальна вхідна потужність PV",
+    "type": "pim_catalog_text",
+    "group": "parametrs",
+    "guidelines-ru_RU": "Для всіх типів інверторів"
+  },
+  {
+    "code": "range_electric_boilers_power",
+    "label-uk_UA": "Потужність",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solar_inverters_parallel_connection",
+    "label-uk_UA": "Паралельне підключення",
+    "type": "pim_catalog_boolean",
+    "group": "additionally",
+    "guidelines-ru_RU": "Тільки для гібридних (hybrid) і автономних (off-grid)"
+  },
+  {
+    "code": "electric_boilers_number_of_contours",
+    "label-uk_UA": "Кількість контурів",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "electric_boilers_installation",
+    "label-uk_UA": "Монтаж котла",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "accessories_for_coffee_makers_coffee_machines_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": "Тут лише акси з блоку категорій \"Кава, чай та напої\"\nНаявні існуючі категорії:\nКомплектуючі для кухонної техніки (блок \"Готування страв\")\nКомплектуючі для кліматичної техніки\nКомплектуючі для прибиральної техніки\nКомплектуючі для прасок\nАксесуари до техніки для дому (велика побутова+вбудована)"
+  },
+  {
+    "code": "electric_boilers_management",
+    "label-uk_UA": "Керування",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_electric_boilers_width",
+    "label-uk_UA": "Ширина",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "electric_boilers_width",
+    "label-uk_UA": "Ширина",
+    "type": "pim_catalog_text",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "electric_boilers_depth",
+    "label-uk_UA": "Глибина",
+    "type": "pim_catalog_text",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_electric_boilers_depth",
+    "label-uk_UA": "Глибина",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "electric_boilers_height",
+    "label-uk_UA": "Висота",
+    "type": "pim_catalog_text",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_electric_boilers_height",
+    "label-uk_UA": "Висота",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "electric_boilers_power_supply",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_text",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "electric_boilers_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_text",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "electric_boilers_additionally",
+    "label-uk_UA": "Додатково",
+    "type": "pim_catalog_text",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "ice_tools_size",
+    "label-uk_UA": "Розмір",
+    "type": "pim_catalog_simpleselect",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "napkin_sizes",
+    "label-uk_UA": "Розмір серветки",
+    "type": "pim_catalog_multiselect",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "gas_boilers_installation",
+    "label-uk_UA": "Монтаж",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "gas_boilers_heat_exchanger_type",
+    "label-uk_UA": "Тип теплообмінника",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "gas_boilers_management",
+    "label-uk_UA": "Керування",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "gas_boilers_width",
+    "label-uk_UA": "Ширина",
+    "type": "pim_catalog_text",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_gas_boilers_width",
+    "label-uk_UA": "Ширина",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "gas_boilers_height",
+    "label-uk_UA": "Висота",
+    "type": "pim_catalog_text",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_gas_boilers_height",
+    "label-uk_UA": "Висота",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "gas_boilers_depth",
+    "label-uk_UA": "Глибина",
+    "type": "pim_catalog_text",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_gas_boilers_depth",
+    "label-uk_UA": "Глибина",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "gas_boilers_ignition_type",
+    "label-uk_UA": "Тип розпалювання",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "gas_boilers_power_supply",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_text",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "gas_boilers_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_text",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "gas_boilers_connectable_devices",
+    "label-uk_UA": "Пристрої що підключаються",
+    "type": "pim_catalog_text",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "gas_boilers_additionally",
+    "label-uk_UA": "Додатково",
+    "type": "pim_catalog_text",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solar_inverters_cooling_system",
+    "label-uk_UA": "Система охолодження",
+    "type": "pim_catalog_simpleselect",
+    "group": "additionally",
+    "guidelines-ru_RU": "Для всіх типів інверторів"
+  },
+  {
+    "code": "solid_fuel_boilers_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solid_fuel_boilers_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solid_fuel_boilers_the_combustion_process",
+    "label-uk_UA": "Процес горіння",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "jackhammers_class",
+    "label-uk_UA": "Клас",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "jackhammers_power_supply_type",
+    "label-uk_UA": "Тип живлення",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "jackhammers_power_w",
+    "label-uk_UA": "Потужність, Вт",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "jackhammers_impact_force_j",
+    "label-uk_UA": "Сила удару, Дж",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "jackhammers_number_of_strokes_min",
+    "label-uk_UA": "Кількість ударів/хв",
+    "type": "pim_catalog_text",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "jackhammers_cartridge_type",
+    "label-uk_UA": "Тип патрона",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "jackhammers_battery_type",
+    "label-uk_UA": "Тип акумулятора",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "jackhammers_battery_voltage_v",
+    "label-uk_UA": "Напруга акумулятора, В",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "jackhammers_battery_capacity_ah",
+    "label-uk_UA": "Ємність акумулятора, А·год",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "jackhammers_number_of_batteries_pcs",
+    "label-uk_UA": "Кількість акумуляторів, шт",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "jackhammers_features_and_capabilities",
+    "label-uk_UA": "Функції та можливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "jackhammers_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "jackhammers_weight_kg",
+    "label-uk_UA": "Вага, кг",
+    "type": "pim_catalog_text",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solid_fuel_boilers_fuel_type",
+    "label-uk_UA": "Тип палива",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_solid_fuel_boilers_heating_area",
+    "label-uk_UA": "Опалювальна площа",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solid_fuel_boilers_maximum_power_kw",
+    "label-uk_UA": "Максимальна потужність, кВт",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_solid_fuel_boilers_maximum_power_kw",
+    "label-uk_UA": "Максимальна потужність, кВт",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solid_fuel_boilers_width",
+    "label-uk_UA": "Ширина",
+    "type": "pim_catalog_text",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solid_fuel_boilers_height",
+    "label-uk_UA": "Висота",
+    "type": "pim_catalog_text",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solid_fuel_boilers_depth",
+    "label-uk_UA": "Глибина",
+    "type": "pim_catalog_text",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "vitamins_veterinary_drugs_birds_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "vitamins_veterinary_drugs_birds_form",
+    "label-uk_UA": "Форма",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_solid_fuel_boilers_width",
+    "label-uk_UA": "Ширина",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "antiparasitic_means_for_birds_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "antiparasitic_means_for_birds_form",
+    "label-uk_UA": "Форма",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "cages_for_birds_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "cages_for_birds_size_of_the_breed",
+    "label-uk_UA": "Розмір породи",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "cages_for_birds_type_of_cage",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_solid_fuel_boilers_height",
+    "label-uk_UA": "Висота",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_solid_fuel_boilers_depth",
+    "label-uk_UA": "Глибина",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solid_fuel_boilers_power_supply",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_text",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solid_fuel_boilers_features",
+    "label-uk_UA": "Особливості",
+    "type": "pim_catalog_text",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solid_fuel_boilers_connectable_devices",
+    "label-uk_UA": "Пристрої що підключаються",
+    "type": "pim_catalog_text",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solid_fuel_boilers_additionally",
+    "label-uk_UA": "Додатково",
+    "type": "pim_catalog_text",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "light_bulbs_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "light_bulbs_power",
+    "label-uk_UA": "Потужність, Вт",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "light_bulbs_color_temperature_k",
+    "label-uk_UA": "Колірна температура, K",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "light_bulbs_color_of_glow",
+    "label-uk_UA": "Колір світіння",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "light_bulbs_base_type",
+    "label-uk_UA": "Тип цоколя",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "light_bulbs_supply_voltage_v",
+    "label-uk_UA": "Напруга живлення, В",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "light_bulbs_feeding",
+    "label-uk_UA": "Живлення",
+    "type": "pim_catalog_multiselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "light_bulbs_light_flux_lm",
+    "label-uk_UA": "Світловий потік, Лм",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bird_feeders_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bird_feeders_zoo_type_m",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "parking_systems_equipment_type",
+    "label-uk_UA": "Тип обладнання",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "parking_systems_sensor_diameter",
+    "label-uk_UA": "Діаметр датчика, мм",
+    "type": "pim_catalog_text",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "parking_systems_number_sensors",
+    "label-uk_UA": "Кількість датчиків, шт.",
+    "type": "pim_catalog_text",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bird_equipment_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bird_equipment_type_of_arrangement",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "thermo_cups_and_thermo_bottles_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "parking_systems_minimum_distance",
+    "label-uk_UA": "Мінімальна відстань спрацьовування, см",
+    "type": "pim_catalog_text",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "parking_systems_colour_sensors",
+    "label-uk_UA": "Колір датчиків",
+    "type": "pim_catalog_simpleselect",
+    "group": "main_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "thermo_cups_and_thermo_bottles_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "parking_systems_installation_location",
+    "label-uk_UA": "Місце установки",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "parking_systems_connection_type",
+    "label-uk_UA": "Підключення",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "parking_systems_vehicle_type",
+    "label-uk_UA": "Тип транспорту",
+    "type": "pim_catalog_simpleselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bird_toys_features_pets",
+    "label-uk_UA": "Особливість іграшки",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bird_toys_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "bird_toys_type_pets",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "accessories_for_irons_accessory_type",
+    "label-uk_UA": "Тип аксесуару",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "accessories_for_irons_function",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": "Тут лише акси з блоку категорій \"Догляд за одягом\"\nНаявні існуючі категорії:\nКомплектуючі для кавоварок та кавомашин\nКомплектуючі для кліматичної техніки\nКомплектуючі для кухонної техніки (блок \"Готування страв\")\nКомплектуючі для прибиральної техніки\nАксесуари до техніки для дому (велика побутова+вбудована)"
+  },
+  {
+    "code": "accessories_for_irons_compatibility",
+    "label-uk_UA": "Сумісність",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": "Вказуємо сумісність з моделями, наприклад: Braun IS2565 або \"Універсальний\""
+  },
+  {
+    "code": "food_for_reptiles_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "food_for_reptiles_type",
+    "label-uk_UA": "Тип корму",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "food_for_reptiles_type_of_reptiles",
+    "label-uk_UA": "Вид рептилій",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "food_for_reptiles_the_volume_of_dishes",
+    "label-uk_UA": "Об'єм",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "terrariums_and_faunariums_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "terrariums_and_faunariums_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "terrariums_and_faunariums_type_of_reptiles",
+    "label-uk_UA": "Вид рептилій",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "reptile_equipment_device_the_type_zoo",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "reptile_equipment_purpose_of_device_zoo",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "decorations_feeders_grottoes_reptiles_decoration_material_zoo",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "decorations_feeders_grottoes_reptiles_size_international",
+    "label-uk_UA": "Розмір виробу",
+    "type": "pim_catalog_simpleselect",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "decorations_feeders_grottoes_reptiles_type_of_decor_zoo",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "hygienic_fillers_reptiles_type_offiller_zoo",
+    "label-uk_UA": "Вид наповнювача",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "feeders_and_bowls_for_reptiles_material",
+    "label-uk_UA": "Матеріал",
+    "type": "pim_catalog_multiselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "feeders_and_bowls_for_reptiles_size_international",
+    "label-uk_UA": "Розмір виробу",
+    "type": "pim_catalog_simpleselect",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "feeders_and_bowls_for_reptiles_zoo_type_m",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "reptile_food_supplements_preparations_the_volume_of_dishes",
+    "label-uk_UA": "Об'єм",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "reptile_food_supplements_preparations_type_of_assignment_zoo",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_vacuum_cleaners_power_supply_type",
+    "label-uk_UA": "Тип живлення",
+    "type": "pim_catalog_simpleselect",
+    "group": "power_supply",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_vacuum_cleaners_type_of_cleaning",
+    "label-uk_UA": "Тип прибирання",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_vacuum_cleaners_power",
+    "label-uk_UA": "Потужність, Вт",
+    "type": "pim_catalog_text",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_vacuum_cleaners_dust_collector_capacity",
+    "label-uk_UA": "Об'єм пилозбірника, л",
+    "type": "pim_catalog_text",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_vacuum_cleaners_attachments",
+    "label-uk_UA": "Насадки",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "car_vacuum_cleaners_features",
+    "label-uk_UA": "Особливості конструкції",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "collectible_car_models_mode_of_transport",
+    "label-uk_UA": "Вид транспорту",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "winches_cables_belts_permissible_load_ton",
+    "label-uk_UA": "Допустиме навантаження, т",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "fish_food_subtype_of_fodder",
+    "label-uk_UA": "Тип корму",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "fish_food_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "fish_food_kind_of_fish",
+    "label-uk_UA": "Вид риб",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_fish_food_feed_volume_ml_l",
+    "label-uk_UA": "Об'єм, мл/л",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "fish_food_the_volume_of_dishes",
+    "label-uk_UA": "Об'єм",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "fish_food_type_of_feed",
+    "label-uk_UA": "Вид корму",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "toy_cars_mode_of_transport",
+    "label-uk_UA": "Вид транспорту",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "medicines_for_fish_form",
+    "label-uk_UA": "Форма",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "medicines_for_fish_purpose_of_tool_zoo",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "medicines_for_fish_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "aquarium_care_products_designation",
+    "label-uk_UA": "Призначення",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "aquarium_care_products_form",
+    "label-uk_UA": "Форма",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "aquarium_care_products_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "collectible_car_models_car_brand",
+    "label-uk_UA": "Марка автомобіля",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "aquariums_aquarium_form",
+    "label-uk_UA": "Форма акваріума",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "range_aquariums_aquarium_volume",
+    "label-uk_UA": "Об'єм акваріума",
+    "type": "pim_catalog_simpleselect",
+    "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "aquariums_construction",
+    "label-uk_UA": "Конструкція",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "aquariums_the_volume_of_dishes",
+    "label-uk_UA": "Об'єм акваріума",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "aquariums_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "special_machinery_type_of_machinery",
+    "label-uk_UA": "Вид техніки",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "aquarium_heaters_color_temperature",
+    "label-uk_UA": "Колірна температура, К",
+    "type": "pim_catalog_multiselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "aquarium_heaters_device_type_zoo",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "aquarium_heaters_glow_color",
+    "label-uk_UA": "Колір світіння",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "aquarium_heaters_maximum_power_w",
+    "label-uk_UA": "Максимальна потужність, Вт",
+    "type": "pim_catalog_simpleselect",
+    "group": "technical_parameters",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "aquarium_heaters_for_aquarium_volume",
+    "label-uk_UA": "Для акваріума об’ємом",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "components_and_spare_parts_for_boilers_type",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_multiselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "components_and_spare_parts_for_boilers_compatible_brand",
+    "label-uk_UA": "Сумісний бренд",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "filters_for_the_aquarium_maximum_flow_rate",
+    "label-uk_UA": "Максимальна швидкість потоку",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "filters_for_the_aquarium_zoo_type_m",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "filters_for_the_aquarium_for_aquarium_volume",
+    "label-uk_UA": "Для акваріума об’ємом",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solar_panels_type_view",
+    "label-uk_UA": "Вид",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "autotracks_product_type",
+    "label-uk_UA": "Тип товару",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "autotracks_subject",
+    "label-uk_UA": "Тематика",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "winches_cables_belts_rope_length_m",
+    "label-uk_UA": "Довжина троса, м",
+    "type": "pim_catalog_simpleselect",
+    "group": "size",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solar_panels_bifocal",
+    "label-uk_UA": "Біфокальна",
+    "type": "pim_catalog_boolean",
+    "group": "parametrs",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solar_panels_connector_type",
+    "label-uk_UA": "Тип конектора",
+    "type": "pim_catalog_multiselect",
+    "group": "ports_connectors",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "autotracks_method_of_starting",
+    "label-uk_UA": "Спосіб запускання",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "autotracks_feature",
+    "label-uk_UA": "Особливість",
+    "type": "pim_catalog_multiselect",
+    "group": "additional_features",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "railways_andtrains_product_type",
+    "label-uk_UA": "Тип товару",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solar_panels_power",
+    "label-uk_UA": "Потужність, Вт",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solar_panels_nominal_current",
+    "label-uk_UA": "Номінальний струм (Imp)",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solar_panels_open_circuit_voltage",
+    "label-uk_UA": "Напруга розімкнутого кола (Voc)",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs",
+    "guidelines-ru_RU": "Тільки для стаціонарних панелей"
+  },
+  {
+    "code": "solar_panels_Short_circuit_current",
+    "label-uk_UA": "Струм короткого замикання (Isc)",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs",
+    "guidelines-ru_RU": "Тільки для стаціонарних панелей"
+  },
+  {
+    "code": "aquarium_compressors_maximum_flow_rate",
+    "label-uk_UA": "Максимальна швидкість потоку",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "aquarium_compressors_type_of_equipment_zoo",
+    "label-uk_UA": "Тип",
+    "type": "pim_catalog_simpleselect",
+    "group": "main",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "aquarium_compressors_for_aquarium_volume",
+    "label-uk_UA": "Для акваріума об’ємом",
+    "type": "pim_catalog_simpleselect",
+    "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "solar_panels_efficiency",
+    "label-uk_UA": "ККД (%)",
+    "type": "pim_catalog_simpleselect",
+    "group": "parametrs",
     "guidelines-ru_RU": ""
   }
 ]
