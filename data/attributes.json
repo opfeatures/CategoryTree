@@ -49,11 +49,95 @@
     "guidelines-ru_RU": "Поле для аналітиків. АЛЕ за відсутності партномеру в Variation name (якщо поле заповнене) - додаємо код в Variation name в дужках, приклад: (PN6435). ВАЖЛИВО! Штрихкод не використовуємо."
   },
   {
+    "code": "name",
+    "label-uk_UA": "Назва",
+    "type": "pim_catalog_text",
+    "group": "marketing",
+    "guidelines-ru_RU": "Тип товару ↔ Особливість + Бренд + Модель + Інші характеристики + Колір. З \"Назви\" ми прибираємо артикул/вендор код і стараємось скоротити її, щоб залишити коротку просту назву товару, вона використовується в назві моделі."
+  },
+  {
     "code": "photo_model_1",
     "label-uk_UA": "Фото моделі",
     "type": "pim_catalog_image",
     "group": "model_photos",
     "guidelines-ru_RU": "НЕ ВИКОРИСТОВУЄТЬСЯ!"
+  },
+  {
+    "code": "photo_1",
+    "label-uk_UA": "Фото 1",
+    "type": "pim_catalog_image",
+    "group": "photo_gallery",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "photo_2",
+    "label-uk_UA": "Фото 2",
+    "type": "pim_catalog_image",
+    "group": "photo_gallery",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "photo_3",
+    "label-uk_UA": "Фото 3",
+    "type": "pim_catalog_image",
+    "group": "photo_gallery",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "photo_4",
+    "label-uk_UA": "Фото 4",
+    "type": "pim_catalog_image",
+    "group": "photo_gallery",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "photo_5",
+    "label-uk_UA": "Фото 5",
+    "type": "pim_catalog_image",
+    "group": "photo_gallery",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "photo_6",
+    "label-uk_UA": "Фото 6",
+    "type": "pim_catalog_image",
+    "group": "photo_gallery",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "photo_7",
+    "label-uk_UA": "Фото 7",
+    "type": "pim_catalog_image",
+    "group": "photo_gallery",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "photo_8",
+    "label-uk_UA": "Фото 8",
+    "type": "pim_catalog_image",
+    "group": "photo_gallery",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "photo_9",
+    "label-uk_UA": "Фото 9",
+    "type": "pim_catalog_image",
+    "group": "photo_gallery",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "description",
+    "label-uk_UA": "Опис",
+    "type": "pim_catalog_textarea",
+    "group": "marketing",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "variation_name",
+    "label-uk_UA": "Variation_name",
+    "type": "pim_catalog_text",
+    "group": "marketing",
+    "guidelines-ru_RU": "Тип товару ↔ Особливість + Бренд + Модель + Інші характеристики + Колір + Артикул (артикул/вендор‑код у дужках наприкінці)"
   },
   {
     "code": "package_height",
@@ -196,6 +280,13 @@
     "guidelines-ru_RU": ""
   },
   {
+    "code": "country_origin",
+    "label-uk_UA": "Країна-виробник",
+    "type": "pim_catalog_simpleselect",
+    "group": "other",
+    "guidelines-ru_RU": "Проставляємо коли є інформація на мерчанті, або коли є 100% впевненість, що данний товар має певну країну збірки."
+  },
+  {
     "code": "games_included",
     "label-uk_UA": "Ігри в комплекті",
     "type": "pim_catalog_simpleselect",
@@ -208,6 +299,13 @@
     "type": "pim_catalog_simpleselect",
     "group": "display",
     "guidelines-ru_RU": ""
+  },
+  {
+    "code": "brand",
+    "label-uk_UA": "Бренд",
+    "type": "pim_catalog_simpleselect",
+    "group": "other",
+    "guidelines-ru_RU": "За відсутності бренду в списку або якщо некоректне написання (помилки, регістр) - звертатися до SV."
   },
   {
     "code": "type_of_connection",
@@ -257,6 +355,20 @@
     "type": "pim_catalog_simpleselect",
     "group": "physical_characteristics",
     "guidelines-ru_RU": ""
+  },
+  {
+    "code": "strap_color",
+    "label-uk_UA": "Колір ремінця",
+    "type": "pim_catalog_simpleselect",
+    "group": "other",
+    "guidelines-ru_RU": "Використовуємо для проставлення гугл док по кольорам, вкладка \"Колір ремінця\". Звертаємо увагу що для брендів Samsung і Apple використовуються забрендовані кольори (дивитися вкладки в документі)."
+  },
+  {
+    "code": "color",
+    "label-uk_UA": "Колір",
+    "type": "pim_catalog_simpleselect",
+    "group": "other",
+    "guidelines-ru_RU": "Використовуємо для проставлення гугл док по кольорам. Звертаємо увагу що для брендів Samsung і Apple використовуються забрендовані кольори (дивитися вкладки в документі)."
   },
   {
     "code": "proc_number_cores",
@@ -334,6 +446,20 @@
     "type": "pim_catalog_text",
     "group": "display",
     "guidelines-ru_RU": ""
+  },
+  {
+    "code": "model",
+    "label-uk_UA": "Модель",
+    "type": "pim_catalog_text",
+    "group": "other",
+    "guidelines-ru_RU": "Заповнюємо лише по запиту категорійних."
+  },
+  {
+    "code": "series",
+    "label-uk_UA": "Серія",
+    "type": "pim_catalog_text",
+    "group": "other",
+    "guidelines-ru_RU": "Заповнюємо лише по запиту категорійних."
   },
   {
     "code": "model_range",
@@ -469,6 +595,48 @@
     "guidelines-ru_RU": ""
   },
   {
+    "code": "photo_10",
+    "label-uk_UA": "Фото 10",
+    "type": "pim_catalog_image",
+    "group": "photo_gallery",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "photo_11",
+    "label-uk_UA": "Фото 11",
+    "type": "pim_catalog_image",
+    "group": "photo_gallery",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "photo_12",
+    "label-uk_UA": "Фото 12",
+    "type": "pim_catalog_image",
+    "group": "photo_gallery",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "photo_13",
+    "label-uk_UA": "Фото 13",
+    "type": "pim_catalog_image",
+    "group": "photo_gallery",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "photo_14",
+    "label-uk_UA": "Фото 14",
+    "type": "pim_catalog_image",
+    "group": "photo_gallery",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "photo_15",
+    "label-uk_UA": "Фото 15",
+    "type": "pim_catalog_image",
+    "group": "photo_gallery",
+    "guidelines-ru_RU": ""
+  },
+  {
     "code": "features",
     "label-uk_UA": "Особливості",
     "type": "pim_catalog_textarea",
@@ -481,6 +649,13 @@
     "type": "pim_catalog_textarea",
     "group": "additionally",
     "guidelines-ru_RU": ""
+  },
+  {
+    "code": "rating",
+    "label-uk_UA": "Рейтинг",
+    "type": "pim_catalog_number",
+    "group": "marketing",
+    "guidelines-ru_RU": "Контенти поле не використовують."
   },
   {
     "code": "functions",
@@ -1827,6 +2002,13 @@
     "guidelines-ru_RU": ""
   },
   {
+    "code": "keywords",
+    "label-uk_UA": "Keywords",
+    "type": "pim_catalog_textarea",
+    "group": "marketing",
+    "guidelines-ru_RU": "Контенти поле не використовують. Лише переносимо інформацію, якщо є, при створенні моделей."
+  },
+  {
     "code": "number_of_haircut_length_settings",
     "label-uk_UA": "Кількість установок довжини стрижки",
     "type": "pim_catalog_simpleselect",
@@ -1897,6 +2079,13 @@
     "guidelines-ru_RU": ""
   },
   {
+    "code": "restrictions",
+    "label-uk_UA": "Обмеження",
+    "type": "pim_catalog_multiselect",
+    "group": "other",
+    "guidelines-ru_RU": ""
+  },
+  {
     "code": "armrest",
     "label-uk_UA": "Підлокітник",
     "type": "pim_catalog_boolean",
@@ -1943,6 +2132,13 @@
     "label-uk_UA": "Матеріал каркасу",
     "type": "pim_catalog_multiselect",
     "group": "physical_characteristics",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "always_visible",
+    "label-uk_UA": "Завжди відображати на вітрині",
+    "type": "pim_catalog_boolean",
+    "group": "other",
     "guidelines-ru_RU": ""
   },
   {
@@ -4617,6 +4813,13 @@
     "label-uk_UA": "Розмір ляльки",
     "type": "pim_catalog_simpleselect",
     "group": "range_from_to",
+    "guidelines-ru_RU": ""
+  },
+  {
+    "code": "brand_registration_country",
+    "label-uk_UA": "Країна реєстрації бренду",
+    "type": "pim_catalog_simpleselect",
+    "group": "other",
     "guidelines-ru_RU": ""
   },
   {
