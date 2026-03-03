@@ -583,6 +583,78 @@
             font-size: 13px;
         }
 
+        .settings-toggle {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 12px 16px;
+            border: 1px solid #ededed;
+            border-radius: 14px;
+            background: #fafafa;
+            margin-bottom: 12px;
+        }
+
+        .toggle-title {
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 0.4px;
+            text-transform: uppercase;
+        }
+
+        .toggle-hint {
+            font-size: 12px;
+            color: #666;
+            margin-top: 4px;
+        }
+
+        .toggle-switch {
+            position: relative;
+            display: inline-flex;
+            cursor: pointer;
+        }
+
+        .toggle-switch input {
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .toggle-slider {
+            width: 44px;
+            height: 24px;
+            border-radius: 999px;
+            background: #cfcfcf;
+            transition: background 0.2s ease;
+            position: relative;
+        }
+
+        .toggle-slider::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #fff;
+            top: 2px;
+            left: 3px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease;
+        }
+
+        .toggle-switch input:checked+.toggle-slider {
+            background: #111;
+        }
+
+        .toggle-switch input:checked+.toggle-slider::after {
+            transform: translateX(18px);
+        }
+
+        body.admin-role .settings-toggle.admin-only {
+            display: flex;
+        }
+
         .empty-state {
             text-align: center;
             font-size: 13px;
@@ -665,6 +737,16 @@
             <div class="panel settings-panel">
                 <h3>Налаштування полів</h3>
                 <div class="settings-grid" id="settingsGrid"></div>
+                <div class="settings-toggle admin-only" id="allGroupsToggleWrapper">
+                    <div>
+                        <div class="toggle-title">Всі групи атрибутів</div>
+                        <div class="toggle-hint">Включити у вивантаження атрибути з усіх груп без обмежень</div>
+                    </div>
+                    <label class="toggle-switch" title="Включити всі групи атрибутів">
+                        <input type="checkbox" id="allGroupsToggle">
+                        <span class="toggle-slider"></span>
+                    </label>
+                </div>
                 <div class="settings-actions">
                     <button class="mini-btn primary" id="settingsSelectAllBtn">Обрати всі</button>
                     <button class="mini-btn" id="settingsClearBtn">Очистити</button>
@@ -709,7 +791,8 @@
         let generatedXMLBlob = null;
         let generatedXMLFileName = 'output.xml';
         const PREVIEW_CHAR_LIMIT = 20000;
-        const EXCLUDED_GROUPS = new Set(['erp', 'marketing', 'other', 'photo_gallery']);
+        const BASE_EXCLUDED_GROUPS = new Set(['marketing', 'other', 'photo_gallery']);
+        const LOCAL_ALL_GROUPS_TOGGLE_KEY = 'category-tree-all-groups-toggle';
         const loggedAttributeIssues = new Set();
         const ATTRIBUTE_TYPE_LABELS = {
             'pim_catalog_text': 'Текст до 255 символів',
@@ -758,15 +841,16 @@
             values: 'data/values.json'
         };
         const EXPORT_COLUMNS = [
-            { key: 'familyCode', label: 'Код категорії' },
-            { key: 'familyLabel', label: 'Назва категорії' },
-            { key: 'attributeCode', label: 'Код атрибуту' },
-            { key: 'attributeLabel', label: 'Назва атрибуту' },
-            { key: 'attributeType', label: 'Тип атрибуту' },
-            { key: 'attributeRequirement', label: 'Обовʼязковість атрибуту' },
-            { key: 'attributeGuidelines', label: 'Гайдлайни', adminOnly: true },
-            { key: 'valueCode', label: 'Код значення' },
-            { key: 'valueLabel', label: 'Значення' }
+            { key: 'familyCode', label: 'Код категорії', defaultEnabled: true },
+            { key: 'familyLabel', label: 'Назва категорії', defaultEnabled: true },
+            { key: 'attributeCode', label: 'Код атрибуту', defaultEnabled: true },
+            { key: 'attributeLabel', label: 'Назва атрибуту', defaultEnabled: true },
+            { key: 'attributeType', label: 'Тип атрибуту', defaultEnabled: true },
+            { key: 'attributeRequirement', label: 'Обовʼязковість атрибуту', defaultEnabled: true },
+            { key: 'attributeGroup', label: 'Група атрибуту', defaultEnabled: false },
+            { key: 'attributeGuidelines', label: 'Гайдлайни', adminOnly: true, defaultEnabled: true },
+            { key: 'valueCode', label: 'Код значення', defaultEnabled: true },
+            { key: 'valueLabel', label: 'Значення', defaultEnabled: true }
         ];
         const EXCLUDED_ATTRIBUTE_LABELS = new Set([
             'офер цього товару в мастеркартці',
@@ -792,6 +876,7 @@
             { username: 'partner', password: 'monopartner2026', role: 'partner' }
         ];
         let currentRole = null;
+        let includeAllAttributeGroups = false;
         const loginForm = document.getElementById('loginForm');
         const loginError = document.getElementById('loginError');
         const usernameInput = document.getElementById('usernameInput');
@@ -815,13 +900,17 @@
         const settingsGrid = document.getElementById('settingsGrid');
         const settingsSelectAllBtn = document.getElementById('settingsSelectAllBtn');
         const settingsClearBtn = document.getElementById('settingsClearBtn');
+        const allGroupsToggle = document.getElementById('allGroupsToggle');
         const saveEmbeddedBtn = document.getElementById('saveEmbeddedBtn');
         let familyListData = [];
         let selectedFamilyCodes = new Set();
         let familySearchTerm = '';
         let activeFamilies = [];
         const exportSettings = EXPORT_COLUMNS.reduce((acc, col) => {
-            acc[col.key] = !col.adminOnly;
+            const defaultEnabled = Object.prototype.hasOwnProperty.call(col, 'defaultEnabled')
+                ? !!col.defaultEnabled
+                : !col.adminOnly;
+            acc[col.key] = defaultEnabled;
             return acc;
         }, {});
 
@@ -973,6 +1062,36 @@
             });
         }
 
+        function isGroupExcluded(groupName) {
+            if (includeAllAttributeGroups) {
+                return false;
+            }
+            const normalized = (groupName || '').trim().toLowerCase();
+            if (!normalized) return false;
+            return BASE_EXCLUDED_GROUPS.has(normalized);
+        }
+
+        function syncAllGroupsToggleState() {
+            if (!allGroupsToggle) return;
+            allGroupsToggle.checked = includeAllAttributeGroups;
+            allGroupsToggle.disabled = currentRole !== 'admin';
+        }
+
+        function invalidateGeneratedOutputs() {
+            generatedXMLBlob = null;
+            downloadBtn.disabled = true;
+            exportRows = [];
+            updateExportButtonsState();
+            const preview = document.getElementById('preview');
+            const xmlContent = document.getElementById('xmlContent');
+            if (preview) {
+                preview.classList.remove('show');
+            }
+            if (xmlContent) {
+                xmlContent.textContent = '';
+            }
+        }
+
         function renderSettingsControls() {
             if (!settingsGrid) return;
             settingsGrid.innerHTML = '';
@@ -986,11 +1105,21 @@
                 const checkbox = document.createElement('input');
                 checkbox.type = 'checkbox';
                 checkbox.className = 'checkbox-control';
-                checkbox.checked = !!exportSettings[column.key];
-                checkbox.addEventListener('change', () => {
-                    exportSettings[column.key] = checkbox.checked;
-                    updateExportButtonsState();
-                });
+                const isGroupColumn = column.key === 'attributeGroup';
+                if (isGroupColumn) {
+                    checkbox.checked = includeAllAttributeGroups;
+                    checkbox.disabled = true;
+                    checkbox.title = includeAllAttributeGroups
+                        ? 'Колонка активна, бо увімкнено всі групи атрибутів'
+                        : 'Колонку можна активувати лише після увімкнення всіх груп атрибутів';
+                    exportSettings[column.key] = includeAllAttributeGroups;
+                } else {
+                    checkbox.checked = !!exportSettings[column.key];
+                    checkbox.addEventListener('change', () => {
+                        exportSettings[column.key] = checkbox.checked;
+                        updateExportButtonsState();
+                    });
+                }
                 const text = document.createElement('span');
                 text.textContent = column.label;
                 wrapper.appendChild(checkbox);
@@ -1146,13 +1275,15 @@
                     if (!code || !attributeCodes.has(code)) return false;
                     const label = normalizeLabel(attr['label-uk_UA'] || '').toLowerCase();
                     if (EXCLUDED_ATTRIBUTE_LABELS.has(label)) return false;
+                    const groupName = cleanValue(getFieldValue(attr, 'group'), true);
+                    if (isGroupExcluded(groupName)) return false;
                     return true;
                 })
                 .map(attr => ({
                     code: cleanValue(attr.code || ''),
                     'label-uk_UA': attr['label-uk_UA'] || '',
                     type: attr.type || '',
-                    group: attr.group || '',
+                    group: cleanValue(getFieldValue(attr, 'group'), true),
                     'guidelines-ru_RU': attr['guidelines-ru_RU'] || ''
                 }));
 
@@ -1247,6 +1378,14 @@
             return '';
         }
 
+        function getAttributeGroupLabel(attribute) {
+            if (!attribute) return '';
+            if (attribute.original) {
+                return cleanValue(getFieldValue(attribute.original, 'group'));
+            }
+            return cleanValue(attribute.group || '');
+        }
+
         function appendExportRows(family, attribute, values, isRequired, includeValues) {
             if (!family || !attribute) return;
             const familyCode = cleanValue(family.code || '');
@@ -1263,6 +1402,7 @@
             const guidelineText = includeGuidelines
                 ? (attribute.guidelines || attribute['guidelines-ru_RU'] || '')
                 : '';
+            const attributeGroup = includeAllAttributeGroups ? getAttributeGroupLabel(attribute) : '';
 
             if (includeValues && values && values.length > 0) {
                 for (const value of values) {
@@ -1274,6 +1414,7 @@
                         attributeType,
                         attributeRequirement: requirementText,
                         attributeGuidelines: guidelineText,
+                        attributeGroup,
                         valueCode: cleanValue(value.code || ''),
                         valueLabel: getValueLabel(value)
                     });
@@ -1287,6 +1428,7 @@
                     attributeType,
                     attributeRequirement: requirementText,
                     attributeGuidelines: guidelineText,
+                    attributeGroup,
                     valueCode: '',
                     valueLabel: ''
                 });
@@ -1759,6 +1901,9 @@
                                     logAttributeIssue(attrCode, 'Attribute not found in attributeMap');
                                     continue;
                                 }
+                                if (isGroupExcluded(attribute.group)) {
+                                    continue;
+                                }
 
                                 const attrLabelValue = getAttributeLabel(attribute);
                                 const attrLabelPlain = normalizeLabel(attrLabelValue).toLowerCase();
@@ -1778,6 +1923,7 @@
                                 const isRequired = requiredSet.has(attrCode);
                                 const requirementText = isRequired ? 'Обовʼязковий' : '';
                                 const attrGuidelines = attribute.guidelines || attribute['guidelines-ru_RU'] || '';
+                                const attrGroupLabel = includeAllAttributeGroups ? getAttributeGroupLabel(attribute) : '';
 
                                 let attributeOpen = '<attribute';
                                 if (includeAttributeCode) {
@@ -1788,6 +1934,9 @@
                                 }
                                 if (includeAttributeRequired && requirementText) {
                                     attributeOpen += ` required="${requirementText}"`;
+                                }
+                                if (attrGroupLabel) {
+                                    attributeOpen += ` group="${escapeXml(attrGroupLabel)}"`;
                                 }
                                 attributeOpen += '>';
                                 addLine(xmlParts, 3, attributeOpen);
@@ -1900,8 +2049,7 @@
                                     continue;
                                 }
 
-                                const group = (attribute.group || '').trim().toLowerCase();
-                                if (EXCLUDED_GROUPS.has(group)) {
+                                if (isGroupExcluded(attribute.group)) {
                                     continue;
                                 }
 
@@ -1922,6 +2070,7 @@
                                 const isRequired = requiredSet.has(attrCode);
                                 const requirementText = isRequired ? 'Обовʼязковий' : '';
                                 const attrGuidelines = attribute.guidelines || attribute['guidelines-ru_RU'] || '';
+                                const attrGroupLabel = includeAllAttributeGroups ? getAttributeGroupLabel(attribute) : '';
                                 appendExportRows(family, attribute, values, isRequired, includeValueFields);
                                 let attributeLine = '<attribute';
                                 if (includeAttributeLabel) {
@@ -1935,6 +2084,9 @@
                                 }
                                 if (includeAttributeGuidelines && attrGuidelines) {
                                     attributeLine += ` guidelines="${escapeXml(attrGuidelines)}"`;
+                                }
+                                if (attrGroupLabel) {
+                                    attributeLine += ` group="${escapeXml(attrGroupLabel)}"`;
                                 }
                                 attributeLine += ' />';
                                 addLine(xmlParts, 3, attributeLine);
@@ -2046,12 +2198,19 @@
         if (settingsSelectAllBtn) {
             settingsSelectAllBtn.addEventListener('click', () => {
                 EXPORT_COLUMNS.forEach(col => {
+                    if (col.key === 'attributeGroup' && !includeAllAttributeGroups) {
+                        exportSettings[col.key] = false;
+                        return;
+                    }
                     if (col.adminOnly && currentRole !== 'admin') {
                         exportSettings[col.key] = false;
                     } else {
                         exportSettings[col.key] = true;
                     }
                 });
+                if (includeAllAttributeGroups) {
+                    exportSettings.attributeGroup = true;
+                }
                 renderSettingsControls();
                 updateExportButtonsState();
             });
@@ -2062,8 +2221,29 @@
                 EXPORT_COLUMNS.forEach(col => {
                     exportSettings[col.key] = false;
                 });
+                if (includeAllAttributeGroups) {
+                    exportSettings.attributeGroup = true;
+                }
                 renderSettingsControls();
                 updateExportButtonsState();
+            });
+        }
+
+        if (allGroupsToggle) {
+            allGroupsToggle.addEventListener('change', () => {
+                if (currentRole !== 'admin') {
+                    allGroupsToggle.checked = false;
+                    return;
+                }
+                includeAllAttributeGroups = allGroupsToggle.checked;
+                localStorage.setItem(LOCAL_ALL_GROUPS_TOGGLE_KEY, includeAllAttributeGroups ? '1' : '0');
+                exportSettings.attributeGroup = includeAllAttributeGroups;
+                renderSettingsControls();
+                updateExportButtonsState();
+                invalidateGeneratedOutputs();
+                showSuccess(includeAllAttributeGroups
+                    ? 'Вивантаження включатимуть атрибути з усіх груп і код групи'
+                    : 'Повернуто стандартне обмеження груп атрибутів');
             });
         }
 
@@ -2075,6 +2255,18 @@
             if (profileRoleText) {
                 profileRoleText.textContent = ROLE_NAMES[role] || role;
             }
+            let storedAllGroups = localStorage.getItem(LOCAL_ALL_GROUPS_TOGGLE_KEY);
+            if (storedAllGroups === null) {
+                const legacyValue = localStorage.getItem('category-tree-erp-toggle');
+                if (legacyValue !== null) {
+                    storedAllGroups = legacyValue;
+                    localStorage.setItem(LOCAL_ALL_GROUPS_TOGGLE_KEY, legacyValue);
+                    localStorage.removeItem('category-tree-erp-toggle');
+                }
+            }
+            includeAllAttributeGroups = role === 'admin' && storedAllGroups === '1';
+            exportSettings.attributeGroup = includeAllAttributeGroups;
+            syncAllGroupsToggleState();
             EXPORT_COLUMNS.forEach(col => {
                 if (col.adminOnly && role !== 'admin') {
                     exportSettings[col.key] = false;
